@@ -8,3 +8,9 @@ export default function AboutPage() {
       </div>
     );
   }
+
+  export const metadata = {
+    title: "About - Ishan Vengurlekar",
+    description: "Welcome to the Home Page of Ishan Vengurlekar's personal website.",
+  };
+  
