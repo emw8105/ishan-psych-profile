@@ -32,7 +32,7 @@ export default function Navbar() {
         // render the mobile-sized navbar
         <nav className="flex items-center justify-between px-6 h-20 font-sans relative">
           {/* Title on Left */}
-          <h2 className="text-xl font-bold text-deep-navy tracking-wide">
+          <h2 className="text-3xl font-bold text-deep-navy tracking-wide">
             Dr. Ishan Vengurlekar
           </h2>
 
@@ -119,7 +119,7 @@ export default function Navbar() {
           </ul>
 
           {/* Center Title */}
-          <h2 className="absolute left-1/2 transform -translate-x-1/2 text-xl font-bold text-deep-navy tracking-wide">
+          <h2 className="absolute left-1/2 transform -translate-x-1/2 text-3xl font-bold text-deep-navy tracking-wide">
             Dr. Ishan Vengurlekar
           </h2>
 
