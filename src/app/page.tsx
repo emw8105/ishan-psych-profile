@@ -12,27 +12,29 @@ export default function Home() {
     <div className="min-h-screen bg-white text-gray-900">
 
       {/* Hero Section */}
-      <section className="relative h-screen bg-gray-900">
-        <Image
-          src="/path-to-hero-image.jpg" // change later
-          alt="Hero background"
-          layout="fill"
-          objectFit="cover"
-          className="opacity-70"
-        />
-        <div className="absolute inset-0 flex flex-col justify-center items-end pr-10">
-          <div className="text-right text-white">
-            <h1 className="text-6xl font-bold">CLINICAL</h1> {/* Change font later */}
-            <h2 className="text-4xl mt-2 font-light">Psychiatrist</h2> {/* Change font later */}
-          </div>
-          <a
-            href="#next"
-            className="mt-10 text-white text-4xl flex items-center gap-2"
-          >
-            <span className="animate-bounce">˅</span>
-          </a>
-        </div>
-      </section>
+      <section className="relative h-screen bg-sky-blue">
+  <Image
+    src="/path-to-hero-image.jpg"
+    alt="Hero background image of Ishan"
+    layout="fill"
+    objectFit="cover"
+    className="opacity-80"
+  />
+  <div className="absolute inset-0 flex flex-col justify-center items-end pr-10 text-calm-charcoal">
+    <h1 className="text-6xl font-bold">PSYCHIATRIST</h1>
+    <h2 className="text-4xl mt-2 font-light">Children's Mental Health Expert</h2>
+    <a href="#next" className="mt-10 text-4xl flex items-center gap-2">
+      <span className="animate-bounce">˅</span>
+    </a>
+  </div>
+</section>
+
+<section id="next" className="py-16 px-8 bg-cloud-white text-center">
+  <h2 className="text-2xl font-semibold text-calm-charcoal">
+    Compassionate Care. Trustworthy Guidance. Dedicated Expertise.
+  </h2>
+</section>
+
 
       {/* Characteristics Section */}
       <section id="next" className="py-16 px-8 bg-gray-100 text-center">
