@@ -13,38 +13,33 @@ export default function Home() {
 
       {/* Hero Section */}
       <section className="relative h-screen bg-sky-blue">
-  <Image
-    src="/path-to-hero-image.jpg"
-    alt="Hero background image of Ishan"
-    layout="fill"
-    objectFit="cover"
-    className="opacity-80"
-  />
-  <div className="absolute inset-0 flex flex-col justify-center items-end pr-10 text-calm-charcoal">
-    <h1 className="text-6xl font-bold">PSYCHIATRIST</h1>
-    <h2 className="text-4xl mt-2 font-light">Children's Mental Health Expert</h2>
-    <a href="#next" className="mt-10 text-4xl flex items-center gap-2">
-      <span className="animate-bounce">˅</span>
-    </a>
-  </div>
-</section>
-
-<section id="next" className="py-16 px-8 bg-cloud-white text-center">
-  <h2 className="text-2xl font-semibold text-calm-charcoal">
-    Compassionate Care. Trustworthy Guidance. Dedicated Expertise.
-  </h2>
-</section>
-
+        <Image
+          src="/path-to-hero-image.jpg"
+          alt="Hero background image of Ishan"
+          layout="fill"
+          objectFit="cover"
+          className="opacity-80"
+        />
+        <div className="absolute inset-0 flex flex-col justify-center items-end pr-10 text-calm-charcoal">
+          <h1 className="text-6xl font-bold">PSYCHIATRIST</h1>
+          <h2 className="text-4xl mt-2 font-light">Children's Mental Health Professional</h2>
+          <a href="#next" className="mt-10 text-4xl flex items-center gap-2">
+            <span className="animate-bounce">˅</span>
+          </a>
+        </div>
+      </section>
 
       {/* Characteristics Section */}
-      <section id="next" className="py-16 px-8 bg-gray-100 text-center">
-        <h2 className="text-2xl font-semibold">
-          CLINICAL PSYCHIATRIST. RESEARCHER. LEADER. VISIONARY. ADVOCATE.
-        </h2> {/* pick different words so it's not the same as jasmin's */}
+      <section id="next" className="py-16 px-8 bg-cloud-white text-center">
+        <h2 className="text-4xl font-bold text-calm-charcoal leading-relaxed">
+          Compassionate Care.
+          Trustworthy Guidance.
+          Dedicated Expertise.
+        </h2>
       </section>
 
       {/* About Section */}
-      <section className="py-16 px-8 bg-white flex flex-col lg:flex-row items-center">
+      <section className="py-16 px-8 bg-gray-50 flex flex-col lg:flex-row items-center">
         <div className="lg:w-1/2 mb-10 lg:mb-0">
           <Image
             src="/path-to-about-image.jpg" // change later
@@ -57,7 +52,10 @@ export default function Home() {
         <div className="lg:w-1/2 lg:pl-12 text-gray-700">
           <h3 className="text-3xl font-bold mb-4">More About Me</h3>
           <p className="text-lg leading-relaxed">
-            PLACEHOLDER this section is about me, Ishan Vengurlekar. I am a clinical psychiatrist, researcher, leader, visionary, and advocate. I am passionate about mental health and am dedicated to improving the lives of my patients. I am also a researcher and have published numerous papers on various topics in psychiatry. I am a leader in my field and am constantly striving to improve the quality of care that my patients receive. I am a visionary and am always looking for new and innovative ways to help my patients. I am also an advocate for mental health and work tirelessly to raise awareness and reduce the stigma surrounding mental illness. I am very handsome!
+            I am a clinical psychiatrist, researcher, leader, visionary, and advocate. Passionate about mental health, 
+            I dedicate myself to improving lives through evidence-based care and groundbreaking research. My work extends 
+            to advocacy efforts aimed at reducing the stigma of mental illness and enhancing community awareness. I am 
+            driven by a vision of equitable, compassionate care for all.
           </p>
         </div>
       </section>
