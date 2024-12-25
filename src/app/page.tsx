@@ -39,23 +39,20 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-16 px-8 bg-gray-50 flex flex-col lg:flex-row items-center">
-        <div className="lg:w-1/2 mb-10 lg:mb-0">
+      <section className="py-16 px-8 bg-[#f7f7f7] flex flex-col lg:flex-row justify-center items-center"> {/* Slightly off-white background */}
+        <div className="lg:w-1/3 flex justify-center">
           <Image
-            src="/path-to-about-image.jpg" // change later
+            src="/images/ishan-arkansas-picture.jpg"
             alt="Ishan Vengurlekar"
-            width={500}
+            width={400}
             height={500}
-            className="rounded-lg shadow-lg"
+            className="rounded-lg shadow-lg object-contain"
           />
         </div>
-        <div className="lg:w-1/2 lg:pl-12 text-gray-700">
+        <div className="py-16 lg:w-1/2 lg:ml-12 text-gray-700 text-center lg:text-left">
           <h3 className="text-3xl font-bold mb-4">More About Me</h3>
           <p className="text-lg leading-relaxed">
-            I am a clinical psychiatrist, researcher, leader, visionary, and advocate. Passionate about mental health, 
-            I dedicate myself to improving lives through evidence-based care and groundbreaking research. My work extends 
-            to advocacy efforts aimed at reducing the stigma of mental illness and enhancing community awareness. I am 
-            driven by a vision of equitable, compassionate care for all.
+            PLACEHOLDER this section is about me, Ishan Vengurlekar. I am a clinical psychiatrist, researcher, leader, visionary, and advocate. I am passionate about mental health and am dedicated to improving the lives of my patients. I am also a researcher and have published numerous papers on various topics in psychiatry. I am a leader in my field and am constantly striving to improve the quality of care that my patients receive. I am a visionary and am always looking for new and innovative ways to help my patients. I am also an advocate for mental health and work tirelessly to raise awareness and reduce the stigma surrounding mental illness.
           </p>
         </div>
       </section>
