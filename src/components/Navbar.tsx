@@ -57,8 +57,8 @@ export default function Navbar() {
             {[
               { path: "/", title: "Home" },
               { path: "/about", title: "About" },
-              { path: "/current-projects", title: "Current Projects" },
-              { path: "/publications-cv", title: "Publications + CV" },
+              { path: "/current-projects", title: "Research & Practice" },
+              { path: "/publications-cv", title: "Mentoring" },
               { path: "/contact", title: "Contact" },
             ].map(({ path, title }) => (
               <li key={path} className="border-b">
@@ -99,8 +99,8 @@ export default function Navbar() {
 
       <ul className="flex gap-8 text-xl">
         {[
-          { path: "/current-projects", title: "Current Projects" },
-          { path: "/publications-cv", title: "Publications + CV" },
+          { path: "/current-projects", title: "Research & Practice" },
+          { path: "/publications-cv", title: "Mentoring" },
           { path: "/contact", title: "Contact" },
         ].map(({ path, title }) => (
           <li key={path}>
