@@ -1,6 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import type { Metadata } from "next";
+import { FaChevronDown } from "react-icons/fa";
 
 export const metadata: Metadata = {
   title: "Home - Ishan Nitin Vengurlekar",
@@ -25,7 +26,7 @@ export default function Home() {
           <h1 className="text-6xl font-bold font-playfair">DOCTORAL STUDENT</h1>
           <h2 className="text-4xl mt-2 font-light font-serif">School Mental Health Professional</h2>
           <a href="#next" className="mt-10 text-4xl flex items-center gap-2">
-        <span className="animate-bounce">˅</span>
+            <FaChevronDown className="animate-bounce" />
           </a>
         </div>
       </section>
