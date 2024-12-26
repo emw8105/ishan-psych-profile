@@ -24,18 +24,19 @@ export default function Home() {
         />
         <div className="px-10 absolute inset-0 flex flex-col justify-center items-end pr-10 text-cloud-white">
           <h1 className="text-6xl font-bold font-playfair">DOCTORAL STUDENT</h1>
-          <h2 className="text-4xl mt-2 font-light font-serif">School Mental Health Professional</h2>
+          <h2 className="text-4xl mt-2 font-light font-serif">
+            School Mental Health Professional
+          </h2>
           <a href="#next" className="mt-10 text-4xl flex items-center gap-2">
             <FaChevronDown className="animate-bounce" />
           </a>
         </div>
       </section>
+
       {/* Characteristics Section */}
       <section id="next" className="py-16 px-8 bg-cloud-white text-center">
         <h2 className="text-4xl font-bold text-calm-charcoal leading-relaxed">
-          Compassionate Care.
-          Trustworthy Guidance.
-          Dedicated Expertise.
+          Compassionate Care. Trustworthy Guidance. Dedicated Expertise.
         </h2>
       </section>
 
