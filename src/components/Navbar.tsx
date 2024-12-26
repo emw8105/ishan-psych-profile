@@ -13,7 +13,7 @@ export default function Navbar() {
   // dynamically track screen size to adjust display for smaller sizes (i.e. mobile)
   useEffect(() => {
     const handleResize = () => {
-      setIsMobile(window.innerWidth < 1000);
+      setIsMobile(window.innerWidth < 1600);
     };
     handleResize(); // check the size on initial render
     window.addEventListener("resize", handleResize);
@@ -36,16 +36,16 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 bg-cloud-white shadow-md z-50 backdrop-blur-md">
   {isMobile ? (
-    <nav className="flex items-center justify-between px-6 h-20 font-sans text-calm-charcoal relative">
+    <nav className="flex items-center justify-between px-6 h-20 font-poppins text-calm-charcoal relative">
       {/* Title on Left */}
-      <h2 className="text-3xl font-bold text-deep-navy tracking-wide">
+      <h2 className="text-4xl font-serif text-deep-navy tracking-wide">
         Dr. Ishan Vengurlekar
       </h2>
 
       {/* Hamburger Menu */}
       <button
         onClick={() => setIsDropdownOpen((prev) => !prev)}
-        className="text-calm-charcoal focus:outline-none text-2xl"
+        className="text-calm-charcoal focus:outline-none text-3xl"
       >
         ☰
       </button>
@@ -53,15 +53,15 @@ export default function Navbar() {
       {/* Dropdown Menu */}
       {isDropdownOpen && (
         <div className="absolute top-full left-0 w-full bg-cloud-white shadow-md">
-          <ul className="flex flex-col items-stretch text-calm-charcoal">
+          <ul className="flex flex-col items-stretch">
             {[
               { path: "/", title: "Home" },
               { path: "/about", title: "About" },
               { path: "/current-projects", title: "Current Projects" },
               { path: "/publications-cv", title: "Publications + CV" },
               { path: "/contact", title: "Contact" },
-            ].map(({ path, title }, index) => (
-              <li key={index} className="border-b">
+            ].map(({ path, title }) => (
+              <li key={path} className="border-b">
                 <Link
                   href={path}
                   className={getLinkClass(path)}
@@ -74,36 +74,40 @@ export default function Navbar() {
           </ul>
         </div>
       )}
-
     </nav>
   ) : (
-    // Desktop Navbar
-    <nav className="flex items-center justify-between px-8 h-20 font-sans text-calm-charcoal">
-      <ul className="flex gap-6">
+    <nav className="flex items-center justify-between px-8 h-24 font-poppins text-calm-charcoal">
+      <ul className="flex gap-8 text-xl">
         {[
           { path: "/", title: "Home" },
           { path: "/about", title: "About" },
         ].map(({ path, title }) => (
           <li key={path}>
-            <Link href={path} className={getLinkClass(path)}>
+            <Link
+              href={path}
+              className={getLinkClass(path)}
+            >
               {title}
             </Link>
           </li>
         ))}
       </ul>
 
-      <h2 className="absolute left-1/2 transform -translate-x-1/2 text-3xl font-bold text-deep-navy tracking-wide">
+      <h2 className="absolute left-1/2 transform -translate-x-1/2 text-4xl font-serif text-deep-navy tracking-wide">
         Dr. Ishan Vengurlekar
       </h2>
 
-      <ul className="flex gap-6">
+      <ul className="flex gap-8 text-xl">
         {[
           { path: "/current-projects", title: "Current Projects" },
           { path: "/publications-cv", title: "Publications + CV" },
           { path: "/contact", title: "Contact" },
         ].map(({ path, title }) => (
           <li key={path}>
-            <Link href={path} className={getLinkClass(path)}>
+            <Link
+              href={path}
+              className={getLinkClass(path)}
+            >
               {title}
             </Link>
           </li>
@@ -112,6 +116,7 @@ export default function Navbar() {
     </nav>
   )}
 </header>
+
 
   );
 }

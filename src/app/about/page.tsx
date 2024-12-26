@@ -14,3 +14,6 @@ export default function AboutPage() {
     description: "Welcome to the Home Page of Ishan Vengurlekar's personal website.",
   };
   
+  // an introduction type section with a single primary statement
+  // a secondary introduction type section with a couple paragraphs
+  // a section highlighting education and background
