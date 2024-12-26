@@ -39,7 +39,7 @@ export default function Navbar() {
     <nav className="flex items-center justify-between px-6 h-20 font-poppins text-calm-charcoal relative">
       {/* Title on Left */}
       <h2 className="text-4xl font-serif text-deep-navy tracking-wide">
-        Dr. Ishan Vengurlekar
+        Ishan Nitin Vengurlekar
       </h2>
 
       {/* Hamburger Menu */}
@@ -94,7 +94,7 @@ export default function Navbar() {
       </ul>
 
       <h2 className="absolute left-1/2 transform -translate-x-1/2 text-4xl font-serif text-deep-navy tracking-wide">
-        Dr. Ishan Vengurlekar
+        Ishan Nitin Vengurlekar
       </h2>
 
       <ul className="flex gap-8 text-xl">

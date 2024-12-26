@@ -10,7 +10,7 @@ export default function AboutPage() {
   }
 
   export const metadata = {
-    title: "About - Ishan Vengurlekar",
+    title: "About - Ishan Nitin Vengurlekar",
     description: "Welcome to the Home Page of Ishan Vengurlekar's personal website.",
   };
   

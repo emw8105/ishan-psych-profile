@@ -3,32 +3,32 @@ import Image from "next/image";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Home - Dr. Ishan Vengurlekar",
-  description: "Welcome to Dr. Ishan Vengurlekar's personal website.",
+  title: "Home - Ishan Nitin Vengurlekar",
+  description: "Welcome to Ishan Nitin Vengurlekar's personal site for his clinical psychology expertise.",
 };
 
 export default function Home() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
 
-      {/* Hero Section */}
-      <section className="relative h-screen bg-sky-blue">
+    {/* Hero Section */}
+    <section className="relative h-screen bg-gray-900">
         <Image
-          src="/path-to-hero-image.jpg"
+          src="/images/IMG_7230.jpg"
           alt="Hero background image of Ishan"
           layout="fill"
           objectFit="cover"
-          className="opacity-80"
+          objectPosition="0px -450px"
+          className="opacity-40"
         />
-        <div className="absolute inset-0 flex flex-col justify-center items-end pr-10 text-calm-charcoal">
-          <h1 className="text-6xl font-bold">PSYCHIATRIST</h1>
-          <h2 className="text-4xl mt-2 font-light">Children's Mental Health Professional</h2>
+        <div className="px-10 absolute inset-0 flex flex-col justify-center items-end pr-10 text-cloud-white">
+          <h1 className="text-6xl font-bold font-playfair">DOCTORAL STUDENT</h1>
+          <h2 className="text-4xl mt-2 font-light font-serif">School Mental Health Professional</h2>
           <a href="#next" className="mt-10 text-4xl flex items-center gap-2">
-            <span className="animate-bounce">˅</span>
+        <span className="animate-bounce">˅</span>
           </a>
         </div>
       </section>
-
       {/* Characteristics Section */}
       <section id="next" className="py-16 px-8 bg-cloud-white text-center">
         <h2 className="text-4xl font-bold text-calm-charcoal leading-relaxed">
@@ -42,7 +42,7 @@ export default function Home() {
       <section className="py-16 px-8 bg-[#f7f7f7] flex flex-col lg:flex-row justify-center items-center"> {/* Slightly off-white background */}
         <div className="lg:w-1/3 flex justify-center">
           <Image
-            src="/images/ishan-arkansas-picture.jpg"
+            src="/images/IMG_1133.jpg"
             alt="Ishan Vengurlekar"
             width={400}
             height={500}
@@ -58,7 +58,7 @@ export default function Home() {
 
         {/* Page section overview */}
 
-        
+
       </section>
     </div>
   );
