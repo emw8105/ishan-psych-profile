@@ -20,11 +20,18 @@ export default function Navbar() {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // function to add active class
-  const getLinkClass = (href: string) =>
-    `text-charcoal font-medium transition-colors ${
-      pathname === href ? "text-rose-gold" : "hover:text-rose-gold"
+  interface LinkItem {
+    path: string;
+    title: string;
+  }
+
+  const getLinkClass = (href: string): string => {
+    return `block px-4 py-3 transition-colors ${
+      pathname === href
+        ? "text-soft-peach font-bold"
+        : "hover:text-soft-peach text-calm-charcoal"
     }`;
+  };
 
   return (
     <header className="sticky top-0 bg-cloud-white shadow-md z-50 backdrop-blur-md">
@@ -57,7 +64,7 @@ export default function Navbar() {
               <li key={index} className="border-b">
                 <Link
                   href={path}
-                  className="block px-4 py-3 hover:text-soft-peach transition-colors"
+                  className={getLinkClass(path)}
                   onClick={() => setIsDropdownOpen(false)}
                 >
                   {title}
@@ -73,16 +80,16 @@ export default function Navbar() {
     // Desktop Navbar
     <nav className="flex items-center justify-between px-8 h-20 font-sans text-calm-charcoal">
       <ul className="flex gap-6">
-        <li>
-          <Link href="/" className="hover:text-soft-peach transition-colors">
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link href="/about" className="hover:text-soft-peach transition-colors">
-            About
-          </Link>
-        </li>
+        {[
+          { path: "/", title: "Home" },
+          { path: "/about", title: "About" },
+        ].map(({ path, title }) => (
+          <li key={path}>
+            <Link href={path} className={getLinkClass(path)}>
+              {title}
+            </Link>
+          </li>
+        ))}
       </ul>
 
       <h2 className="absolute left-1/2 transform -translate-x-1/2 text-3xl font-bold text-deep-navy tracking-wide">
@@ -90,21 +97,17 @@ export default function Navbar() {
       </h2>
 
       <ul className="flex gap-6">
-        <li>
-          <Link href="/current-projects" className="hover:text-soft-peach transition-colors">
-            Current Projects
-          </Link>
-        </li>
-        <li>
-          <Link href="/publications-cv" className="hover:text-soft-peach transition-colors">
-            Publications + CV
-          </Link>
-        </li>
-        <li>
-          <Link href="/contact" className="hover:text-soft-peach transition-colors">
-            Contact
-          </Link>
-        </li>
+        {[
+          { path: "/current-projects", title: "Current Projects" },
+          { path: "/publications-cv", title: "Publications + CV" },
+          { path: "/contact", title: "Contact" },
+        ].map(({ path, title }) => (
+          <li key={path}>
+            <Link href={path} className={getLinkClass(path)}>
+              {title}
+            </Link>
+          </li>
+        ))}
       </ul>
     </nav>
   )}
