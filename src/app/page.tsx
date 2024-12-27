@@ -14,24 +14,23 @@ export default function Home() {
 
     {/* Hero Section */}
     <section className="relative h-screen bg-gray-900">
-        <Image
-          src="/images/IMG_7230.jpg"
-          alt="Hero background image of Ishan"
-          layout="fill"
-          objectFit="cover"
-          objectPosition="0px -450px"
-          className="opacity-40"
-        />
-        <div className="px-10 absolute inset-0 flex flex-col justify-center items-end pr-10 text-cloud-white">
-          <h1 className="text-6xl font-bold font-playfair">DOCTORAL STUDENT</h1>
-          <h2 className="text-4xl mt-2 font-light font-serif">
-            School Mental Health Professional
-          </h2>
-          <a href="#next" className="mt-10 text-4xl flex items-center gap-2">
-            <FaChevronDown className="animate-bounce" />
-          </a>
-        </div>
-      </section>
+      <Image
+        src="/images/Hero Image Cropped.jpg"
+        alt="Hero background image of Ishan"
+        layout="fill"
+        objectFit="cover"
+        className="opacity-40 hero-image"
+      />
+      <div className="px-10 absolute inset-0 flex flex-col justify-center items-end pr-10 text-cloud-white hero-text">
+        <h1 className="text-6xl font-bold font-playfair">DOCTORAL STUDENT</h1>
+        <h2 className="text-4xl mt-2 font-light font-serif">
+          School Mental Health Professional
+        </h2>
+        <a href="#next" className="mt-10 text-4xl flex items-center gap-2">
+          <FaChevronDown className="animate-bounce" />
+        </a>
+      </div>
+    </section>
 
       {/* Characteristics Section */}
       <section id="next" className="py-16 px-8 bg-cloud-white text-center">
@@ -59,6 +58,7 @@ export default function Home() {
         </div>
 
         {/* Page section overview */}
+        
 
 
       </section>

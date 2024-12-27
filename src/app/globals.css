@@ -23,3 +23,19 @@ body {
 html {
   scroll-behavior: smooth;
 }
+
+.hero-text {
+  top: 20%;
+}
+
+@media (max-width: 1600px) {
+  .hero-text {
+    top: 50%;
+  }
+}
+
+@media (max-width: 500px) {
+  .hero-text {
+    top: 70%;
+  }
+}
