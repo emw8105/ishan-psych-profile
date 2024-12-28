@@ -21,6 +21,8 @@ export default {
         "cloud-white": "#FDFCFB",
         "gentle-gray": "#E8E9EB",
         "calm-charcoal": "#45474F",
+        "off-white": "#F7F7F7",
+        "deep-coral": "#E57373",
       },
     },
   },
