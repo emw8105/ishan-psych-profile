@@ -1,41 +1,40 @@
 "use client";
-import { useEffect, useState } from "react";
-import Link from "next/link";
 import { usePathname } from "next/navigation";
-import {
-  FaChevronDown,
-  FaTwitter,
-  FaEnvelope,
-  FaLinkedin,
-} from "react-icons/fa";
+import { FaTwitter, FaEnvelope, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
+  const pathname = usePathname();
+
+  const getLinkClass = (href: string): string => {
+    return `block transition-colors ${
+      pathname === href
+        ? "text-gray-900 font-poppins"
+        : "hover:text-gray-900 text-off-white"
+    }`;
+  };
+
   return (
     <footer className="bg-calm-charcoal text-off-white py-16">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3">
+        {/* Left Section */}
         <div className="flex flex-col items-center justify-center border-r border-off-white">
-          <ul className="space-y-2 text-center">
-            <li>
-              <a
-                href="/"
-                className="hover:text-gray-900 transition duration-300"
-              >
-                Home
-              </a>
-            </li>
-            <li>
-              <a
-                href="/about"
-                className="hover:text-gray-900 transition duration-300"
-              >
-                About
-              </a>
-            </li>
+          <ul className="space-y-2 text-center text-lg font-poppins">
+            {[
+              { path: "/", title: "Home" },
+              { path: "/about", title: "About" },
+            ].map(({ path, title }) => (
+              <li key={path}>
+                <a href={path} className={getLinkClass(path)}>
+                  {title}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
+
         {/* Middle Section */}
         <div className="flex flex-col items-center justify-center border-r border-off-white">
-          <h3 className="text-lg font-semibold mb-4">Follow Me</h3>
+          <h3 className="text-3xl font-serif mb-6">Follow Me</h3>
           <div className="flex space-x-6 text-center">
             <a
               href="https://www.linkedin.com/in/ishan-vengurlekar-1ab277172/"
@@ -63,33 +62,21 @@ export default function Footer() {
             </a>
           </div>
         </div>
+
         {/* Right Section */}
         <div className="flex flex-col items-center justify-center">
-          <ul className="space-y-2 text-center">
-            <li>
-              <a
-                href="/research-and-practice"
-                className="hover:text-gray-900 transition duration-300"
-              >
-                Research & Practice
-              </a>
-            </li>
-            <li>
-              <a
-                href="/mentoring"
-                className="hover:text-gray-900 transition duration-300"
-              >
-                Mentoring
-              </a>
-            </li>
-            <li>
-              <a
-                href="/contact"
-                className="hover:text-gray-900 transition duration-300"
-              >
-                Contact
-              </a>
-            </li>
+          <ul className="space-y-2 text-center text-lg font-poppins">
+            {[
+              { path: "/research-and-practice", title: "Research & Practice" },
+              { path: "/mentoring", title: "Mentoring" },
+              { path: "/contact", title: "Contact" },
+            ].map(({ path, title }) => (
+              <li key={path}>
+                <a href={path} className={getLinkClass(path)}>
+                  {title}
+                </a>
+              </li>
+            ))}
           </ul>
         </div>
       </div>

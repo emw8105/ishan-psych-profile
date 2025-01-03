@@ -23,8 +23,6 @@ export default {
         "calm-charcoal": "#45474F",
         "off-white": "#F7F7F7",
         "deep-coral": "#E57373",
-        "temp-1": "#333745",
-        "temp-2": "#131B23",
       },
     },
   },
