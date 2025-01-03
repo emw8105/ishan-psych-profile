@@ -14,7 +14,7 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-calm-charcoal text-off-white py-16">
+    <footer className="bg-gray-500 text-off-white py-16">
       <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3">
         {/* Left Section */}
         <div className="flex flex-col items-center justify-center border-r border-off-white">
@@ -34,7 +34,7 @@ export default function Footer() {
 
         {/* Middle Section */}
         <div className="flex flex-col items-center justify-center border-r border-off-white">
-          <h3 className="text-3xl font-serif mb-6">Follow Me</h3>
+          <h3 className="text-3xl font-serif font-bold mb-6">Follow Me</h3>
           <div className="flex space-x-6 text-center">
             <a
               href="https://www.linkedin.com/in/ishan-vengurlekar-1ab277172/"
@@ -45,7 +45,7 @@ export default function Footer() {
               <FaLinkedin className="text-2xl" />
             </a>
             <a
-              href="mailto:example@gmail.com"
+              href="mailto:ishanvengurlekar1@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
               className="hover:text-gray-900 transition duration-300"

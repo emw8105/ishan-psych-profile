@@ -62,7 +62,7 @@ export default function Home() {
 
         {/* Text Section */}
         <div className="max-w-lg text-center lg:text-left">
-          <h3 className="text-3xl font-bold mb-4">More About Me</h3>
+          <h3 className="text-5xl font-bold mb-4">More About Me</h3>
           <p className="text-lg text-gray-700 leading-relaxed">
             PLACEHOLDER this section is about me, Ishan Vengurlekar. I am a
             clinical psychiatrist, researcher, leader, visionary, and advocate.
@@ -82,9 +82,9 @@ export default function Home() {
       </section>
 
       {/* Page Overview Section*/}
-      <section className="py-16 bg-light-pearl text-gray-900 bg-gradient-to-b from-cyan-100 via-blue-200 to-indigo-200">
-        <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-4xl font-bold mb-6">Explore My Work</h2>
+      <section className="py-16 bg-light-pearl text-gray-900 bg-gradient-to-b from-blue-100 via-blue-200 to-indigo-200">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-5xl font-bold mb-8">Explore My Work</h2>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-20 mb-10">
             {/* About Me */}
@@ -93,8 +93,8 @@ export default function Home() {
                 <div className="mb-6">
                   <FaUserGraduate className="text-7xl mx-auto" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">About Me</h3>
-                <p className="text-sm mb-6">
+                <h3 className="text-2xl font-semibold mb-4">About Me</h3>
+                <p className="text-lg mb-6">
                   Discover my academic journey, scholarly focus, and personal
                   interests.
                 </p>
@@ -113,10 +113,10 @@ export default function Home() {
                 <div className="mb-6">
                   <FaMicroscope className="text-7xl mx-auto" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">
+                <h3 className="text-2xl font-semibold mb-4">
                   Research & Practice
                 </h3>
-                <p className="text-sm mb-6">
+                <p className="text-lg mb-6">
                   Learn about my research interests, clinical practice, grants,
                   publications, and CV.
                 </p>
@@ -135,8 +135,8 @@ export default function Home() {
                 <div className="mb-6">
                   <FaHandsHelping className="text-7xl mx-auto" />
                 </div>
-                <h3 className="text-xl font-semibold mb-4">Mentoring</h3>
-                <p className="text-sm mb-6">
+                <h3 className="text-2xl font-semibold mb-4">Mentoring</h3>
+                <p className="text-lg mb-6">
                   Explore my mentoring experiences and passion for guiding
                   students.
                 </p>
