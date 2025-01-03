@@ -82,7 +82,7 @@ export default function Home() {
       </section>
 
       {/* Page Overview Section*/}
-      <section className="py-16 bg-light-pearl text-gray-900 bg-gradient-to-r from-cyan-100 via-blue-200 to-indigo-200">
+      <section className="py-16 bg-light-pearl text-gray-900 bg-gradient-to-b from-cyan-100 via-blue-200 to-indigo-200">
         <div className="max-w-3xl mx-auto text-center">
           <h2 className="text-4xl font-bold mb-6">Explore My Work</h2>
 
