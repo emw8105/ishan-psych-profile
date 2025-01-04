@@ -23,8 +23,8 @@ export default function Navbar() {
   const getLinkClass = (href: string): string => {
     return `block px-4 py-3 transition-colors ${
       pathname === href
-        ? "text-soft-peach font-bold"
-        : "hover:text-soft-peach text-calm-charcoal"
+        ? "text-gray-900 font-extrabold"
+        : "hover:text-gray-900 text-calm-charcoal"
     }`;
   };
 
