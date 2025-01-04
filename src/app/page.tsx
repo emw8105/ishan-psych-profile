@@ -24,7 +24,7 @@ export default function Home() {
           alt="Hero background image of Ishan"
           layout="fill"
           objectFit="cover"
-          className="opacity-40 hero-image"
+          className="opacity-65 hero-image"
         />
         <div className="px-10 absolute inset-0 flex flex-col justify-center items-end pr-10 text-cloud-white hero-text">
           <h1 className="text-6xl font-bold font-playfair">DOCTORAL STUDENT</h1>
@@ -45,10 +45,7 @@ export default function Home() {
       </section>
 
       {/* About Section */}
-      <section className="py-16 px-8 bg-off-white grid grid-cols-4 items-center">
-        {/* Left Spacer */}
-        <div></div>
-
+      <section className="py-16 px-8 bg-off-white flex flex-col lg:flex-row items-center justify-center space-y-8 lg:space-y-0 lg:space-x-12">
         {/* Image Section */}
         <div className="max-w-lg flex justify-center">
           <Image
@@ -76,9 +73,6 @@ export default function Home() {
             stigma surrounding mental illness.
           </p>
         </div>
-
-        {/* Right Spacer */}
-        <div></div>
       </section>
 
       {/* Page Overview Section*/}
