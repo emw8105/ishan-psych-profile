@@ -17,7 +17,7 @@ export default function Header() {
       <div className="container flex h-20 items-center justify-between">
         <div className="flex items-center gap-2">
           <Link href="/" className="font-serif text-2xl font-bold">
-            Ishan Vengurlekar
+            Ishan Nitin Vengurlekar
           </Link>
         </div>
 
