@@ -1,34 +1,43 @@
-import localFont from "next/font/local";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
-import "./globals.css";
+import type React from "react"
+import type { Metadata } from "next"
+import { Inter, Playfair_Display } from "next/font/google"
+import Header from "@/components/Header"
+import Footer from "@/components/Footer"
+import "./globals.css"
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+// Load Inter font
+const inter = Inter({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-inter",
+})
+
+// Load Playfair Display font
+const playfair = Playfair_Display({
+  subsets: ["latin"],
+  display: "swap",
+  variable: "--font-playfair",
+  weight: ["400", "500", "600", "700"],
+})
+
+export const metadata: Metadata = {
+  title: "Dr. Ishan Vengurlekar | Clinical Psychologist",
+  description:
+    "Dr. Ishan Vengurlekar provides specialized psychological services for children in a safe, supportive environment.",
+}
 
 export default function RootLayout({
   children,
-}: Readonly<{
-  children: React.ReactNode;
-}>) {
+}: {
+  children: React.ReactNode
+}) {
   return (
-    <html lang="en">
-      <head>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Playfair+Display:wght@700&display=swap" rel="stylesheet"></link>
-      </head>
-      <body className="bg-off-white">
-        <Navbar />
-        <main>{children}</main>
+    <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
+      <body className={inter.className}>
+        <Header />
+        <main className="min-h-screen">{children}</main>
         <Footer />
       </body>
     </html>
-  );
+  )
 }

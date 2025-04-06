@@ -1,156 +1,199 @@
-import Navbar from "@/components/Navbar";
-import Image from "next/image";
-import type { Metadata } from "next";
-import {
-  FaChevronDown,
-  FaUserGraduate,
-  FaMicroscope,
-  FaHandsHelping,
-} from "react-icons/fa";
-
-export const metadata: Metadata = {
-  title: "Home - Ishan Nitin Vengurlekar",
-  description:
-    "Welcome to Ishan Nitin Vengurlekar's personal site for his clinical psychology expertise.",
-};
+import Image from "next/image"
+import Link from "next/link"
+import { ArrowRight, CheckCircle } from "lucide-react"
+import { Button } from "@/components/ui/Button"
+import { Card, CardContent } from "@/components/ui/Card"
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-white text-gray-900">
-      {/* Hero Section */}
-      <section className="relative h-screen bg-gray-900">
-        <Image
-          src="/images/Hero Image Cropped.jpg"
-          alt="Hero background image of Ishan"
-          layout="fill"
-          objectFit="cover"
-          className="opacity-65 hero-image"
-        />
-        <div className="px-10 absolute inset-0 flex flex-col justify-center items-end pr-10 text-cloud-white hero-text">
-          <h1 className="text-6xl font-bold font-playfair">DOCTORAL STUDENT</h1>
-          <h2 className="text-4xl mt-2 font-light font-serif">
-            School Mental Health Professional
-          </h2>
-          <a href="#next" className="mt-10 text-4xl flex items-center gap-2">
-            <FaChevronDown className="animate-bounce" />
-          </a>
-        </div>
-      </section>
-
-      {/* Characteristics Section */}
-      <section id="next" className="py-16 px-8 bg-cloud-white text-center">
-        <h2 className="text-4xl font-bold text-gray-900 leading-relaxed">
-          Compassionate Care. Trustworthy Guidance. Dedicated Expertise.
-        </h2>
-      </section>
-
-      {/* About Section */}
-      <section className="py-16 px-8 bg-off-white flex flex-col lg:flex-row items-center justify-center space-y-8 lg:space-y-0 lg:space-x-12">
-        {/* Image Section */}
-        <div className="max-w-lg flex justify-center">
-          <Image
-            src="/images/IMG_1133.jpg"
-            alt="Ishan Vengurlekar"
-            width={600}
-            height={600}
-            className="rounded-lg shadow-lg object-contain"
-          />
-        </div>
-
-        {/* Text Section */}
-        <div className="max-w-lg text-center lg:text-left">
-          <h3 className="text-5xl font-bold font-playfair mb-4">
-            More About Me
-          </h3>
-          <p className="text-lg text-calm-charcoal leading-relaxed font-">
-            PLACEHOLDER this section is about me, Ishan Vengurlekar. I am a
-            clinical psychiatrist, researcher, leader, visionary, and advocate.
-            <br />
-            <br />
-            I am passionate about mental health and am dedicated to improving
-            the lives of my patients. I am also a researcher and have published
-            numerous papers on various topics in psychiatry.
-            <br />
-            <br />I am a leader in my field and am constantly striving to
-            improve the quality of care that my patients receive. I am a
-            visionary and am always looking for new and innovative ways to help
-            my patients. I am also an advocate for mental health and work
-            tirelessly to raise awareness and reduce the stigma surrounding
-            mental illness.
-          </p>
-        </div>
-      </section>
-
-      {/* Page Overview Section*/}
-      <section className="py-16 bg-light-pearl text-gray-900 bg-gradient-to-b from-blue-100 via-blue-200 to-indigo-200">
-        <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-5xl font-bold mb-8">Explore My Work</h2>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-20 mb-10">
-            {/* About Me */}
-            <div className="text-center flex flex-col justify-between h-full">
-              <div>
-                <div className="mb-6">
-                  <FaUserGraduate className="text-7xl mx-auto" />
-                </div>
-                <h3 className="text-2xl font-semibold mb-4">About Me</h3>
-                <p className="text-lg mb-6">
-                  Discover my academic journey, scholarly focus, and personal
-                  interests.
-                </p>
-              </div>
-              <a
-                href="/about"
-                className="w-fit mx-auto px-8 py-2 bg-cloud-white font-medium rounded-lg shadow-md hover:bg-gray-900 hover:text-white transition duration-300"
-              >
-                See more
-              </a>
+    <div className="flex flex-col min-h-screen">
+      {/* Hero Section with Ishan's picture */}
+      <section className="relative bg-gradient-to-r from-sky-blue/30 to-cloud-white py-16 md:py-24">
+        <div className="container grid gap-8 md:grid-cols-2 md:gap-12 items-center">
+          <div className="space-y-6">
+            <h1 className="font-playfair text-4xl md:text-5xl lg:text-6xl font-bold text-calm-charcoal leading-tight">
+              Compassionate Psychological Care for Children
+            </h1>
+            <p className="text-lg md:text-xl text-gray-700 max-w-md">
+              Ishan Vengurlekar is a doctoral candidate in Clinical Psychology specializing in child and adolescent
+              mental health.
+            </p>
+            <div className="flex flex-col sm:flex-row gap-4">
+              <Button variant="outline" size="lg" asChild>
+                <Link href="/research-practice">
+                  Explore Research <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
+              <Button size="lg" asChild>
+                <Link href="/contact">Get in Touch</Link>
+              </Button>
             </div>
+          </div>
+          <div className="relative h-[500px] rounded-lg overflow-hidden shadow-lg">
+            <Image src="/images/IshanHeroCropped.jpg" alt="Ishan Vengurlekar" fill className="object-cover" priority />
+          </div>
+        </div>
+      </section>
 
-            {/* Research & Practice */}
-            <div className="text-center flex flex-col justify-between h-full">
-              <div>
-                <div className="mb-6">
-                  <FaMicroscope className="text-7xl mx-auto" />
+      {/* Core Values Section */}
+      <section className="py-16 bg-off-white">
+        <div className="container">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">Core Values</h2>
+            <p className="text-gray-600">Guiding principles that inform Ishan's approach to psychology</p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Card className="border-none shadow-md hover:shadow-lg transition-shadow text-center p-6">
+              <CardContent className="pt-4">
+                <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-2xl font-semibold mb-4">
-                  Research & Practice
-                </h3>
-                <p className="text-lg mb-6">
-                  Learn about my research interests, clinical practice, grants,
-                  publications, and CV.
+                <h3 className="text-xl font-bold mb-2">Compassionate Care</h3>
+                <p className="text-gray-600">
+                  Approaching each child with empathy, understanding, and genuine care for their well-being.
                 </p>
-              </div>
-              <a
-                href="/research-and-practice"
-                className="w-fit mx-auto px-8 py-2 bg-cloud-white font-medium rounded-lg shadow-md hover:bg-gray-900 hover:text-white transition duration-300"
-              >
-                See more
-              </a>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-md hover:shadow-lg transition-shadow text-center p-6">
+              <CardContent className="pt-4">
+                <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle className="h-8 w-8 text-primary" />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Evidence-Based Practice</h3>
+                <p className="text-gray-600">
+                  Utilizing research-backed approaches to ensure effective and reliable psychological interventions.
+                </p>
+              </CardContent>
+            </Card>
+
+            <Card className="border-none shadow-md hover:shadow-lg transition-shadow text-center p-6">
+              <CardContent className="pt-4">
+                <div className="bg-primary/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <CheckCircle className="h-8 w-8 text-primary" />
+                </div>
+                <h3 className="text-xl font-bold mb-2">Holistic Perspective</h3>
+                <p className="text-gray-600">
+                  Considering the whole child within their family, school, and community contexts.
+                </p>
+              </CardContent>
+            </Card>
+          </div>
+        </div>
+      </section>
+
+      {/* Brief Introduction */}
+      <section className="py-16 md:py-24">
+        <div className="container">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div className="space-y-6">
+              <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">
+                Meet Ishan Vengurlekar
+              </h2>
+              <p className="text-lg text-gray-700">
+                Ishan is a doctoral candidate in Clinical Psychology with a passion for understanding and supporting
+                children's mental health and development. His approach combines rigorous academic research with
+                compassionate clinical practice.
+              </p>
+              <p className="text-lg text-gray-700">
+                Currently completing his doctoral studies, Ishan is actively seeking clinical internship opportunities
+                to further develop his expertise in school psychology and interventions for children facing emotional,
+                behavioral, and developmental challenges.
+              </p>
+              <Button variant="outline" size="lg" asChild>
+                <Link href="/about">
+                  Learn More About Ishan <ArrowRight className="ml-2 h-4 w-4" />
+                </Link>
+              </Button>
             </div>
-
-            {/* Mentoring */}
-            <div className="text-center flex flex-col justify-between h-full">
-              <div>
-                <div className="mb-6">
-                  <FaHandsHelping className="text-7xl mx-auto" />
-                </div>
-                <h3 className="text-2xl font-semibold mb-4">Mentoring</h3>
-                <p className="text-lg mb-6">
-                  Explore my mentoring experiences and passion for guiding
-                  students.
-                </p>
-              </div>
-              <a
-                href="/mentoring"
-                className="w-fit mx-auto px-8 py-2 bg-cloud-white font-medium rounded-lg shadow-md hover:bg-gray-900 hover:text-white transition duration-300"
-              >
-                See more
-              </a>
+            <div className="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
+              <Image
+                src="/placeholder.svg?height=800&width=600"
+                alt="Ishan Vengurlekar"
+                fill
+                className="object-cover"
+              />
             </div>
           </div>
         </div>
       </section>
+
+      {/* Areas of Focus Preview */}
+      <section className="py-16 bg-off-white">
+        <div className="container">
+          <div className="max-w-3xl mx-auto text-center mb-12">
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">Areas of Focus</h2>
+            <p className="text-gray-600">
+              Specialized research and clinical interests in child and adolescent psychology
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <h3 className="text-xl font-bold mb-2">Child Psychology</h3>
+              <p className="text-gray-600 mb-4">
+                Understanding developmental processes and supporting children's mental health
+              </p>
+              <Link href="/research-practice" className="text-primary hover:underline">
+                Learn more
+              </Link>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <h3 className="text-xl font-bold mb-2">School Psychology</h3>
+              <p className="text-gray-600 mb-4">
+                Promoting academic success and emotional well-being in educational settings
+              </p>
+              <Link href="/research-practice" className="text-primary hover:underline">
+                Learn more
+              </Link>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <h3 className="text-xl font-bold mb-2">Trauma & Resilience</h3>
+              <p className="text-gray-600 mb-4">Researching childhood trauma and developing effective interventions</p>
+              <Link href="/research-practice" className="text-primary hover:underline">
+                Learn more
+              </Link>
+            </div>
+
+            <div className="bg-white p-6 rounded-lg shadow-md text-center">
+              <h3 className="text-xl font-bold mb-2">Mentoring</h3>
+              <p className="text-gray-600 mb-4">Supporting the next generation of psychology professionals</p>
+              <Link href="/mentoring" className="text-primary hover:underline">
+                Learn more
+              </Link>
+            </div>
+          </div>
+
+          <div className="text-center mt-12">
+            <Button size="lg" asChild>
+              <Link href="/research-practice">
+                Explore All Research Areas <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
+
+      {/* Call to Action */}
+      <section className="py-16 md:py-20 bg-primary/10">
+        <div className="container">
+          <div className="max-w-3xl mx-auto text-center">
+            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">Connect with Ishan</h2>
+            <p className="text-lg text-gray-700 mb-8">
+              For professional inquiries, research collaboration, or mentoring opportunities
+            </p>
+            <Button size="lg" asChild>
+              <Link href="/contact">
+                Get in Touch <ArrowRight className="ml-2 h-4 w-4" />
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </section>
     </div>
-  );
+  )
 }
+

@@ -1,88 +1,119 @@
-"use client";
-import { usePathname } from "next/navigation";
-import { FaTwitter, FaEnvelope, FaLinkedin } from "react-icons/fa";
+import Link from "next/link"
+import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone } from "lucide-react"
 
 export default function Footer() {
-  const pathname = usePathname();
-
-  const getLinkClass = (href: string): string => {
-    return `block transition-colors ${
-      pathname === href
-        ? "text-gray-900 font-poppins"
-        : "hover:text-gray-900 text-off-white"
-    }`;
-  };
-
   return (
-    <footer className="bg-gray-500 text-off-white py-16">
-      <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-3">
-        {/* Left Section */}
-        <div className="flex flex-col items-center justify-center border-r border-off-white">
-          <ul className="space-y-2 text-center text-lg font-poppins">
-            {[
-              { path: "/", title: "Home" },
-              { path: "/about", title: "About" },
-            ].map(({ path, title }) => (
-              <li key={path}>
-                <a href={path} className={getLinkClass(path)}>
-                  {title}
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
+    <footer className="bg-calm-charcoal text-white">
+      <div className="container py-12 md:py-16">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          <div>
+            <h3 className="font-playfair text-xl font-bold mb-4">Ishan Vengurlekar</h3>
+            <p className="text-gray-300 mb-4">
+              Doctoral Candidate in Clinical Psychology specializing in child and adolescent mental health.
+            </p>
+            <div className="flex space-x-4">
+              <Link href="#" className="text-gray-300 hover:text-white transition-colors">
+                <Facebook className="h-5 w-5" />
+                <span className="sr-only">Facebook</span>
+              </Link>
+              <Link href="#" className="text-gray-300 hover:text-white transition-colors">
+                <Instagram className="h-5 w-5" />
+                <span className="sr-only">Instagram</span>
+              </Link>
+              <Link href="#" className="text-gray-300 hover:text-white transition-colors">
+                <Linkedin className="h-5 w-5" />
+                <span className="sr-only">LinkedIn</span>
+              </Link>
+            </div>
+          </div>
 
-        {/* Middle Section */}
-        <div className="flex flex-col items-center justify-center border-r border-off-white">
-          <h3 className="text-3xl font-serif font-bold mb-6">Follow Me</h3>
-          <div className="flex space-x-6 text-center">
-            <a
-              href="https://www.linkedin.com/in/ishan-vengurlekar-1ab277172/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-900 transition duration-300"
-            >
-              <FaLinkedin className="text-2xl" />
-            </a>
-            <a
-              href="mailto:ishanvengurlekar1@gmail.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-900 transition duration-300"
-            >
-              <FaEnvelope className="text-2xl" />
-            </a>
-            <a
-              href="https://x.com/Vengurlekar_I"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="hover:text-gray-900 transition duration-300"
-            >
-              <FaTwitter className="text-2xl" />
-            </a>
+          <div>
+            <h3 className="font-bold text-lg mb-4">Contact</h3>
+            <ul className="space-y-3">
+              <li className="flex">
+                <MapPin className="h-5 w-5 mr-2 shrink-0" />
+                <span>
+                  Department of Psychology
+                  <br />
+                  University of Example
+                  <br />
+                  San Francisco, CA 94110
+                </span>
+              </li>
+              <li className="flex">
+                <Phone className="h-5 w-5 mr-2 shrink-0" />
+                <span>(555) 123-4567</span>
+              </li>
+              <li className="flex">
+                <Mail className="h-5 w-5 mr-2 shrink-0" />
+                <span>ishan.vengurlekar@example.edu</span>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-bold text-lg mb-4">Site Map</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/" className="text-gray-300 hover:text-white transition-colors">
+                  Home
+                </Link>
+              </li>
+              <li>
+                <Link href="/about" className="text-gray-300 hover:text-white transition-colors">
+                  About
+                </Link>
+              </li>
+              <li>
+                <Link href="/research-practice" className="text-gray-300 hover:text-white transition-colors">
+                  Research & Practice
+                </Link>
+              </li>
+              <li>
+                <Link href="/mentoring" className="text-gray-300 hover:text-white transition-colors">
+                  Mentoring
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact" className="text-gray-300 hover:text-white transition-colors">
+                  Contact
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3 className="font-bold text-lg mb-4">Research Areas</h3>
+            <ul className="space-y-2">
+              <li>
+                <Link href="/research-practice" className="text-gray-300 hover:text-white transition-colors">
+                  Child Psychology
+                </Link>
+              </li>
+              <li>
+                <Link href="/research-practice" className="text-gray-300 hover:text-white transition-colors">
+                  School Psychology
+                </Link>
+              </li>
+              <li>
+                <Link href="/research-practice" className="text-gray-300 hover:text-white transition-colors">
+                  Trauma & Resilience
+                </Link>
+              </li>
+              <li>
+                <Link href="/research-practice" className="text-gray-300 hover:text-white transition-colors">
+                  Family-Centered Approaches
+                </Link>
+              </li>
+            </ul>
           </div>
         </div>
 
-        {/* Right Section */}
-        <div className="flex flex-col items-center justify-center">
-          <ul className="space-y-2 text-center text-lg font-poppins">
-            {[
-              { path: "/research-and-practice", title: "Research & Practice" },
-              { path: "/mentoring", title: "Mentoring" },
-              { path: "/contact", title: "Contact" },
-            ].map(({ path, title }) => (
-              <li key={path}>
-                <a href={path} className={getLinkClass(path)}>
-                  {title}
-                </a>
-              </li>
-            ))}
-          </ul>
+        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400 text-sm">
+          <p>&copy; {new Date().getFullYear()} Ishan Vengurlekar. All rights reserved.</p>
         </div>
       </div>
-      <div className="mt-12 text-center text-sm text-black">
-        Copyright &copy; 2025 Ishan Vengurlekar. All rights reserved.
-      </div>
     </footer>
-  );
+  )
 }
+
