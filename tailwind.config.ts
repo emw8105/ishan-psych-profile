@@ -62,7 +62,8 @@ module.exports = {
         "gentle-gray": "#E8E9EB",
         "calm-charcoal": "#45474F",
         "off-white": "#F7F7F7",
-        "deep-coral": "#E57373",
+        "soft-teal": "#7DB9B6",
+        "warm-sage": "#8BA888",
       },
       borderRadius: {
         lg: "var(--radius)",
