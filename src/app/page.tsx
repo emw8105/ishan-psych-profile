@@ -40,7 +40,7 @@ export default function Home() {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-16">
             <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">Core Values</h2>
-            <p className="text-lg text-gray-600">Guiding principles that inform Ishan's approach to psychology</p>
+            <p className="text-lg text-gray-600">Guiding principles that inform Ishan&apos;s approach to psychology</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
@@ -101,7 +101,7 @@ export default function Home() {
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
                 Ishan is a doctoral candidate in Clinical Psychology with a passion for understanding and supporting
-                children's mental health and development. His approach combines rigorous academic research with
+                children&apos;s mental health and development. His approach combines rigorous academic research with
                 compassionate clinical practice.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
@@ -133,7 +133,7 @@ export default function Home() {
             <div className="bg-gradient-to-br from-sky-blue/10 to-white p-8 rounded-xl shadow-sm hover:shadow-md transition-all duration-300 border border-gray-100">
               <h3 className="text-xl font-bold mb-3 text-calm-charcoal">Child Psychology</h3>
               <p className="text-gray-600 mb-6 leading-relaxed">
-                Understanding developmental processes and supporting children's mental health
+                Understanding developmental processes and supporting children&apos;s mental health
               </p>
               <Link href="/research-practice" className="text-soft-teal hover:text-soft-teal/80 font-medium inline-flex items-center transition-colors">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />

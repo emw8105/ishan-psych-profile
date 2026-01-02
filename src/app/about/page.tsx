@@ -42,7 +42,7 @@ export default function AboutPage() {
               </p>
               <p className="text-lg text-gray-700">
                 His journey into psychology began during his undergraduate studies, where he developed a fascination
-                with developmental psychology and the factors that influence children's emotional and cognitive growth.
+                with developmental psychology and the factors that influence children&apos;s emotional and cognitive growth.
                 This interest led him to pursue graduate studies focused specifically on clinical interventions for
                 children facing psychological challenges.
               </p>
@@ -78,16 +78,16 @@ export default function AboutPage() {
                   <h4 className="text-xl font-bold mb-1">PhD in Clinical Psychology</h4>
                   <p className="text-gray-500 mb-3">University of Example, Expected 2025</p>
                   <p className="text-gray-700">
-                    Dissertation: "School-Based Interventions for Children Experiencing Trauma: A Mixed-Methods
-                    Approach"
+                    Dissertation: &quot;School-Based Interventions for Children Experiencing Trauma: A Mixed-Methods
+                    Approach&quot;
                   </p>
                 </div>
 
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h4 className="text-xl font-bold mb-1">Master's in Child Psychology</h4>
+                  <h4 className="text-xl font-bold mb-1">Master&apos;s in Child Psychology</h4>
                   <p className="text-gray-500 mb-3">State University, 2020</p>
                   <p className="text-gray-700">
-                    Thesis: "The Impact of Play Therapy on Emotional Regulation in Children Ages 5-8"
+                    Thesis: &quot;The Impact of Play Therapy on Emotional Regulation in Children Ages 5-8&quot;
                   </p>
                 </div>
 
@@ -108,7 +108,7 @@ export default function AboutPage() {
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-lg shadow-md">
                   <h4 className="text-xl font-bold mb-1">Clinical Practicum</h4>
-                  <p className="text-gray-500 mb-3">Children's Wellness Center, 2022-Present</p>
+                  <p className="text-gray-500 mb-3">Children&apos;s Wellness Center, 2022-Present</p>
                   <p className="text-gray-700">
                     Providing psychological assessments and therapy for children ages 5-17 under supervision
                   </p>
@@ -176,7 +176,7 @@ export default function AboutPage() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-gray-700">
-                Outside of his academic and clinical work, Ishan enjoys hiking in the Bay Area's beautiful parks,
+                Outside of his academic and clinical work, Ishan enjoys hiking in the Bay Area&apos;s beautiful parks,
                 practicing mindfulness meditation, and volunteering with local youth organizations. He believes that
                 maintaining a balanced lifestyle enhances his ability to connect with and support the children and
                 families he works with.

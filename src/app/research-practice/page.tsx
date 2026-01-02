@@ -33,8 +33,8 @@ export default function ResearchPracticePage() {
                         <div className="space-y-6">
                             <h3 className="font-playfair text-2xl font-bold text-calm-charcoal">Current Research Focus</h3>
                             <p className="text-lg text-gray-700">
-                                Ishan's research focuses on understanding and addressing the psychological impact of trauma on
-                                children's development and academic performance. His work examines how adverse childhood experiences
+                                Ishan&apos;s research focuses on understanding and addressing the psychological impact of trauma on
+                                children&apos;s development and academic performance. His work examines how adverse childhood experiences
                                 affect cognitive processes, emotional regulation, and social interactions in educational settings.
                             </p>
                             <p className="text-lg text-gray-700">
@@ -155,7 +155,7 @@ export default function ResearchPracticePage() {
                                     <GraduationCap className="h-5 w-5 mr-2 text-primary" />
                                     School Psychology
                                 </CardTitle>
-                                <CardDescription>Supporting children's success in educational settings</CardDescription>
+                                <CardDescription>Supporting children&apos;s success in educational settings</CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <ul className="space-y-2">

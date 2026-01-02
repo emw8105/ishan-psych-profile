@@ -201,7 +201,7 @@ export default function MentoringPage() {
                         <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">
                             Mentee Testimonials
                         </h2>
-                        <p className="text-gray-600">What students and colleagues say about Ishan's mentorship</p>
+                        <p className="text-gray-600">What students and colleagues say about Ishan&apos;s mentorship</p>
                     </div>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -216,8 +216,8 @@ export default function MentoringPage() {
                                 </div>
                             </div>
                             <p className="text-gray-700 italic">
-                                "Ishan's guidance was instrumental in helping me refine my research methodology. His attention to detail
-                                and thoughtful feedback significantly improved the quality of my work."
+                                &quot;Ishan&apos;s guidance was instrumental in helping me refine my research methodology. His attention to detail
+                                and thoughtful feedback significantly improved the quality of my work.&quot;
                             </p>
                         </div>
 
@@ -232,8 +232,8 @@ export default function MentoringPage() {
                                 </div>
                             </div>
                             <p className="text-gray-700 italic">
-                                "Working with Ishan on my honors thesis was an incredible learning experience. He challenged me to think
-                                critically while providing the support I needed to succeed."
+                                &quot;Working with Ishan on my honors thesis was an incredible learning experience. He challenged me to think
+                                critically while providing the support I needed to succeed.&quot;
                             </p>
                         </div>
 
@@ -248,8 +248,8 @@ export default function MentoringPage() {
                                 </div>
                             </div>
                             <p className="text-gray-700 italic">
-                                "Ishan's supervision during my clinical practicum helped me develop confidence in my therapeutic skills.
-                                His feedback was always constructive and focused on growth."
+                                &quot;Ishan&apos;s supervision during my clinical practicum helped me develop confidence in my therapeutic skills.
+                                His feedback was always constructive and focused on growth.&quot;
                             </p>
                         </div>
                     </div>
