@@ -15,7 +15,7 @@ export default function ResearchPracticePage() {
                             Research & Practice
                         </h1>
                         <p className="text-lg md:text-xl text-gray-700">
-                            Exploring the intersection of academic research and clinical application in child psychology
+                            Exploring the intersection of academic research and school-based applications in child psychology
                         </p>
                     </div>
                 </div>

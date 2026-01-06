@@ -99,29 +99,29 @@ export default function MentoringPage() {
                             <CardHeader>
                                 <CardTitle className="flex items-center text-2xl">
                                     <Users className="h-6 w-6 mr-2 text-primary" />
-                                    Clinical Supervision
+                                    Academic Development
                                 </CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-4">
                                 <p className="text-gray-700">
-                                    Support for students developing clinical skills in child and adolescent therapy, including:
+                                    Support for students developing their academic and research skills in school psychology, including:
                                 </p>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Case conceptualization and treatment planning</span>
+                                        <span>Research proposal development and refinement</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Therapeutic techniques and interventions</span>
+                                        <span>Data analysis and interpretation techniques</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Ethical considerations in clinical practice</span>
+                                        <span>Ethical considerations in research practice</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Self-reflection and professional development</span>
+                                        <span>Professional presentation and communication skills</span>
                                     </li>
                                 </ul>
                             </CardContent>
@@ -248,7 +248,7 @@ export default function MentoringPage() {
                                 </div>
                             </div>
                             <p className="text-gray-700 italic">
-                                &quot;Ishan&apos;s supervision during my clinical practicum helped me develop confidence in my therapeutic skills.
+                                &quot;Ishan&apos;s mentorship during my research project helped me develop confidence in my research skills.
                                 His feedback was always constructive and focused on growth.&quot;
                             </p>
                         </div>
@@ -264,8 +264,7 @@ export default function MentoringPage() {
                             Interested in Mentorship?
                         </h2>
                         <p className="text-lg text-gray-700 mb-8">
-                            Ishan is currently accepting a limited number of mentees for research collaboration, clinical supervision,
-                            and career guidance.
+                            Ishan is currently accepting a limited number of mentees for research collaboration and career guidance.
                         </p>
                         <Button size="lg" asChild>
                             <Link href="/contact">

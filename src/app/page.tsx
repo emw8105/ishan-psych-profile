@@ -15,8 +15,7 @@ export default function Home() {
               Compassionate Psychological Care for Children
             </h1>
             <p className="text-lg md:text-xl text-gray-600 leading-relaxed">
-              Ishan Vengurlekar is a doctoral candidate in Clinical Psychology specializing in child and adolescent
-              mental health.
+              Ishan Vengurlekar is a doctoral candidate in School Psychology specializing in research and interventions for children and adolescents.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <Button variant="outline" size="lg" asChild>
@@ -31,54 +30,6 @@ export default function Home() {
           </div>
           <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl ring-1 ring-gray-200">
             <Image src="/images/IshanHeroCropped.jpg" alt="Ishan Vengurlekar" fill className="object-cover" priority />
-          </div>
-        </div>
-      </section>
-
-      {/* Core Values Section */}
-      <section className="py-20 md:py-24 bg-white">
-        <div className="container">
-          <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">Core Values</h2>
-            <p className="text-lg text-gray-600">Guiding principles that inform Ishan&apos;s approach to psychology</p>
-          </div>
-
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <Card className="border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 text-center p-8 bg-gradient-to-br from-white to-sky-blue/5">
-              <CardContent className="pt-4">
-                <div className="bg-soft-teal/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <CheckCircle className="h-8 w-8 text-soft-teal" />
-                </div>
-                <h3 className="text-xl font-bold mb-3 text-calm-charcoal">Compassionate Care</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Approaching each child with empathy, understanding, and genuine care for their well-being.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 text-center p-8 bg-gradient-to-br from-white to-sky-blue/5">
-              <CardContent className="pt-4">
-                <div className="bg-soft-teal/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <CheckCircle className="h-8 w-8 text-soft-teal" />
-                </div>
-                <h3 className="text-xl font-bold mb-3 text-calm-charcoal">Evidence-Based Practice</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Utilizing research-backed approaches to ensure effective and reliable psychological interventions.
-                </p>
-              </CardContent>
-            </Card>
-
-            <Card className="border border-gray-100 shadow-sm hover:shadow-md transition-all duration-300 text-center p-8 bg-gradient-to-br from-white to-sky-blue/5">
-              <CardContent className="pt-4">
-                <div className="bg-soft-teal/10 w-16 h-16 rounded-full flex items-center justify-center mx-auto mb-6">
-                  <CheckCircle className="h-8 w-8 text-soft-teal" />
-                </div>
-                <h3 className="text-xl font-bold mb-3 text-calm-charcoal">Holistic Perspective</h3>
-                <p className="text-gray-600 leading-relaxed">
-                  Considering the whole child within their family, school, and community contexts.
-                </p>
-              </CardContent>
-            </Card>
           </div>
         </div>
       </section>
@@ -100,14 +51,12 @@ export default function Home() {
                 Meet Ishan Vengurlekar
               </h2>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Ishan is a doctoral candidate in Clinical Psychology with a passion for understanding and supporting
+                Ishan is a doctoral candidate in School Psychology with a passion for understanding and supporting
                 children&apos;s mental health and development. His approach combines rigorous academic research with
-                compassionate clinical practice.
+                practical applications in educational settings.
               </p>
               <p className="text-lg text-gray-600 leading-relaxed">
-                Currently completing his doctoral studies, Ishan is actively seeking clinical internship opportunities
-                to further develop his expertise in school psychology and interventions for children facing emotional,
-                behavioral, and developmental challenges.
+                Currently completing his doctoral studies, Ishan is actively seeking opportunities to contribute to the field through research collaboration, internships focused on school-based interventions, and working with children facing emotional, behavioral, and developmental challenges.
               </p>
               <Button variant="outline" size="lg" asChild className="mt-4">
                 <Link href="/about">

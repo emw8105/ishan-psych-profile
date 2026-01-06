@@ -12,7 +12,7 @@ export default function ContactPage() {
                     <div className="max-w-3xl mx-auto text-center">
                         <h1 className="font-playfair text-4xl md:text-5xl font-bold text-calm-charcoal mb-6">Contact Ishan</h1>
                         <p className="text-lg md:text-xl text-gray-700">
-                            For professional inquiries, internship opportunities, or research collaboration
+                            For professional inquiries, research opportunities, or collaboration
                         </p>
                     </div>
                 </div>
@@ -26,7 +26,7 @@ export default function ContactPage() {
                             <div>
                                 <h2 className="font-playfair text-3xl font-bold text-calm-charcoal mb-6">Get in Touch</h2>
                                 <p className="text-lg text-gray-700 mb-8">
-                                    Ishan welcomes inquiries related to his research, clinical practice, mentoring opportunities, or
+                                    Ishan welcomes inquiries related to his research, mentoring opportunities, or
                                     potential collaborations. Please feel free to reach out using any of the contact methods below.
                                 </p>
 

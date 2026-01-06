@@ -9,7 +9,7 @@ export default function Footer() {
           <div>
             <h3 className="font-playfair text-xl font-bold mb-4">Ishan Vengurlekar</h3>
             <p className="text-gray-300 mb-4">
-              Doctoral Candidate in Clinical Psychology specializing in child and adolescent mental health.
+              Doctoral Candidate in School Psychology specializing in research on child and adolescent mental health.
             </p>
             <div className="flex space-x-4">
               <Link href="#" className="text-gray-300 hover:text-white transition-colors">

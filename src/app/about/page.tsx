@@ -14,7 +14,7 @@ export default function AboutPage() {
               About Ishan Vengurlekar
             </h1>
             <p className="text-lg md:text-xl text-gray-700">
-              Doctoral candidate in Clinical Psychology with a focus on child and adolescent mental health
+              Doctoral candidate in School Psychology with a focus on research in child and adolescent mental health
             </p>
           </div>
         </div>
@@ -35,21 +35,15 @@ export default function AboutPage() {
             <div className="space-y-6">
               <h2 className="font-playfair text-3xl font-bold text-calm-charcoal">Biography</h2>
               <p className="text-lg text-gray-700">
-                Ishan Vengurlekar is a doctoral candidate in Clinical Psychology, specializing in child and adolescent
-                mental health. With a strong academic foundation and practical experience in evidence-based therapeutic
-                approaches, Ishan is dedicated to understanding and addressing the unique psychological needs of young
-                people.
+                Ishan Vengurlekar is a doctoral candidate in School Psychology, specializing in research on child and adolescent mental health. With a strong academic foundation in evidence-based research approaches, Ishan is dedicated to understanding and addressing the unique psychological needs of young people in educational settings.
               </p>
               <p className="text-lg text-gray-700">
                 His journey into psychology began during his undergraduate studies, where he developed a fascination
                 with developmental psychology and the factors that influence children&apos;s emotional and cognitive growth.
-                This interest led him to pursue graduate studies focused specifically on clinical interventions for
-                children facing psychological challenges.
+                This interest led him to pursue graduate studies focused specifically on school psychology and research-based interventions for children facing psychological challenges.
               </p>
               <p className="text-lg text-gray-700">
-                Currently completing his doctoral studies, Ishan is actively seeking clinical internship opportunities
-                to further develop his expertise in school psychology and interventions for children facing emotional,
-                behavioral, and developmental challenges.
+                Currently completing his doctoral studies, Ishan is actively seeking research opportunities and internships to further develop his expertise in school psychology, with a focus on advancing the field through rigorous research and evidence-based interventions.
               </p>
             </div>
           </div>
@@ -75,7 +69,7 @@ export default function AboutPage() {
 
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h4 className="text-xl font-bold mb-1">PhD in Clinical Psychology</h4>
+                  <h4 className="text-xl font-bold mb-1">PhD in School Psychology</h4>
                   <p className="text-gray-500 mb-3">University of Example, Expected 2025</p>
                   <p className="text-gray-700">
                     Dissertation: &quot;School-Based Interventions for Children Experiencing Trauma: A Mixed-Methods
@@ -107,10 +101,10 @@ export default function AboutPage() {
 
               <div className="space-y-6">
                 <div className="bg-white p-6 rounded-lg shadow-md">
-                  <h4 className="text-xl font-bold mb-1">Clinical Practicum</h4>
+                  <h4 className="text-xl font-bold mb-1">Research Practicum</h4>
                   <p className="text-gray-500 mb-3">Children&apos;s Wellness Center, 2022-Present</p>
                   <p className="text-gray-700">
-                    Providing psychological assessments and therapy for children ages 5-17 under supervision
+                    Conducting research on psychological assessments and interventions for children ages 5-19
                   </p>
                 </div>
 
@@ -124,7 +118,7 @@ export default function AboutPage() {
                   <h4 className="text-xl font-bold mb-1">School Psychology Intern</h4>
                   <p className="text-gray-500 mb-3">Public School District, 2021-2022</p>
                   <p className="text-gray-700">
-                    Worked with school psychologists to support students with behavioral and learning challenges
+                    Conducted research-based assessments and supported implementation of evidence-based interventions
                   </p>
                 </div>
               </div>
