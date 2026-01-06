@@ -100,7 +100,7 @@ export default function AboutPage() {
 
               <div className="space-y-6">
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
-                  <h4 className="text-xl font-bold mb-1 text-cloud-white">School Psychologist Intern</h4>
+                  <h4 className="text-xl font-bold mb-1 text-cloud-white">Advanced Practicum Student</h4>
                   <p className="text-soft-teal mb-3">Middleton-Cross Plains Area School District, January 2025-Present</p>
                   <p className="text-gray-300">
                     Advanced practicum experience providing comprehensive school psychology services including assessment,
@@ -109,7 +109,7 @@ export default function AboutPage() {
                 </div>
 
                 <div className="bg-white/10 backdrop-blur-sm p-6 rounded-xl shadow-lg border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
-                  <h4 className="text-xl font-bold mb-1 text-cloud-white">School Psychologist Intern</h4>
+                  <h4 className="text-xl font-bold mb-1 text-cloud-white">Advanced Practicum Student</h4>
                   <p className="text-soft-teal mb-3">Madison Metropolitan School District, January 2025-Present</p>
                   <p className="text-gray-300">
                     Conducting comprehensive psychoeducational evaluations, implementing evidence-based interventions, and
