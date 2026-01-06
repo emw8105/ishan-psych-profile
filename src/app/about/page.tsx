@@ -201,400 +201,400 @@ export default function AboutPage() {
                 <div className="h-px flex-1 bg-soft-teal/30"></div>
               </div>
 
-                <div className="space-y-6">
-                  {/* Middleton-Cross Plains Advanced Practicum - CURRENT */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white">School Psychology Advanced Practicum Student</h4>
-                        <p className="text-gray-300 text-lg mt-1">Middleton-Cross Plains Area School District – Glacier Creek Middle School</p>
-                      </div>
-                      <div className="flex gap-2 items-center flex-shrink-0 ml-4">
-                        <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full whitespace-nowrap shadow-lg ring-2 ring-soft-teal/50">Current</span>
-                        <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2025 – Present</span>
-                      </div>
+              <div className="space-y-6">
+                {/* Middleton-Cross Plains Advanced Practicum - CURRENT */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white">School Psychology Advanced Practicum Student</h4>
+                      <p className="text-gray-300 text-lg mt-1">Middleton-Cross Plains Area School District – Glacier Creek Middle School</p>
                     </div>
-
-                    <p className="text-gray-400 text-sm mb-4">Supervisors: Kathryn Jackson, Ed.S., Katie Hartman, Ed.S., & Elizabeth Hagermoser-Bayley, Ph.D.</p>
-
-                    <ul className="space-y-3">
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Conducted individual and group therapy for students with internalizing and externalizing concerns</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Conducted comprehensive evaluations for students with academic, social, emotional, and behavioral concerns</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Helped pilot and deliver the Resilience Education Program (REP) and refined Tier 2 supports</span>
-                      </li>
-                    </ul>
+                    <div className="flex gap-2 items-center flex-shrink-0 ml-4">
+                      <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full whitespace-nowrap shadow-lg ring-2 ring-soft-teal/50">Current</span>
+                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2025 – Present</span>
+                    </div>
                   </div>
 
-                  {/* MMSD Advanced Practicum - CURRENT */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white">School Psychology Advanced Practicum Student</h4>
-                        <p className="text-gray-300 text-lg mt-1">Madison Metropolitan School District (MMSD)</p>
-                      </div>
-                      <div className="flex gap-2 items-center flex-shrink-0 ml-4">
-                        <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full whitespace-nowrap shadow-lg ring-2 ring-soft-teal/50">Current</span>
-                        <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2025 – Present</span>
-                      </div>
-                    </div>
+                  <p className="text-gray-400 text-sm mb-4">Supervisors: Kathryn Jackson, Ed.S., Katie Hartman, Ed.S., & Elizabeth Hagermoser-Bayley, Ph.D.</p>
 
-                    <p className="text-gray-400 text-sm mb-4">Supervisors: Kristi Nelson, Ed.S., & Elizabeth Hagermoser-Bayley, Ph.D.</p>
-
-                    <ul className="space-y-3">
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Consulted with school staff district-wide regarding provision of mental health supports</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Communicated with hospitals to facilitate delivery of school-based supports</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Collaborated with district director to optimize dissemination of mental health services</span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  {/* SPTC Advanced Clinician */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    
-
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white ">Advanced Student Clinician</h4>
-                        <p className="text-gray-300 text-lg mt-1">School Psychology Training Clinic (SPTC)</p>
-                      </div>
-                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2024 – 2025</span>
-                    </div>
-
-                    <p className="text-gray-400 text-sm mb-4">Supervisors: Drs. Kristy Kelly, Haley Schultz, & Elizabeth Hagermoser-Bayley</p>
-
-                    <ul className="space-y-3">
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Supervised first-year EdS and PhD students in summer-long assessment casework</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Supervised first-year EdS high school social-emotional intervention and group Coping Cat work</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Provided weekly didactics and feedback on case conceptualization and clinical communication</span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  {/* MMSD Field Student */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    
-
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white ">School Psychology Field Student</h4>
-                        <p className="text-gray-300 text-lg mt-1">Madison Metropolitan School District (MMSD) – Milele Chikasa Anana Elementary School</p>
-                      </div>
-                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2024 – 2025</span>
-                    </div>
-
-                    <p className="text-gray-400 text-sm mb-4">Supervisors: Margaret Pennoyer, Ed.S. and Caroline Racine-Gilles, Ph.D.</p>
-
-                    <ul className="space-y-3">
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Conducted special education evaluations and administered standardized assessments (WISC-V, KTEA, KABC)</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Led and co-facilitated group interventions targeting internalizing symptoms, social skills, and emotion regulation</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Led individual counseling sessions and consulted with staff on student functioning</span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  {/* SPTC Student Clinician */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    
-
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white ">Student Clinician</h4>
-                        <p className="text-gray-300 text-lg mt-1">School Psychology Training Clinic (SPTC)</p>
-                      </div>
-                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2023 – 2024</span>
-                    </div>
-
-                    <p className="text-gray-400 text-sm mb-4">Supervisors: Drs. Kristy Kelly, Haley Schultz, & Elizabeth Hagermoser-Bayley</p>
-
-                    <ul className="space-y-3">
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Conducted intake interviews and led feedback sessions for parent and university student clients</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Gained proficiency in standardized assessments (WISC-V, WIAT-IV, WAIS-IV, TOWL-4)</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Led individual therapy sessions and received training on suicide risk assessments</span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  {/* Dane County Juvenile Detention - Summary Card */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    
-
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white ">Student Clinician</h4>
-                        <p className="text-gray-300 text-lg mt-1">Dane County Juvenile Detention Center</p>
-                      </div>
-                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2023 – 2024</span>
-                    </div>
-
-                    <p className="text-gray-400 text-sm mb-3">Supervisors: Drs. Kristy Kelly & Elizabeth Hagermoser-Bayley</p>
-
-                    <p className="text-gray-300">Led group therapy sessions at the Dane County Juvenile Detention Center using an adapted social-emotional learning curriculum.</p>
-                  </div>
-
-                  {/* Sun Prairie Practicum */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    
-
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white ">School Psychology Practicum Student</h4>
-                        <p className="text-gray-300 text-lg mt-1">Sun Prairie Area School District (SPASD)</p>
-                      </div>
-                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2022 – 2023</span>
-                    </div>
-
-                    <p className="text-gray-400 text-sm mb-4">Supervisors: Joe Deegan, Ed.S., & Drs. Katie Eklund, & Elizabeth Hagermoser-Bayley</p>
-
-                    <ul className="space-y-3">
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Implemented revised criteria for Advanced Learning identification using local norms at district level</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Conducted comprehensive assessments including systematic observations and behavior rating scales</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Consulted with educators on evidence-based behavioral management strategies</span>
-                      </li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-
-              {/* Research Experience Section */}
-              <div className="space-y-8">
-                <div className="flex items-center gap-3">
-                  <div className="h-px flex-1 bg-soft-teal/30"></div>
-                  <h3 className="text-2xl font-bold text-cloud-white flex items-center">
-                    <BookOpen className="h-6 w-6 mr-2 text-soft-teal" />
-                    Research Experience
-                  </h3>
-                  <div className="h-px flex-1 bg-soft-teal/30"></div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Conducted individual and group therapy for students with internalizing and externalizing concerns</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Conducted comprehensive evaluations for students with academic, social, emotional, and behavioral concerns</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Helped pilot and deliver the Resilience Education Program (REP) and refined Tier 2 supports</span>
+                    </li>
+                  </ul>
                 </div>
 
-                <div className="space-y-6">
-                  {/* Eklund and Kilgus Lab - CURRENT */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    
-
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white ">Graduate Research Assistant</h4>
-                        <p className="text-gray-300 text-lg mt-1">Eklund and Kilgus Laboratory</p>
-                      </div>
-                      <div className="flex gap-2 items-center flex-shrink-0 ml-4">
-                        <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full shadow-lg ring-2 ring-soft-teal/50 whitespace-nowrap">Current</span>
-                        <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2022 – Present</span>
-                      </div>
+                {/* MMSD Advanced Practicum - CURRENT */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white">School Psychology Advanced Practicum Student</h4>
+                      <p className="text-gray-300 text-lg mt-1">Madison Metropolitan School District (MMSD)</p>
                     </div>
-
-                    <p className="text-gray-400 text-sm mb-4">Faculty Mentor: Dr. Stephen Kilgus</p>
-
-                    <ul className="space-y-3">
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Collaborated on Multi-Informant Decisional Assessment System (MIDAS) project with University of South Florida</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Helped prepare $4,000,000 IES grant for developing high school-appropriate Resilience Education Program (REP)</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Conducted literature reviews on progress monitoring, universal screening, and culturally adapted interventions</span>
-                      </li>
-                    </ul>
+                    <div className="flex gap-2 items-center flex-shrink-0 ml-4">
+                      <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full whitespace-nowrap shadow-lg ring-2 ring-soft-teal/50">Current</span>
+                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2025 – Present</span>
+                    </div>
                   </div>
 
-                  {/* CRAV Lab */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    
+                  <p className="text-gray-400 text-sm mb-4">Supervisors: Kristi Nelson, Ed.S., & Elizabeth Hagermoser-Bayley, Ph.D.</p>
 
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white ">Undergraduate Research Assistant</h4>
-                        <p className="text-gray-300 text-lg mt-1">Center for Research on Aggression and Victimization (CRAV) Laboratory</p>
-                      </div>
-                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2020 – 2024</span>
-                    </div>
-
-                    <p className="text-gray-400 text-sm mb-4">Faculty Mentor: Dr. Timothy A. Cavell</p>
-
-                    <ul className="space-y-3">
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Coordinated Hog Pen Pals mentoring program with 10 local elementary schools</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Collaborated with Boston University on IES-funded Active-Duty Military Families study</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Mentored undergraduate research assistants and conducted literature reviews on peer victimization</span>
-                      </li>
-                    </ul>
-                  </div>
-
-                  {/* DREAM Lab - Summary Card */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    
-
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white ">Undergraduate Research Assistant</h4>
-                        <p className="text-gray-300 text-lg mt-1">Diversity Research and Enhanced Access for Minorities (DREAM) Lab</p>
-                      </div>
-                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2020 – 2022</span>
-                    </div>
-
-                    <p className="text-gray-400 text-sm mb-3">Faculty Mentor: Dr. Ana J. Bridges</p>
-
-                    <p className="text-gray-300">Completed qualitative research training, transcribed interviews for graduate dissertations, and assisted with studies on microaggressions and juvenile justice involvement.</p>
-                  </div>
-
-                  {/* FCI Lab - Summary Card */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    
-
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white ">Undergraduate Research Assistant</h4>
-                        <p className="text-gray-300 text-lg mt-1">Family and Community Intervention (FCI) Laboratory</p>
-                      </div>
-                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2020 – 2022</span>
-                    </div>
-
-                    <p className="text-gray-400 text-sm mb-3">Faculty Mentor: Dr. Lauren B. Quetsch</p>
-
-                    <p className="text-gray-300">Engaged in participant outreach for online study on teenagers with autism, conducted literature review on parental engagement, and created scientific poster for existing study.</p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Teaching Experience Section */}
-              <div className="space-y-8">
-                <div className="flex items-center gap-3">
-                  <div className="h-px flex-1 bg-soft-teal/30"></div>
-                  <h3 className="text-2xl font-bold text-cloud-white flex items-center">
-                    <BookOpen className="h-6 w-6 mr-2 text-soft-teal" />
-                    Teaching Experience
-                  </h3>
-                  <div className="h-px flex-1 bg-soft-teal/30"></div>
+                  <ul className="space-y-3">
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Consulted with school staff district-wide regarding provision of mental health supports</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Communicated with hospitals to facilitate delivery of school-based supports</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Collaborated with district director to optimize dissemination of mental health services</span>
+                    </li>
+                  </ul>
                 </div>
 
-                <div className="space-y-6">
-                  {/* ED PSYCH 880 - CURRENT */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    
+                {/* SPTC Advanced Clinician */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
 
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white ">Teaching Assistant and Interim Lecturer</h4>
-                        <p className="text-gray-300 text-lg mt-1">ED PSYCH 880 School Prevention Science</p>
-                      </div>
-                      <div className="flex gap-2 items-center flex-shrink-0 ml-4">
-                        <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full shadow-lg ring-2 ring-soft-teal/50 whitespace-nowrap">Current</span>
-                        <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2025 – Present</span>
-                      </div>
+
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white ">Advanced Student Clinician</h4>
+                      <p className="text-gray-300 text-lg mt-1">School Psychology Training Clinic (SPTC)</p>
                     </div>
-
-                    <p className="text-gray-400 text-sm mb-4">Faculty Instructor: Dr. Craig Albers</p>
-
-                    <ul className="space-y-3">
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Delivered lectures on school-based prevention science mechanisms (teacher-student relationships, SEL, school climate)</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Co-taught and independently taught classes while facilitating classroom discussions</span>
-                      </li>
-                      <li className="flex items-start group/item">
-                        <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
-                        <span className="text-gray-300">Graded all assignments and held regular office hours for student support</span>
-                      </li>
-                    </ul>
+                    <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2024 – 2025</span>
                   </div>
 
-                  {/* PSYC 207V Mentor Lead - Summary Card */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    
+                  <p className="text-gray-400 text-sm mb-4">Supervisors: Drs. Kristy Kelly, Haley Schultz, & Elizabeth Hagermoser-Bayley</p>
 
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white ">Mentor Lead</h4>
-                        <p className="text-gray-300 text-lg mt-1">PSYC 207V Hog Pen Pals Service-Learning Course</p>
-                      </div>
-                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2020</span>
+                  <ul className="space-y-3">
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Supervised first-year EdS and PhD students in summer-long assessment casework</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Supervised first-year EdS high school social-emotional intervention and group Coping Cat work</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Provided weekly didactics and feedback on case conceptualization and clinical communication</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* MMSD Field Student */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+
+
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white ">School Psychology Field Student</h4>
+                      <p className="text-gray-300 text-lg mt-1">Madison Metropolitan School District (MMSD) – Milele Chikasa Anana Elementary School</p>
                     </div>
-
-                    <p className="text-gray-400 text-sm mb-3">Faculty Instructor: Dr. Timothy A. Cavell</p>
-
-                    <p className="text-gray-300">Assisted graduate instructor with training sessions and grading, reviewed mentor journal entries to ensure safe mentoring practices, and consulted with mentors about the program.</p>
+                    <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2024 – 2025</span>
                   </div>
 
-                  {/* Student Success Peer Coach - Summary Card */}
-                  <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                    
+                  <p className="text-gray-400 text-sm mb-4">Supervisors: Margaret Pennoyer, Ed.S. and Caroline Racine-Gilles, Ph.D.</p>
 
-                    <div className="flex items-start justify-between mb-4">
-                      <div className="flex-1">
-                        <h4 className="text-xl font-bold text-cloud-white ">Peer Academic Coach</h4>
-                        <p className="text-gray-300 text-lg mt-1">Student Success</p>
-                      </div>
-                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2020 – 2022</span>
+                  <ul className="space-y-3">
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Conducted special education evaluations and administered standardized assessments (WISC-V, KTEA, KABC)</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Led and co-facilitated group interventions targeting internalizing symptoms, social skills, and emotion regulation</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Led individual counseling sessions and consulted with staff on student functioning</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* SPTC Student Clinician */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+
+
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white ">Student Clinician</h4>
+                      <p className="text-gray-300 text-lg mt-1">School Psychology Training Clinic (SPTC)</p>
                     </div>
-
-                    <p className="text-gray-400 text-sm mb-3">Faculty Instructor: Ms. Kristen Kaprinski</p>
-
-                    <p className="text-gray-300">Worked one-on-one with students on academic success, created tailored plans to improve GPA and time management, and generated academic success workshops for campus-wide presentation.</p>
+                    <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2023 – 2024</span>
                   </div>
+
+                  <p className="text-gray-400 text-sm mb-4">Supervisors: Drs. Kristy Kelly, Haley Schultz, & Elizabeth Hagermoser-Bayley</p>
+
+                  <ul className="space-y-3">
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Conducted intake interviews and led feedback sessions for parent and university student clients</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Gained proficiency in standardized assessments (WISC-V, WIAT-IV, WAIS-IV, TOWL-4)</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Led individual therapy sessions and received training on suicide risk assessments</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* Dane County Juvenile Detention - Summary Card */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+
+
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white ">Student Clinician</h4>
+                      <p className="text-gray-300 text-lg mt-1">Dane County Juvenile Detention Center</p>
+                    </div>
+                    <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2023 – 2024</span>
+                  </div>
+
+                  <p className="text-gray-400 text-sm mb-3">Supervisors: Drs. Kristy Kelly & Elizabeth Hagermoser-Bayley</p>
+
+                  <p className="text-gray-300">Led group therapy sessions at the Dane County Juvenile Detention Center using an adapted social-emotional learning curriculum.</p>
+                </div>
+
+                {/* Sun Prairie Practicum */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+
+
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white ">School Psychology Practicum Student</h4>
+                      <p className="text-gray-300 text-lg mt-1">Sun Prairie Area School District (SPASD)</p>
+                    </div>
+                    <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2022 – 2023</span>
+                  </div>
+
+                  <p className="text-gray-400 text-sm mb-4">Supervisors: Joe Deegan, Ed.S., & Drs. Katie Eklund, & Elizabeth Hagermoser-Bayley</p>
+
+                  <ul className="space-y-3">
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Implemented revised criteria for Advanced Learning identification using local norms at district level</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Conducted comprehensive assessments including systematic observations and behavior rating scales</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Consulted with educators on evidence-based behavioral management strategies</span>
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
+
+            {/* Research Experience Section */}
+            <div className="space-y-8">
+              <div className="flex items-center gap-3">
+                <div className="h-px flex-1 bg-soft-teal/30"></div>
+                <h3 className="text-2xl font-bold text-cloud-white flex items-center">
+                  <BookOpen className="h-6 w-6 mr-2 text-soft-teal" />
+                  Research Experience
+                </h3>
+                <div className="h-px flex-1 bg-soft-teal/30"></div>
+              </div>
+
+              <div className="space-y-6">
+                {/* Eklund and Kilgus Lab - CURRENT */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+
+
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white ">Graduate Research Assistant</h4>
+                      <p className="text-gray-300 text-lg mt-1">Eklund and Kilgus Laboratory</p>
+                    </div>
+                    <div className="flex gap-2 items-center flex-shrink-0 ml-4">
+                      <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full shadow-lg ring-2 ring-soft-teal/50 whitespace-nowrap">Current</span>
+                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2022 – Present</span>
+                    </div>
+                  </div>
+
+                  <p className="text-gray-400 text-sm mb-4">Faculty Mentor: Dr. Stephen Kilgus</p>
+
+                  <ul className="space-y-3">
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Collaborated on Multi-Informant Decisional Assessment System (MIDAS) project with University of South Florida</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Helped prepare $4,000,000 IES grant for developing high school-appropriate Resilience Education Program (REP)</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Conducted literature reviews on progress monitoring, universal screening, and culturally adapted interventions</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* CRAV Lab */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+
+
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white ">Undergraduate Research Assistant</h4>
+                      <p className="text-gray-300 text-lg mt-1">Center for Research on Aggression and Victimization (CRAV) Laboratory</p>
+                    </div>
+                    <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2020 – 2024</span>
+                  </div>
+
+                  <p className="text-gray-400 text-sm mb-4">Faculty Mentor: Dr. Timothy A. Cavell</p>
+
+                  <ul className="space-y-3">
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Coordinated Hog Pen Pals mentoring program with 10 local elementary schools</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Collaborated with Boston University on IES-funded Active-Duty Military Families study</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Mentored undergraduate research assistants and conducted literature reviews on peer victimization</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* DREAM Lab - Summary Card */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+
+
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white ">Undergraduate Research Assistant</h4>
+                      <p className="text-gray-300 text-lg mt-1">Diversity Research and Enhanced Access for Minorities (DREAM) Lab</p>
+                    </div>
+                    <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2020 – 2022</span>
+                  </div>
+
+                  <p className="text-gray-400 text-sm mb-3">Faculty Mentor: Dr. Ana J. Bridges</p>
+
+                  <p className="text-gray-300">Completed qualitative research training, transcribed interviews for graduate dissertations, and assisted with studies on microaggressions and juvenile justice involvement.</p>
+                </div>
+
+                {/* FCI Lab - Summary Card */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+
+
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white ">Undergraduate Research Assistant</h4>
+                      <p className="text-gray-300 text-lg mt-1">Family and Community Intervention (FCI) Laboratory</p>
+                    </div>
+                    <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2020 – 2022</span>
+                  </div>
+
+                  <p className="text-gray-400 text-sm mb-3">Faculty Mentor: Dr. Lauren B. Quetsch</p>
+
+                  <p className="text-gray-300">Engaged in participant outreach for online study on teenagers with autism, conducted literature review on parental engagement, and created scientific poster for existing study.</p>
+                </div>
+              </div>
+            </div>
+
+            {/* Teaching Experience Section */}
+            <div className="space-y-8">
+              <div className="flex items-center gap-3">
+                <div className="h-px flex-1 bg-soft-teal/30"></div>
+                <h3 className="text-2xl font-bold text-cloud-white flex items-center">
+                  <BookOpen className="h-6 w-6 mr-2 text-soft-teal" />
+                  Teaching Experience
+                </h3>
+                <div className="h-px flex-1 bg-soft-teal/30"></div>
+              </div>
+
+              <div className="space-y-6">
+                {/* ED PSYCH 880 - CURRENT */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+
+
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white ">Teaching Assistant and Interim Lecturer</h4>
+                      <p className="text-gray-300 text-lg mt-1">ED PSYCH 880 School Prevention Science</p>
+                    </div>
+                    <div className="flex gap-2 items-center flex-shrink-0 ml-4">
+                      <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full shadow-lg ring-2 ring-soft-teal/50 whitespace-nowrap">Current</span>
+                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2025 – Present</span>
+                    </div>
+                  </div>
+
+                  <p className="text-gray-400 text-sm mb-4">Faculty Instructor: Dr. Craig Albers</p>
+
+                  <ul className="space-y-3">
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Delivered lectures on school-based prevention science mechanisms (teacher-student relationships, SEL, school climate)</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Co-taught and independently taught classes while facilitating classroom discussions</span>
+                    </li>
+                    <li className="flex items-start group/item">
+                      <span className="inline-block w-2 h-2 rounded-full bg-soft-teal mt-2 mr-3 flex-shrink-0 group-hover/item:scale-125 transition-transform"></span>
+                      <span className="text-gray-300">Graded all assignments and held regular office hours for student support</span>
+                    </li>
+                  </ul>
+                </div>
+
+                {/* PSYC 207V Mentor Lead - Summary Card */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+
+
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white ">Mentor Lead</h4>
+                      <p className="text-gray-300 text-lg mt-1">PSYC 207V Hog Pen Pals Service-Learning Course</p>
+                    </div>
+                    <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2020</span>
+                  </div>
+
+                  <p className="text-gray-400 text-sm mb-3">Faculty Instructor: Dr. Timothy A. Cavell</p>
+
+                  <p className="text-gray-300">Assisted graduate instructor with training sessions and grading, reviewed mentor journal entries to ensure safe mentoring practices, and consulted with mentors about the program.</p>
+                </div>
+
+                {/* Student Success Peer Coach - Summary Card */}
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+
+
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex-1">
+                      <h4 className="text-xl font-bold text-cloud-white ">Peer Academic Coach</h4>
+                      <p className="text-gray-300 text-lg mt-1">Student Success</p>
+                    </div>
+                    <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">2020 – 2022</span>
+                  </div>
+
+                  <p className="text-gray-400 text-sm mb-3">Faculty Instructor: Ms. Kristen Kaprinski</p>
+
+                  <p className="text-gray-300">Worked one-on-one with students on academic success, created tailored plans to improve GPA and time management, and generated academic success workshops for campus-wide presentation.</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
