@@ -78,53 +78,53 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            <div className="bg-gradient-to-br from-soft-teal/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-soft-teal/40 backdrop-blur-sm hover:border-soft-teal/60 flex flex-col h-full group">
+            <div className="bg-gradient-to-br from-warm-sage/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-warm-sage/40 backdrop-blur-sm hover:border-warm-sage/60 flex flex-col h-full group">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Psychological Assessment</h3>
+                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-warm-sage transition-colors">Psychological Assessment</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Universal screening and measurement development for school-based mental health
                 </p>
               </div>
-              <Link href="/research-practice#assessment" className="text-soft-teal hover:text-sky-blue font-medium inline-flex items-center transition-colors mt-auto">
+              <Link href="/research-practice#assessment" className="text-warm-sage hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
 
-            <div className="bg-gradient-to-br from-soft-teal/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-soft-teal/40 backdrop-blur-sm hover:border-soft-teal/60 flex flex-col h-full group">
+            <div className="bg-gradient-to-br from-warm-sage/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-warm-sage/40 backdrop-blur-sm hover:border-warm-sage/60 flex flex-col h-full group">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Evidence-Based Interventions</h3>
+                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-warm-sage transition-colors">Evidence-Based Interventions</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Single-session interventions for youth experiencing internalizing concerns
                 </p>
               </div>
-              <Link href="/research-practice#interventions" className="text-soft-teal hover:text-sky-blue font-medium inline-flex items-center transition-colors mt-auto">
+              <Link href="/research-practice#interventions" className="text-warm-sage hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
 
-            <div className="bg-gradient-to-br from-soft-teal/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-soft-teal/40 backdrop-blur-sm hover:border-soft-teal/60 flex flex-col h-full group">
+            <div className="bg-gradient-to-br from-warm-sage/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-warm-sage/40 backdrop-blur-sm hover:border-warm-sage/60 flex flex-col h-full group">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Measurement & Psychometrics</h3>
+                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-warm-sage transition-colors">Measurement & Psychometrics</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">Scale development and validation for school psychology research</p>
               </div>
-              <Link href="/research-practice#measurement" className="text-soft-teal hover:text-sky-blue font-medium inline-flex items-center transition-colors mt-auto">
+              <Link href="/research-practice#measurement" className="text-warm-sage hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
 
-            <div className="bg-gradient-to-br from-soft-teal/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-soft-teal/40 backdrop-blur-sm hover:border-soft-teal/60 flex flex-col h-full group">
+            <div className="bg-gradient-to-br from-warm-sage/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-warm-sage/40 backdrop-blur-sm hover:border-warm-sage/60 flex flex-col h-full group">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Research Mentorship</h3>
+                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-warm-sage transition-colors">Research Mentorship</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">Supporting the next generation of school psychology researchers</p>
               </div>
-              <Link href="/mentoring" className="text-soft-teal hover:text-sky-blue font-medium inline-flex items-center transition-colors mt-auto">
+              <Link href="/mentoring" className="text-warm-sage hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
           </div>
 
           <div className="text-center mt-12">
-            <Button size="lg" asChild className="bg-soft-teal hover:bg-soft-teal/90 text-white shadow-lg hover:shadow-xl transition-all">
+            <Button size="lg" asChild className="bg-warm-sage hover:bg-warm-sage/90 text-white shadow-lg hover:shadow-xl transition-all">
               <Link href="/research-practice">
                 Explore All Research Areas <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
@@ -144,7 +144,7 @@ export default function Home() {
                   For professional inquiries, research collaboration, or mentoring opportunities
                 </p>
                 <div className="pt-4">
-                  <Button size="lg" asChild className="bg-soft-teal hover:bg-soft-teal/90 text-white shadow-lg hover:shadow-xl transition-all">
+                  <Button variant="outline" size="lg" asChild className="border-sky-blue/60 text-sky-blue hover:bg-sky-blue hover:text-white transition-all">
                     <Link href="/contact">
                       Get in Touch <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
