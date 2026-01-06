@@ -16,32 +16,32 @@ export default function Header() {
     <header className="sticky top-0 z-50 w-full border-b bg-white shadow-sm">
       <div className="container flex h-20 items-center justify-between">
         <div className="flex items-center gap-2">
-          <Link href="/" className="font-serif text-2xl font-bold">
+          <Link href="/" className="font-serif text-2xl font-bold text-calm-charcoal">
             Ishan Nitin Vengurlekar
           </Link>
         </div>
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex md:gap-8">
-          <Link href="/" className="text-base font-medium transition-colors hover:text-deep-ocean">
+          <Link href="/" className="text-base font-medium text-calm-charcoal transition-colors hover:text-deep-ocean">
             Home
           </Link>
-          <Link href="/about" className="text-base font-medium transition-colors hover:text-deep-ocean">
+          <Link href="/about" className="text-base font-medium text-calm-charcoal transition-colors hover:text-deep-ocean">
             About
           </Link>
-          <Link href="/research-practice" className="text-base font-medium transition-colors hover:text-deep-ocean">
+          <Link href="/research-practice" className="text-base font-medium text-calm-charcoal transition-colors hover:text-deep-ocean">
             Research & Practice
           </Link>
-          <Link href="/mentoring" className="text-base font-medium transition-colors hover:text-deep-ocean">
+          <Link href="/mentoring" className="text-base font-medium text-calm-charcoal transition-colors hover:text-deep-ocean">
             Mentoring
           </Link>
-          <Link href="/contact" className="text-base font-medium transition-colors hover:text-deep-ocean">
+          <Link href="/contact" className="text-base font-medium text-calm-charcoal transition-colors hover:text-deep-ocean">
             Contact
           </Link>
         </nav>
 
         {/* Mobile Menu Button */}
-        <button className="block md:hidden" onClick={toggleMenu} aria-label={isMenuOpen ? "Close menu" : "Open menu"}>
+        <button className="block md:hidden text-calm-charcoal" onClick={toggleMenu} aria-label={isMenuOpen ? "Close menu" : "Open menu"}>
           {isMenuOpen ? <X className="h-7 w-7" /> : <Menu className="h-7 w-7" />}
         </button>
       </div>
@@ -49,28 +49,28 @@ export default function Header() {
       {/* Mobile Navigation */}
       <div
         className={cn(
-          "fixed inset-0 top-20 z-50 flex flex-col bg-background p-6 transition-transform duration-300 ease-in-out md:hidden",
-          isMenuOpen ? "translate-x-0" : "translate-x-full",
+          "fixed left-0 right-0 top-20 z-50 w-full overflow-hidden bg-white shadow-lg transition-all duration-300 ease-in-out md:hidden",
+          isMenuOpen ? "max-h-96" : "max-h-0",
         )}
       >
-        <nav className="flex flex-col space-y-6 text-xl">
-          <Link href="/" className="font-medium transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
+        <nav className="flex flex-col space-y-6 p-6 text-xl">
+          <Link href="/" className="font-medium text-calm-charcoal transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
             Home
           </Link>
-          <Link href="/about" className="font-medium transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
+          <Link href="/about" className="font-medium text-calm-charcoal transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
             About
           </Link>
           <Link
             href="/research-practice"
-            className="font-medium transition-colors hover:text-deep-ocean"
+            className="font-medium text-calm-charcoal transition-colors hover:text-deep-ocean"
             onClick={toggleMenu}
           >
             Research & Practice
           </Link>
-          <Link href="/mentoring" className="font-medium transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
+          <Link href="/mentoring" className="font-medium text-calm-charcoal transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
             Mentoring
           </Link>
-          <Link href="/contact" className="font-medium transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
+          <Link href="/contact" className="font-medium text-calm-charcoal transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
             Contact
           </Link>
         </nav>
