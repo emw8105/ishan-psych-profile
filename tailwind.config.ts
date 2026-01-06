@@ -56,17 +56,15 @@ module.exports = {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
         },
-        // Primary palette - more vibrant and professional
-        "sky-blue": "#5BA8C8",        // Deepened for better contrast (was #A3D9F5)
-        "soft-peach": "#F4B8A4",      // Slightly muted coral (was #FFD8C2)
-        "cloud-white": "#FDFCFB",     // Keeping warm white
-        "gentle-gray": "#E8E9EB",     // Keeping neutral gray
-        "calm-charcoal": "#2C3E50",   // Richer, deeper charcoal (was #45474F)
-        "off-white": "#F7F7F7",       // Keeping light background
-        "soft-teal": "#4A9B94",       // Deeper, more saturated teal (was #7DB9B6)
-        "warm-sage": "#6B8E6F",       // Richer sage green (was #8BA888)
-        "deep-ocean": "#2E5266",      // NEW: Deep blue-gray for dark sections
-        "warm-sand": "#F5EBE0",       // NEW: Warmer alternative to pure white
+        // palette colors
+        "soft-peach": "#F4B8A4",
+        "cloud-white": "#FDFCFB",
+        "gentle-gray": "#E8E9EB",
+        "calm-charcoal": "#2C3E50",
+        "off-white": "#F7F7F7",
+        "soft-teal": "#4A9B94",
+        "deep-ocean": "#2E5266",
+        "warm-sand": "#F5EBE0",
       },
       borderRadius: {
         lg: "var(--radius)",

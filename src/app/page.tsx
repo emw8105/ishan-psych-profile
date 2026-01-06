@@ -17,17 +17,17 @@ export default function Home() {
               Doctoral candidate in School Psychology specializing in research and interventions for children and adolescents.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
-              <Button variant="outline" size="lg" asChild className="border-sky-blue/60 text-sky-blue hover:bg-sky-blue hover:text-white transition-all">
+              <Button variant="outline" size="lg" asChild className="border-deep-ocean/60 text-deep-ocean hover:bg-deep-ocean hover:text-white transition-all">
                 <Link href="/research-practice">
                   Explore Research <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
               </Button>
-              <Button size="lg" asChild className="bg-sky-blue hover:bg-sky-blue/90 text-white shadow-lg hover:shadow-xl transition-all">
+              <Button size="lg" asChild className="bg-deep-ocean hover:bg-deep-ocean/90 text-white shadow-lg hover:shadow-xl transition-all">
                 <Link href="/contact">Get in Touch</Link>
               </Button>
             </div>
           </div>
-          <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl ring-2 ring-sky-blue/20 hover:ring-sky-blue/40 transition-all">
+          <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl ring-2 ring-deep-ocean/20 hover:ring-deep-ocean/40 transition-all">
             <Image src="/images/IshanHeroCropped.jpg" alt="Ishan Vengurlekar" fill className="object-cover" priority />
           </div>
         </div>
@@ -37,7 +37,7 @@ export default function Home() {
       <section className="py-20 md:py-28 bg-cloud-white">
         <div className="container">
           <div className="grid md:grid-cols-2 gap-16 items-center">
-            <div className="order-2 md:order-1 relative h-[450px] rounded-2xl overflow-hidden shadow-xl ring-2 ring-gray-200 hover:ring-sky-blue/40 transition-all">
+            <div className="order-2 md:order-1 relative h-[450px] rounded-2xl overflow-hidden shadow-xl ring-2 ring-gray-200 hover:ring-deep-ocean/40 transition-all">
               <Image
                 src="/images/906568B1-8689-44CF-AC23-C393B42F1C98.jpg?height=800&width=600"
                 alt="Ishan Vengurlekar"
@@ -57,7 +57,7 @@ export default function Home() {
               <p className="text-lg text-calm-charcoal/80 leading-relaxed">
                 Currently completing my doctoral studies, I am actively seeking opportunities to contribute to the field through research collaboration, internships focused on school-based interventions, and working with children facing emotional, behavioral, and developmental challenges.
               </p>
-              <Button variant="outline" size="lg" asChild className="mt-4 border-sky-blue/60 text-sky-blue hover:bg-sky-blue hover:text-white transition-all">
+              <Button variant="outline" size="lg" asChild className="mt-4 border-deep-ocean/60 text-deep-ocean hover:bg-deep-ocean hover:text-white transition-all">
                 <Link href="/about">
                   Learn More About Ishan <ArrowRight className="ml-2 h-4 w-4" />
                 </Link>
@@ -78,53 +78,53 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-6xl mx-auto">
-            <div className="bg-gradient-to-br from-warm-sage/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-warm-sage/40 backdrop-blur-sm hover:border-warm-sage/60 flex flex-col h-full group">
+            <div className="bg-gradient-to-br from-soft-teal/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-soft-teal/40 backdrop-blur-sm hover:border-soft-teal/60 flex flex-col h-full group">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-warm-sage transition-colors">Psychological Assessment</h3>
+                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Psychological Assessment</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Universal screening and measurement development for school-based mental health
                 </p>
               </div>
-              <Link href="/research-practice#assessment" className="text-warm-sage hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
+              <Link href="/research-practice#assessment" className="text-soft-teal hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
 
-            <div className="bg-gradient-to-br from-warm-sage/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-warm-sage/40 backdrop-blur-sm hover:border-warm-sage/60 flex flex-col h-full group">
+            <div className="bg-gradient-to-br from-soft-teal/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-soft-teal/40 backdrop-blur-sm hover:border-soft-teal/60 flex flex-col h-full group">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-warm-sage transition-colors">Evidence-Based Interventions</h3>
+                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Evidence-Based Interventions</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Single-session interventions for youth experiencing internalizing concerns
                 </p>
               </div>
-              <Link href="/research-practice#interventions" className="text-warm-sage hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
+              <Link href="/research-practice#interventions" className="text-soft-teal hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
 
-            <div className="bg-gradient-to-br from-warm-sage/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-warm-sage/40 backdrop-blur-sm hover:border-warm-sage/60 flex flex-col h-full group">
+            <div className="bg-gradient-to-br from-soft-teal/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-soft-teal/40 backdrop-blur-sm hover:border-soft-teal/60 flex flex-col h-full group">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-warm-sage transition-colors">Measurement & Psychometrics</h3>
+                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Measurement & Psychometrics</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">Scale development and validation for school psychology research</p>
               </div>
-              <Link href="/research-practice#measurement" className="text-warm-sage hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
+              <Link href="/research-practice#measurement" className="text-soft-teal hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
 
-            <div className="bg-gradient-to-br from-warm-sage/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-warm-sage/40 backdrop-blur-sm hover:border-warm-sage/60 flex flex-col h-full group">
+            <div className="bg-gradient-to-br from-soft-teal/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-soft-teal/40 backdrop-blur-sm hover:border-soft-teal/60 flex flex-col h-full group">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-warm-sage transition-colors">Research Mentorship</h3>
+                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Research Mentorship</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">Supporting the next generation of school psychology researchers</p>
               </div>
-              <Link href="/mentoring" className="text-warm-sage hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
+              <Link href="/mentoring" className="text-soft-teal hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
           </div>
 
           <div className="text-center mt-12">
-            <Button size="lg" asChild className="bg-warm-sage hover:bg-warm-sage/90 text-white shadow-lg hover:shadow-xl transition-all">
+            <Button size="lg" asChild className="bg-soft-teal hover:bg-soft-teal/90 text-white shadow-lg hover:shadow-xl transition-all">
               <Link href="/research-practice">
                 Explore All Research Areas <ArrowRight className="ml-2 h-4 w-4" />
               </Link>
@@ -144,7 +144,7 @@ export default function Home() {
                   For professional inquiries, research collaboration, or mentoring opportunities
                 </p>
                 <div className="pt-4">
-                  <Button variant="outline" size="lg" asChild className="border-sky-blue/60 text-sky-blue hover:bg-sky-blue hover:text-white transition-all">
+                  <Button variant="outline" size="lg" asChild className="border-deep-ocean/60 text-deep-ocean hover:bg-deep-ocean hover:text-white transition-all">
                     <Link href="/contact">
                       Get in Touch <ArrowRight className="ml-2 h-4 w-4" />
                     </Link>
@@ -158,4 +158,5 @@ export default function Home() {
     </div>
   )
 }
+
 

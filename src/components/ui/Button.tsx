@@ -12,7 +12,7 @@ const buttonVariants = cva(
                 default: "bg-soft-teal text-white hover:bg-soft-teal/90 shadow-sm hover:shadow-md",
                 destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
                 outline: "border-2 border-soft-teal/40 bg-white hover:bg-soft-teal/5 text-calm-charcoal hover:border-soft-teal/60",
-                secondary: "bg-sky-blue/20 text-calm-charcoal hover:bg-sky-blue/30",
+                secondary: "bg-deep-ocean/20 text-calm-charcoal hover:bg-deep-ocean/30",
                 ghost: "hover:bg-gray-100 text-calm-charcoal",
                 link: "text-soft-teal underline-offset-4 hover:underline",
             },
@@ -45,4 +45,5 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
 Button.displayName = "Button"
 
 export { Button, buttonVariants }
+
 

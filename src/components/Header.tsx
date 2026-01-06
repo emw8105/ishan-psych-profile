@@ -23,19 +23,19 @@ export default function Header() {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex md:gap-8">
-          <Link href="/" className="text-base font-medium transition-colors hover:text-primary">
+          <Link href="/" className="text-base font-medium transition-colors hover:text-deep-ocean">
             Home
           </Link>
-          <Link href="/about" className="text-base font-medium transition-colors hover:text-primary">
+          <Link href="/about" className="text-base font-medium transition-colors hover:text-deep-ocean">
             About
           </Link>
-          <Link href="/research-practice" className="text-base font-medium transition-colors hover:text-primary">
+          <Link href="/research-practice" className="text-base font-medium transition-colors hover:text-deep-ocean">
             Research & Practice
           </Link>
-          <Link href="/mentoring" className="text-base font-medium transition-colors hover:text-primary">
+          <Link href="/mentoring" className="text-base font-medium transition-colors hover:text-deep-ocean">
             Mentoring
           </Link>
-          <Link href="/contact" className="text-base font-medium transition-colors hover:text-primary">
+          <Link href="/contact" className="text-base font-medium transition-colors hover:text-deep-ocean">
             Contact
           </Link>
         </nav>
@@ -54,23 +54,23 @@ export default function Header() {
         )}
       >
         <nav className="flex flex-col space-y-6 text-xl">
-          <Link href="/" className="font-medium transition-colors hover:text-primary" onClick={toggleMenu}>
+          <Link href="/" className="font-medium transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
             Home
           </Link>
-          <Link href="/about" className="font-medium transition-colors hover:text-primary" onClick={toggleMenu}>
+          <Link href="/about" className="font-medium transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
             About
           </Link>
           <Link
             href="/research-practice"
-            className="font-medium transition-colors hover:text-primary"
+            className="font-medium transition-colors hover:text-deep-ocean"
             onClick={toggleMenu}
           >
             Research & Practice
           </Link>
-          <Link href="/mentoring" className="font-medium transition-colors hover:text-primary" onClick={toggleMenu}>
+          <Link href="/mentoring" className="font-medium transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
             Mentoring
           </Link>
-          <Link href="/contact" className="font-medium transition-colors hover:text-primary" onClick={toggleMenu}>
+          <Link href="/contact" className="font-medium transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
             Contact
           </Link>
         </nav>
@@ -78,4 +78,5 @@ export default function Header() {
     </header>
   )
 }
+
 
