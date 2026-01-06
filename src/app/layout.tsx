@@ -21,9 +21,57 @@ const playfair = Playfair_Display({
 })
 
 export const metadata: Metadata = {
-  title: "Dr. Ishan Vengurlekar | Clinical Psychologist",
+  title: "Ishan Vengurlekar | School Psychologist",
   description:
-    "Dr. Ishan Vengurlekar provides specialized psychological services for children in a safe, supportive environment.",
+    "Ishan Vengurlekar specializes in school-based mental health interventions, universal screening, and evidence-based research for children and adolescents. Dedicated to advancing school psychology through rigorous research and practice.",
+  keywords: [
+    "school psychology",
+    "mental health screening",
+    "child psychology",
+    "adolescent mental health",
+    "evidence-based interventions",
+    "single-session interventions",
+    "psychoeducational assessment",
+    "UW-Madison",
+    "school psychologist",
+    "educational psychology",
+  ],
+  authors: [{ name: "Ishan Vengurlekar" }],
+  openGraph: {
+    title: "Ishan Vengurlekar | School Psychology Researcher",
+    description:
+      "Specializing in school-based mental health interventions, universal screening, and evidence-based research for children and adolescents.",
+    url: "https://www.ishanvengurlekar.com",
+    siteName: "Ishan Vengurlekar",
+    images: [
+      {
+        url: "/images/IshanHeroCropped.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Ishan Vengurlekar",
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Ishan Vengurlekar | School Psychology Researcher",
+    description:
+      "Specializing in school-based mental health interventions, universal screening, and evidence-based research.",
+    images: ["/images/IshanHeroCropped.jpg"],
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
+  },
 }
 
 export default function RootLayout({
