@@ -72,119 +72,75 @@ export default function AboutPage() {
 
               <div className="space-y-6">
                 {/* PhD Card - In Progress */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005] relative overflow-hidden">
-                  <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-soft-teal via-deep-ocean to-soft-teal"></div>
+                <div className="relative bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl overflow-hidden">
+                  <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-soft-peach via-soft-peach/80 to-soft-peach rounded-l-xl"></div>
 
-                  <div className="flex items-start gap-6">
-                    <div className="flex-shrink-0 w-24 h-24 bg-white/90 rounded-xl p-3 shadow-lg ring-2 ring-soft-teal/20 transition-all relative overflow-hidden">
-                      <Image
-                        src="/images/University-of-Wisconsin-Madison-Seal.png"
-                        alt="University of Wisconsin-Madison Seal"
-                        fill
-                        className="object-contain p-1"
-                      />
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex items-center gap-4">
+                      <div className="flex-shrink-0 w-16 h-16 bg-white/90 rounded-full p-2 shadow-lg ring-2 ring-soft-peach/30 transition-all relative overflow-hidden">
+                        <Image
+                          src="/images/University-of-Wisconsin-Madison-Seal.png"
+                          alt="University of Wisconsin-Madison Seal"
+                          fill
+                          className="object-contain p-0.5"
+                        />
+                      </div>
+                      <div>
+                        <h4 className="text-xl font-bold text-cloud-white mb-1">Ph.D. in School Psychology</h4>
+                        <p className="text-soft-teal text-base font-semibold">University of Wisconsin-Madison</p>
+                        <p className="text-gray-400 text-sm mt-1">Advisor: Dr. Stephen Kilgus • School-based mental health interventions</p>
+                      </div>
                     </div>
-
-                    <div className="flex-1">
-                      <div className="flex items-start justify-between gap-4 mb-3">
-                        <div>
-                          <h4 className="text-2xl font-bold text-cloud-white mb-1">Ph.D. in School Psychology</h4>
-                          <p className="text-soft-teal text-lg font-semibold">University of Wisconsin-Madison</p>
-                        </div>
-                        <div className="flex items-center gap-2">
-                          <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full whitespace-nowrap shadow-lg ring-2 ring-soft-teal/50">Current</span>
-                          <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full whitespace-nowrap shadow-md">Expected May 2027</span>
-                        </div>
-                      </div>
-                      <div className="grid md:grid-cols-2 gap-3 mt-4">
-                        <div className="bg-white/5 rounded-lg p-3 border border-soft-teal/10">
-                          <p className="text-gray-400 text-xs uppercase tracking-wide mb-1">Primary Advisor</p>
-                          <p className="text-cloud-white font-semibold">Dr. Stephen Kilgus</p>
-                        </div>
-                        <div className="bg-white/5 rounded-lg p-3 border border-soft-teal/10">
-                          <p className="text-gray-400 text-xs uppercase tracking-wide mb-1">Research Focus</p>
-                          <p className="text-cloud-white font-semibold text-sm">School-based mental health interventions</p>
-                        </div>
-                      </div>
+                    <div className="flex items-center gap-2 flex-shrink-0 ml-4">
+                      <span className="px-3 py-1.5 bg-soft-peach/30 text-soft-peach text-sm font-bold rounded-full border border-soft-peach/50">Current</span>
+                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">Expected May 2027</span>
                     </div>
                   </div>
                 </div>
 
                 {/* MS Card */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                  <div className="flex items-start gap-6">
-                    <div className="flex-shrink-0 w-24 h-24 bg-white/90 rounded-xl p-3 shadow-lg ring-2 ring-soft-teal/20 transition-all relative overflow-hidden">
-                      <Image
-                        src="/images/University-of-Wisconsin-Madison-Seal.png"
-                        alt="University of Wisconsin-Madison Seal"
-                        fill
-                        className="object-contain p-1"
-                      />
-                    </div>
-
-                    <div className="flex-1">
-                      <div className="flex items-start justify-between gap-4 mb-3">
-                        <div>
-                          <h4 className="text-2xl font-bold text-cloud-white mb-1">M.S. in School Psychology</h4>
-                          <p className="text-soft-teal text-lg font-semibold">University of Wisconsin-Madison</p>
-                        </div>
-                        <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full whitespace-nowrap shadow-md">August 2023</span>
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex items-center gap-4">
+                      <div className="flex-shrink-0 w-16 h-16 bg-white/90 rounded-full p-2 shadow-lg ring-2 ring-soft-teal/30 transition-all relative overflow-hidden">
+                        <Image
+                          src="/images/University-of-Wisconsin-Madison-Seal.png"
+                          alt="University of Wisconsin-Madison Seal"
+                          fill
+                          className="object-contain p-0.5"
+                        />
                       </div>
-                      <div className="grid md:grid-cols-2 gap-3 mt-4">
-                        <div className="bg-white/5 rounded-lg p-3 border border-soft-teal/10">
-                          <p className="text-gray-400 text-xs uppercase tracking-wide mb-1">Primary Advisor</p>
-                          <p className="text-cloud-white font-semibold">Dr. Stephen Kilgus</p>
-                        </div>
-                        <div className="bg-white/5 rounded-lg p-3 border border-soft-teal/10">
-                          <p className="text-gray-400 text-xs uppercase tracking-wide mb-1">GPA</p>
-                          <p className="text-cloud-white font-bold text-xl">4.00<span className="text-gray-400 text-base">/4.00</span></p>
-                        </div>
+                      <div>
+                        <h4 className="text-xl font-bold text-cloud-white mb-1">M.S. in School Psychology</h4>
+                        <p className="text-soft-teal text-base font-semibold">University of Wisconsin-Madison</p>
+                        <p className="text-gray-400 text-sm mt-1">Advisor: Dr. Stephen Kilgus • GPA: <span className="text-cloud-white font-bold">4.00</span></p>
                       </div>
                     </div>
+                    <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">August 2023</span>
                   </div>
                 </div>
 
                 {/* BA Card */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-                  <div className="flex items-start gap-6">
-                    <div className="flex-shrink-0 w-24 h-24 bg-white/90 rounded-xl p-3 shadow-lg ring-2 ring-soft-teal/20 transition-all relative overflow-hidden">
-                      <Image
-                        src="/images/University-of-Arkansas-Seal.png"
-                        alt="University of Arkansas Seal"
-                        fill
-                        className="object-contain p-1"
-                      />
-                    </div>
-
-                    <div className="flex-1">
-                      <div className="flex items-start justify-between gap-4 mb-3">
-                        <div>
-                          <h4 className="text-2xl font-bold text-cloud-white mb-1">B.A. in Psychology</h4>
-                          <p className="text-soft-teal text-lg font-semibold">University of Arkansas</p>
-                        </div>
-                        <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full whitespace-nowrap shadow-md">May 2022</span>
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="flex items-center gap-4">
+                      <div className="flex-shrink-0 w-16 h-16 bg-white/90 rounded-full p-2 shadow-lg ring-2 ring-soft-teal/30 transition-all relative overflow-hidden">
+                        <Image
+                          src="/images/University-of-Arkansas-Seal.png"
+                          alt="University of Arkansas Seal"
+                          fill
+                          className="object-contain p-0.5"
+                        />
                       </div>
-                      <div className="grid md:grid-cols-2 gap-3 mt-4">
-                        <div className="bg-white/5 rounded-lg p-3 border border-soft-teal/10">
-                          <p className="text-gray-400 text-xs uppercase tracking-wide mb-1">Primary Advisor</p>
-                          <p className="text-cloud-white font-semibold">Dr. Timothy A. Cavell</p>
-                        </div>
-                        <div className="bg-white/5 rounded-lg p-3 border border-soft-teal/10">
-                          <p className="text-gray-400 text-xs uppercase tracking-wide mb-1">GPA</p>
-                          <p className="text-cloud-white font-bold text-xl">4.00<span className="text-gray-400 text-base">/4.00</span></p>
-                        </div>
-                      </div>
-                      <div className="grid md:grid-cols-2 gap-3 mt-3">
-                        <div className="bg-white/5 rounded-lg p-3 border border-soft-teal/10">
-                          <p className="text-gray-400 text-xs uppercase tracking-wide mb-1">Minor</p>
-                          <p className="text-cloud-white font-semibold">Social Work</p>
-                        </div>
-                        <div className="bg-white/5 rounded-lg p-3 border border-soft-teal/10">
-                          <p className="text-gray-400 text-xs uppercase tracking-wide mb-1">Honor</p>
-                          <p className="text-cloud-white font-semibold text-sm">First-Ranked Senior Scholar</p>
-                        </div>
+                      <div>
+                        <h4 className="text-xl font-bold text-cloud-white mb-1">B.A. in Psychology</h4>
+                        <p className="text-soft-teal text-base font-semibold">University of Arkansas</p>
+                        <p className="text-gray-400 text-sm mt-1">
+                          Advisor: Dr. Timothy A. Cavell • GPA: <span className="text-cloud-white font-bold">4.00</span> • Minor: Social Work • First-Ranked Senior Scholar
+                        </p>
                       </div>
                     </div>
+                    <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap flex-shrink-0 ml-4">May 2022</span>
                   </div>
                 </div>
               </div>
@@ -202,20 +158,20 @@ export default function AboutPage() {
               </div>
 
               <div className="space-y-6">
-                {/* Middleton-Cross Plains Advanced Practicum - CURRENT */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                {/* Middleton-Cross Plains Advanced Practicum */}
+                <div className="relative bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
+                  <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-soft-peach via-soft-peach/80 to-soft-peach rounded-l-xl"></div>
+
                   <div className="flex items-start justify-between mb-4">
                     <div className="flex-1">
-                      <h4 className="text-xl font-bold text-cloud-white">School Psychology Advanced Practicum Student</h4>
+                      <h4 className="text-xl font-bold text-cloud-white mb-2">School Psychology Advanced Practicum Student</h4>
                       <p className="text-gray-300 text-lg mt-1">Middleton-Cross Plains Area School District – Glacier Creek Middle School</p>
                     </div>
-                    <div className="flex gap-2 items-center flex-shrink-0 ml-4">
-                      <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full whitespace-nowrap shadow-lg ring-2 ring-soft-teal/50">Current</span>
+                    <div className="flex items-center gap-2 flex-shrink-0 ml-4">
+                      <span className="px-3 py-1.5 bg-soft-peach/30 text-soft-peach text-sm font-bold rounded-full border border-soft-peach/50">Current</span>
                       <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2025 – Present</span>
                     </div>
-                  </div>
-
-                  <p className="text-gray-400 text-sm mb-4">Supervisors: Kathryn Jackson, Ed.S., Katie Hartman, Ed.S., & Elizabeth Hagermoser-Bayley, Ph.D.</p>
+                  </div>                  <p className="text-gray-400 text-sm mb-4">Supervisors: Kathryn Jackson, Ed.S., Katie Hartman, Ed.S., & Elizabeth Hagermoser-Bayley, Ph.D.</p>
 
                   <ul className="space-y-3">
                     <li className="flex items-start group/item">
@@ -233,20 +189,20 @@ export default function AboutPage() {
                   </ul>
                 </div>
 
-                {/* MMSD Advanced Practicum - CURRENT */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                {/* MMSD Advanced Practicum */}
+                <div className="relative bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
+                  <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-soft-peach via-soft-peach/80 to-soft-peach rounded-l-xl"></div>
+
                   <div className="flex items-start justify-between mb-4">
                     <div className="flex-1">
-                      <h4 className="text-xl font-bold text-cloud-white">School Psychology Advanced Practicum Student</h4>
+                      <h4 className="text-xl font-bold text-cloud-white mb-2">School Psychology Advanced Practicum Student</h4>
                       <p className="text-gray-300 text-lg mt-1">Madison Metropolitan School District (MMSD)</p>
                     </div>
-                    <div className="flex gap-2 items-center flex-shrink-0 ml-4">
-                      <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full whitespace-nowrap shadow-lg ring-2 ring-soft-teal/50">Current</span>
-                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2025 – Present</span>
+                    <div className="flex items-center gap-2 flex-shrink-0 ml-4">
+                      <span className="px-3 py-1.5 bg-soft-peach/30 text-soft-peach text-sm font-bold rounded-full border border-soft-peach/50">Current</span>
+                      <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2024 – Present</span>
                     </div>
-                  </div>
-
-                  <p className="text-gray-400 text-sm mb-4">Supervisors: Kristi Nelson, Ed.S., & Elizabeth Hagermoser-Bayley, Ph.D.</p>
+                  </div>                  <p className="text-gray-400 text-sm mb-4">Supervisors: Kristi Nelson, Ed.S., & Elizabeth Hagermoser-Bayley, Ph.D.</p>
 
                   <ul className="space-y-3">
                     <li className="flex items-start group/item">
@@ -265,7 +221,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* SPTC Advanced Clinician */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
 
 
                   <div className="flex items-start justify-between mb-4">
@@ -295,7 +251,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* MMSD Field Student */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
 
 
                   <div className="flex items-start justify-between mb-4">
@@ -325,7 +281,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* SPTC Student Clinician */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
 
 
                   <div className="flex items-start justify-between mb-4">
@@ -355,7 +311,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* Dane County Juvenile Detention - Summary Card */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
 
 
                   <div className="flex items-start justify-between mb-4">
@@ -372,7 +328,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* Sun Prairie Practicum */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
 
 
                   <div className="flex items-start justify-between mb-4">
@@ -415,17 +371,17 @@ export default function AboutPage() {
               </div>
 
               <div className="space-y-6">
-                {/* Eklund and Kilgus Lab - CURRENT */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-
+                {/* Eklund and Kilgus Lab */}
+                <div className="relative bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
+                  <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-soft-peach via-soft-peach/80 to-soft-peach rounded-l-xl"></div>
 
                   <div className="flex items-start justify-between mb-4">
                     <div className="flex-1">
-                      <h4 className="text-xl font-bold text-cloud-white ">Graduate Research Assistant</h4>
+                      <h4 className="text-xl font-bold text-cloud-white mb-2">Graduate Research Assistant</h4>
                       <p className="text-gray-300 text-lg mt-1">Eklund and Kilgus Laboratory</p>
                     </div>
-                    <div className="flex gap-2 items-center flex-shrink-0 ml-4">
-                      <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full shadow-lg ring-2 ring-soft-teal/50 whitespace-nowrap">Current</span>
+                    <div className="flex items-center gap-2 flex-shrink-0 ml-4">
+                      <span className="px-3 py-1.5 bg-soft-peach/30 text-soft-peach text-sm font-bold rounded-full border border-soft-peach/50">Current</span>
                       <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2022 – Present</span>
                     </div>
                   </div>
@@ -449,7 +405,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* CRAV Lab */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
 
 
                   <div className="flex items-start justify-between mb-4">
@@ -479,7 +435,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* DREAM Lab - Summary Card */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
 
 
                   <div className="flex items-start justify-between mb-4">
@@ -496,7 +452,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* FCI Lab - Summary Card */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
 
 
                   <div className="flex items-start justify-between mb-4">
@@ -526,17 +482,17 @@ export default function AboutPage() {
               </div>
 
               <div className="space-y-6">
-                {/* ED PSYCH 880 - CURRENT */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
-
+                {/* ED PSYCH 880 - Current */}
+                <div className="relative bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
+                  <div className="absolute left-0 top-0 bottom-0 w-1.5 bg-gradient-to-b from-soft-peach via-soft-peach/80 to-soft-peach rounded-l-xl"></div>
 
                   <div className="flex items-start justify-between mb-4">
                     <div className="flex-1">
-                      <h4 className="text-xl font-bold text-cloud-white ">Teaching Assistant and Interim Lecturer</h4>
+                      <h4 className="text-xl font-bold text-cloud-white mb-2">Teaching Assistant and Interim Lecturer</h4>
                       <p className="text-gray-300 text-lg mt-1">ED PSYCH 880 School Prevention Science</p>
                     </div>
-                    <div className="flex gap-2 items-center flex-shrink-0 ml-4">
-                      <span className="px-4 py-2 bg-soft-teal text-calm-charcoal text-sm font-bold rounded-full shadow-lg ring-2 ring-soft-teal/50 whitespace-nowrap">Current</span>
+                    <div className="flex items-center gap-2 flex-shrink-0 ml-4">
+                      <span className="px-3 py-1.5 bg-soft-peach/30 text-soft-peach text-sm font-bold rounded-full border border-soft-peach/50">Current</span>
                       <span className="px-3 py-1.5 bg-soft-teal text-calm-charcoal text-sm font-semibold rounded-full whitespace-nowrap">2025 – Present</span>
                     </div>
                   </div>
@@ -560,7 +516,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* PSYC 207V Mentor Lead - Summary Card */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
 
 
                   <div className="flex items-start justify-between mb-4">
@@ -577,7 +533,7 @@ export default function AboutPage() {
                 </div>
 
                 {/* Student Success Peer Coach - Summary Card */}
-                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-2xl shadow-2xl border-2 border-soft-teal/30 hover:border-soft-teal/50 transition-all duration-300 hover:shadow-soft-teal/20 hover:scale-[1.005]">
+                <div className="bg-gradient-to-br from-white/15 via-white/10 to-white/5 backdrop-blur-sm p-8 rounded-xl shadow-xl border-2 border-soft-teal/30 hover:border-soft-teal/40 transition-all duration-300 hover:shadow-xl">
 
 
                   <div className="flex items-start justify-between mb-4">
