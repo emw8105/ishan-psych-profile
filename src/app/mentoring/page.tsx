@@ -28,18 +28,20 @@ export default function MentoringPage() {
                                 Mentoring Philosophy
                             </h2>
                             <p className="text-lg text-gray-700">
-                                Ishan believes that mentoring is a collaborative journey where both mentor and mentee grow through
-                                shared learning experiences. His approach to mentoring is guided by principles of empowerment,
-                                curiosity, and evidence-based practice.
+                                I believe that mentoring is a collaborative journey where both mentor and mentee grow through
+                                shared learning experiences. My approach emphasizes empowering students to develop their own
+                                research interests while providing structured guidance on methodological rigor and scientific thinking.
                             </p>
                             <p className="text-lg text-gray-700">
-                                As a mentor, Ishan strives to create a supportive environment where students and early-career
-                                professionals can explore their interests, develop their skills, and navigate the challenges of academic
-                                and clinical work in psychology.
+                                As a mentor, I create a supportive environment where students can explore research questions,
+                                develop technical skills in measurement and analysis, and navigate the challenges of academic work.
+                                I am particularly committed to mentoring undergraduate researchers and helping them discover their
+                                potential in the field of school psychology.
                             </p>
                             <p className="text-lg text-gray-700">
-                                His goal is not just to share knowledge, but to foster critical thinking, ethical practice, and a
-                                lifelong commitment to learning and professional development.
+                                My goal is not just to share knowledge, but to foster critical thinking, ethical research practices,
+                                and a lifelong commitment to evidence-based approaches that can improve outcomes for children and
+                                adolescents in schools.
                             </p>
                         </div>
                         <div className="relative h-[400px] rounded-lg overflow-hidden shadow-lg">
@@ -72,24 +74,24 @@ export default function MentoringPage() {
                             </CardHeader>
                             <CardContent className="space-y-4">
                                 <p className="text-gray-700">
-                                    Guidance on research design, methodology, and publication in child psychology, with a focus on:
+                                    Guidance on research design, methodology, and publication in school psychology, with a focus on:
                                 </p>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Developing research questions and hypotheses</span>
+                                        <span>Developing research questions in school mental health</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Selecting appropriate methodologies</span>
+                                        <span>Quantitative research design and psychometric analysis</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Data analysis and interpretation</span>
+                                        <span>Statistical analysis and data interpretation</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Academic writing and publication</span>
+                                        <span>Academic writing, manuscript preparation, and publication</span>
                                     </li>
                                 </ul>
                             </CardContent>
@@ -109,19 +111,19 @@ export default function MentoringPage() {
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Research proposal development and refinement</span>
+                                        <span>Grant writing and research funding applications</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Data analysis and interpretation techniques</span>
+                                        <span>Research project management and coordination</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Ethical considerations in research practice</span>
+                                        <span>Ethical considerations in school-based research</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Professional presentation and communication skills</span>
+                                        <span>Conference presentations and professional communication</span>
                                     </li>
                                 </ul>
                             </CardContent>
@@ -168,24 +170,24 @@ export default function MentoringPage() {
                             </CardHeader>
                             <CardContent className="space-y-4">
                                 <p className="text-gray-700">
-                                    Educational sessions on specialized topics in child and adolescent psychology, including:
+                                    Educational sessions on research topics and methodologies in school psychology, including:
                                 </p>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Trauma-informed care in educational settings</span>
+                                        <span>Universal mental health screening in schools</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Play therapy techniques and applications</span>
+                                        <span>Single-session interventions for youth</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Assessment tools and interpretation</span>
+                                        <span>Scale development and psychometric validation</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Evidence-based interventions for specific disorders</span>
+                                        <span>Evidence-based practices in school psychology</span>
                                     </li>
                                 </ul>
                             </CardContent>
@@ -201,7 +203,7 @@ export default function MentoringPage() {
                         <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">
                             Mentee Testimonials
                         </h2>
-                        <p className="text-gray-600">What students and colleagues say about Ishan&apos;s mentorship</p>
+                        <p className="text-gray-600">What students and colleagues say about my mentorship</p>
                     </div>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -211,13 +213,30 @@ export default function MentoringPage() {
                                     <Users className="h-6 w-6 text-primary" />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold">Sarah J.</h3>
+                                    <h3 className="font-bold">Emily K.</h3>
+                                    <p className="text-gray-500 text-sm">Undergraduate Research Assistant</p>
+                                </div>
+                            </div>
+                            <p className="text-gray-700 italic">
+                                &quot;Ishan&apos;s mentorship in the lab helped me develop strong quantitative research skills and
+                                confidence in conducting school psychology research. His patient guidance made complex statistical
+                                concepts accessible and engaging.&quot;
+                            </p>
+                        </div>
+
+                        <div className="bg-white p-6 rounded-lg shadow-md">
+                            <div className="flex items-center mb-4">
+                                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mr-4">
+                                    <Users className="h-6 w-6 text-primary" />
+                                </div>
+                                <div>
+                                    <h3 className="font-bold">Marcus T.</h3>
                                     <p className="text-gray-500 text-sm">Graduate Student</p>
                                 </div>
                             </div>
                             <p className="text-gray-700 italic">
-                                &quot;Ishan&apos;s guidance was instrumental in helping me refine my research methodology. His attention to detail
-                                and thoughtful feedback significantly improved the quality of my work.&quot;
+                                &quot;Working with Ishan on federally-funded research projects taught me invaluable lessons about
+                                project management, collaboration, and the rigor needed for impactful school psychology research.&quot;
                             </p>
                         </div>
 
@@ -227,29 +246,13 @@ export default function MentoringPage() {
                                     <Users className="h-6 w-6 text-primary" />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold">Michael T.</h3>
-                                    <p className="text-gray-500 text-sm">Undergraduate Researcher</p>
+                                    <h3 className="font-bold">Priya S.</h3>
+                                    <p className="text-gray-500 text-sm">School Psychology Student</p>
                                 </div>
                             </div>
                             <p className="text-gray-700 italic">
-                                &quot;Working with Ishan on my honors thesis was an incredible learning experience. He challenged me to think
-                                critically while providing the support I needed to succeed.&quot;
-                            </p>
-                        </div>
-
-                        <div className="bg-white p-6 rounded-lg shadow-md">
-                            <div className="flex items-center mb-4">
-                                <div className="w-12 h-12 bg-primary/20 rounded-full flex items-center justify-center mr-4">
-                                    <Users className="h-6 w-6 text-primary" />
-                                </div>
-                                <div>
-                                    <h3 className="font-bold">Elena R.</h3>
-                                    <p className="text-gray-500 text-sm">Clinical Psychology Student</p>
-                                </div>
-                            </div>
-                            <p className="text-gray-700 italic">
-                                &quot;Ishan&apos;s mentorship during my research project helped me develop confidence in my research skills.
-                                His feedback was always constructive and focused on growth.&quot;
+                                &quot;Ishan&apos;s feedback on my grant proposal was instrumental in helping me secure funding.
+                                His attention to detail and understanding of school-based research really strengthened my work.&quot;
                             </p>
                         </div>
                     </div>
@@ -264,7 +267,7 @@ export default function MentoringPage() {
                             Interested in Mentorship?
                         </h2>
                         <p className="text-lg text-gray-700 mb-8">
-                            Ishan is currently accepting a limited number of mentees for research collaboration and career guidance.
+                            I am currently accepting a limited number of mentees for research collaboration and career guidance.
                         </p>
                         <Button size="lg" asChild>
                             <Link href="/contact">

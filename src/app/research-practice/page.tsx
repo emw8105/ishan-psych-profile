@@ -33,14 +33,16 @@ export default function ResearchPracticePage() {
                         <div className="space-y-6">
                             <h3 className="font-playfair text-2xl font-bold text-calm-charcoal">Current Research Focus</h3>
                             <p className="text-lg text-gray-700">
-                                Ishan&apos;s research focuses on understanding and addressing the psychological impact of trauma on
-                                children&apos;s development and academic performance. His work examines how adverse childhood experiences
-                                affect cognitive processes, emotional regulation, and social interactions in educational settings.
+                                My research focuses on advancing school-based mental health practices through rigorous
+                                measurement development, universal screening, and evidence-based interventions. My work examines
+                                the effectiveness of single-session interventions for youth experiencing internalizing concerns,
+                                as well as the development and validation of brief mental health screening tools for educational settings.
                             </p>
                             <p className="text-lg text-gray-700">
-                                Through a combination of quantitative and qualitative methodologies, he investigates the effectiveness
-                                of school-based interventions designed to support children who have experienced trauma, with a
-                                particular emphasis on building resilience and promoting positive adaptation.
+                                Through quantitative methodologies and psychometric analysis, I investigate how schools can efficiently
+                                identify and support students&apos; mental health needs. My research emphasizes practical, scalable
+                                approaches that can be implemented in diverse school contexts, with a particular focus on improving
+                                early identification and intervention for students experiencing anxiety and depression.
                             </p>
                             <div className="pt-4">
                                 <Button variant="outline" size="lg" asChild>
@@ -63,87 +65,87 @@ export default function ResearchPracticePage() {
             </section>
 
             {/* Research Areas */}
-            <section className="py-16 md:py-24 bg-off-white">
+            <section id="research-areas" className="py-16 md:py-24 bg-off-white">
                 <div className="container">
                     <div className="max-w-3xl mx-auto text-center mb-12">
                         <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">Areas of Expertise</h2>
-                        <p className="text-gray-600">Specialized research and clinical practice areas</p>
+                        <p className="text-gray-600">Specialized research and practice areas</p>
                     </div>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-                        <Card className="border-none shadow-md hover:shadow-lg transition-shadow">
+                        <Card id="assessment" className="border-none shadow-md hover:shadow-lg transition-shadow">
                             <CardHeader>
                                 <CardTitle className="flex items-center">
                                     <Brain className="h-5 w-5 mr-2 text-primary" />
                                     Psychological Assessment
                                 </CardTitle>
-                                <CardDescription>Evaluation of cognitive, emotional, and behavioral functioning</CardDescription>
+                                <CardDescription>Comprehensive evaluation and measurement development</CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Cognitive and intellectual assessments</span>
+                                        <span>Universal mental health screening</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Learning disability evaluations</span>
+                                        <span>Psychoeducational evaluations</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>ADHD and autism spectrum assessments</span>
+                                        <span>Brief screening tool development and validation</span>
                                     </li>
                                 </ul>
                             </CardContent>
                         </Card>
 
-                        <Card className="border-none shadow-md hover:shadow-lg transition-shadow">
+                        <Card id="interventions" className="border-none shadow-md hover:shadow-lg transition-shadow">
                             <CardHeader>
                                 <CardTitle className="flex items-center">
                                     <FileText className="h-5 w-5 mr-2 text-primary" />
-                                    Trauma-Informed Care
+                                    Evidence-Based Interventions
                                 </CardTitle>
-                                <CardDescription>Supporting children who have experienced adverse events</CardDescription>
+                                <CardDescription>Supporting students with mental health concerns</CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Trauma screening and assessment</span>
+                                        <span>Single-session interventions for internalizing concerns</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Trauma-focused cognitive behavioral therapy</span>
+                                        <span>Cognitive-behavioral approaches for anxiety and depression</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Resilience-building interventions</span>
+                                        <span>School-based mental health support systems</span>
                                     </li>
                                 </ul>
                             </CardContent>
                         </Card>
 
-                        <Card className="border-none shadow-md hover:shadow-lg transition-shadow">
+                        <Card id="measurement" className="border-none shadow-md hover:shadow-lg transition-shadow">
                             <CardHeader>
                                 <CardTitle className="flex items-center">
                                     <BookOpen className="h-5 w-5 mr-2 text-primary" />
-                                    Therapeutic Approaches
+                                    Measurement & Psychometrics
                                 </CardTitle>
-                                <CardDescription>Evidence-based methods for child and adolescent therapy</CardDescription>
+                                <CardDescription>Research methodology and scale development</CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Cognitive-behavioral therapy (CBT)</span>
+                                        <span>Scale development and validation</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Play therapy for younger children</span>
+                                        <span>Psychometric analysis and reliability testing</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Trauma-focused interventions</span>
+                                        <span>Quantitative research design</span>
                                     </li>
                                 </ul>
                             </CardContent>
@@ -153,23 +155,23 @@ export default function ResearchPracticePage() {
                             <CardHeader>
                                 <CardTitle className="flex items-center">
                                     <GraduationCap className="h-5 w-5 mr-2 text-primary" />
-                                    School Psychology
+                                    School Psychology Practice
                                 </CardTitle>
-                                <CardDescription>Supporting children&apos;s success in educational settings</CardDescription>
+                                <CardDescription>Supporting student success in educational settings</CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Educational planning and support</span>
+                                        <span>Comprehensive psychoeducational evaluations</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Classroom behavior management strategies</span>
+                                        <span>Multi-tiered systems of support (MTSS)</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Teacher consultation and support</span>
+                                        <span>Teacher and parent consultation</span>
                                     </li>
                                 </ul>
                             </CardContent>
@@ -179,23 +181,23 @@ export default function ResearchPracticePage() {
                             <CardHeader>
                                 <CardTitle className="flex items-center">
                                     <Users className="h-5 w-5 mr-2 text-primary" />
-                                    Family-Centered Approaches
+                                    Collaboration & Systems
                                 </CardTitle>
-                                <CardDescription>Supporting family relationships and communication</CardDescription>
+                                <CardDescription>Working with schools, families, and communities</CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Parent-child relationship therapy</span>
+                                        <span>Multidisciplinary team collaboration</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Family systems approach</span>
+                                        <span>School-family-community partnerships</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Parenting skills development</span>
+                                        <span>Crisis prevention and intervention</span>
                                     </li>
                                 </ul>
                             </CardContent>
@@ -205,23 +207,23 @@ export default function ResearchPracticePage() {
                             <CardHeader>
                                 <CardTitle className="flex items-center">
                                     <Brain className="h-5 w-5 mr-2 text-primary" />
-                                    Developmental Psychology
+                                    Research Translation
                                 </CardTitle>
-                                <CardDescription>Understanding typical and atypical child development</CardDescription>
+                                <CardDescription>Bridging research and practice</CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <ul className="space-y-2">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Cognitive and emotional development</span>
+                                        <span>Implementation science in schools</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Social and relational development</span>
+                                        <span>Program evaluation and outcomes monitoring</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-primary mr-2 mt-0.5 shrink-0" />
-                                        <span>Developmental psychopathology</span>
+                                        <span>Evidence-based practice dissemination</span>
                                     </li>
                                 </ul>
                             </CardContent>
@@ -237,16 +239,18 @@ export default function ResearchPracticePage() {
                         <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">
                             Selected Publications
                         </h2>
-                        <p className="text-gray-600">Academic contributions to the field of child psychology</p>
+                        <p className="text-gray-600">Recent peer-reviewed contributions to school psychology research</p>
                     </div>
 
                     <div className="space-y-6">
                         <div className="bg-white p-6 rounded-lg shadow-md">
-                            <h3 className="text-xl font-bold mb-2">School-Based Trauma Interventions: A Systematic Review</h3>
-                            <p className="text-gray-500 mb-3">Journal of School Psychology, 2023</p>
+                            <h3 className="text-xl font-bold mb-2">
+                                The Internalizing Symptoms Screener for Children: Psychometric Properties and Validity Evidence
+                            </h3>
+                            <p className="text-gray-500 mb-3">School Psychology, 2024</p>
                             <p className="text-gray-700 mb-4">
-                                A comprehensive review of evidence-based interventions for addressing trauma in school settings, with
-                                recommendations for implementation and future research directions.
+                                Development and validation of a brief screening tool for internalizing symptoms in school-aged
+                                children, demonstrating strong psychometric properties and practical utility in educational settings.
                             </p>
                             <Button variant="outline" size="sm">
                                 View Publication
@@ -255,12 +259,12 @@ export default function ResearchPracticePage() {
 
                         <div className="bg-white p-6 rounded-lg shadow-md">
                             <h3 className="text-xl font-bold mb-2">
-                                The Role of Play in Processing Traumatic Experiences: A Case Study Approach
+                                Universal Mental Health Screening Implementation: Lessons Learned from a Federally-Funded Initiative
                             </h3>
-                            <p className="text-gray-500 mb-3">Child Development Perspectives, 2022</p>
+                            <p className="text-gray-500 mb-3">Journal of Applied School Psychology, 2024</p>
                             <p className="text-gray-700 mb-4">
-                                An examination of how structured play therapy can help children process and integrate traumatic
-                                experiences, featuring detailed case studies and therapeutic outcomes.
+                                Examination of implementation factors and outcomes from a large-scale universal mental health
+                                screening program in schools, providing practical guidance for administrators and practitioners.
                             </p>
                             <Button variant="outline" size="sm">
                                 View Publication
@@ -269,12 +273,40 @@ export default function ResearchPracticePage() {
 
                         <div className="bg-white p-6 rounded-lg shadow-md">
                             <h3 className="text-xl font-bold mb-2">
-                                Teacher Perceptions of Trauma-Informed Practices in Elementary Schools
+                                Single-Session Interventions for Youth Internalizing Concerns: A Meta-Analysis
                             </h3>
-                            <p className="text-gray-500 mb-3">Educational Psychology Review, 2021</p>
+                            <p className="text-gray-500 mb-3">Clinical Psychology Review, 2024</p>
                             <p className="text-gray-700 mb-4">
-                                A mixed-methods study exploring how elementary school teachers understand and implement trauma-informed
-                                practices in their classrooms, with implications for teacher training and support.
+                                Comprehensive meta-analysis examining the effectiveness of single-session interventions for
+                                adolescents experiencing anxiety and depression, with implications for school-based mental health services.
+                            </p>
+                            <Button variant="outline" size="sm">
+                                View Publication
+                            </Button>
+                        </div>
+
+                        <div className="bg-white p-6 rounded-lg shadow-md">
+                            <h3 className="text-xl font-bold mb-2">
+                                Brief Assessment Tools in School Mental Health: A Systematic Review
+                            </h3>
+                            <p className="text-gray-500 mb-3">Assessment for Effective Intervention, 2023</p>
+                            <p className="text-gray-700 mb-4">
+                                Systematic review of brief mental health assessment tools suitable for school settings, evaluating
+                                psychometric properties and practical considerations for implementation.
+                            </p>
+                            <Button variant="outline" size="sm">
+                                View Publication
+                            </Button>
+                        </div>
+
+                        <div className="bg-white p-6 rounded-lg shadow-md">
+                            <h3 className="text-xl font-bold mb-2">
+                                Equity in Universal Screening: Examining Measurement Invariance Across Student Demographics
+                            </h3>
+                            <p className="text-gray-500 mb-3">School Psychology Review, 2023</p>
+                            <p className="text-gray-700 mb-4">
+                                Investigation of measurement equivalence in universal screening tools across diverse student
+                                populations, with focus on ensuring equitable identification of mental health needs.
                             </p>
                             <Button variant="outline" size="sm">
                                 View Publication
@@ -283,6 +315,11 @@ export default function ResearchPracticePage() {
                     </div>
 
                     <div className="text-center mt-12">
+                        <p className="text-gray-600 mb-6">
+                            I have contributed to 12 peer-reviewed journal articles, 2 book chapters, and have 7 manuscripts
+                            currently in progress. I have also received over $8,700 in research grants and presented at 17
+                            professional conferences.
+                        </p>
                         <Button size="lg" asChild>
                             <Link href="/contact">
                                 Discuss Research Collaboration <ArrowRight className="ml-2 h-4 w-4" />
