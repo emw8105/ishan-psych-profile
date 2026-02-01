@@ -65,99 +65,129 @@ export default function ResearchPracticePage() {
             </section>
 
             {/* Research Areas */}
-            <section id="research-areas" className="py-16 md:py-24 bg-gradient-to-br from-deep-ocean via-calm-charcoal to-deep-ocean">
+            <section id="detailed-expertise" className="py-16 md:py-24 bg-gradient-to-br from-deep-ocean via-calm-charcoal to-deep-ocean">
                 <div className="container">
                     <div className="max-w-3xl mx-auto text-center mb-12">
                         <h2 className="font-playfair text-3xl md:text-4xl font-bold text-cloud-white mb-4">Areas of Expertise</h2>
-                        <p className="text-gray-300">Core competencies in school psychology research and practice</p>
+                        <p className="text-gray-300">In-depth exploration of research focus and clinical practice</p>
                     </div>
 
-                    <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
-                        <Card id="school-based-research" className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
+                    <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                        <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
                                 <CardTitle className="flex items-center text-cloud-white">
                                     <BookOpen className="h-6 w-6 mr-2 text-soft-teal" />
-                                    School-Based Mental Health Research
+                                    Prevention of Mental Health Challenges
                                 </CardTitle>
-                                <CardDescription className="text-gray-300">Advancing evidence-based practices through rigorous research</CardDescription>
+                                <CardDescription className="text-gray-300">Proactive approaches to support all students&apos; wellbeing</CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <ul className="space-y-3">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Universal mental health screening and measurement development</span>
+                                        <span className="text-gray-300">Universal mental health screening programs for early identification</span>
                                     </li>
+                                    <li className="flex items-start">
+                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="text-gray-300">School-wide social-emotional learning initiatives</span>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="text-gray-300">Multi-tiered systems of support (MTSS) for comprehensive care</span>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="text-gray-300">Trauma-informed practices and resilience-building strategies</span>
+                                    </li>
+                                </ul>
+                            </CardContent>
+                        </Card>
+
+                        <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
+                            <CardHeader>
+                                <CardTitle className="flex items-center text-cloud-white">
+                                    <Brain className="h-6 w-6 mr-2 text-soft-teal" />
+                                    Evidence-Based Interventions
+                                </CardTitle>
+                                <CardDescription className="text-gray-300">Research-supported therapeutic approaches for youth mental health</CardDescription>
+                            </CardHeader>
+                            <CardContent>
+                                <ul className="space-y-3">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
                                         <span className="text-gray-300">Single-session interventions for internalizing concerns</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Psychometric analysis and scale validation</span>
+                                        <span className="text-gray-300">Cognitive-behavioral therapy for anxiety and depression</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Implementation science and program evaluation</span>
-                                    </li>
-                                </ul>
-                            </CardContent>
-                        </Card>
-
-                        <Card id="clinical-practice" className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
-                            <CardHeader>
-                                <CardTitle className="flex items-center text-cloud-white">
-                                    <Brain className="h-6 w-6 mr-2 text-soft-teal" />
-                                    Clinical Assessment & Intervention
-                                </CardTitle>
-                                <CardDescription className="text-gray-300">Comprehensive support for students&apos; academic and mental health needs</CardDescription>
-                            </CardHeader>
-                            <CardContent>
-                                <ul className="space-y-3">
-                                    <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Psychoeducational evaluations and special education assessments</span>
+                                        <span className="text-gray-300">Measurement development and psychometric validation</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Individual and group therapy for youth mental health</span>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Cognitive-behavioral interventions for anxiety and depression</span>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Multi-tiered systems of support (MTSS) implementation</span>
+                                        <span className="text-gray-300">Progress monitoring and data-based decision making</span>
                                     </li>
                                 </ul>
                             </CardContent>
                         </Card>
 
-                        <Card id="consultation-training" className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
+                        <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
                                 <CardTitle className="flex items-center text-cloud-white">
-                                    <Users className="h-6 w-6 mr-2 text-soft-teal" />
-                                    Consultation & Training
+                                    <GraduationCap className="h-6 w-6 mr-2 text-soft-teal" />
+                                    Research Mentorship
                                 </CardTitle>
-                                <CardDescription className="text-gray-300">Collaborative partnerships and professional development</CardDescription>
+                                <CardDescription className="text-gray-300">Developing the next generation of school psychology researchers</CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <ul className="space-y-3">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Staff consultation on behavioral management and mental health supports</span>
+                                        <span className="text-gray-300">Supervision and mentorship of graduate students in research</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Family-school partnerships and caregiver collaboration</span>
+                                        <span className="text-gray-300">Undergraduate research collaboration and co-authorship opportunities</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Supervision and mentorship of graduate students</span>
+                                        <span className="text-gray-300">Training in quantitative methodologies and statistical analysis</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Professional development and evidence-based practice dissemination</span>
+                                        <span className="text-gray-300">Professional development in manuscript preparation and publication</span>
+                                    </li>
+                                </ul>
+                            </CardContent>
+                        </Card>
+
+                        <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
+                            <CardHeader>
+                                <CardTitle className="flex items-center text-cloud-white">
+                                    <FileText className="h-6 w-6 mr-2 text-soft-teal" />
+                                    Dissemination Science
+                                </CardTitle>
+                                <CardDescription className="text-gray-300">Translating research findings into practical applications</CardDescription>
+                            </CardHeader>
+                            <CardContent>
+                                <ul className="space-y-3">
+                                    <li className="flex items-start">
+                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="text-gray-300">Conference presentations and professional development workshops</span>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="text-gray-300">Technical reports and practice briefs for school practitioners</span>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="text-gray-300">Implementation support for evidence-based practices in schools</span>
+                                    </li>
+                                    <li className="flex items-start">
+                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="text-gray-300">Consultation with educational systems on research integration</span>
                                     </li>
                                 </ul>
                             </CardContent>
