@@ -68,16 +68,16 @@ export default function ResearchPracticePage() {
             <section id="detailed-expertise" className="py-16 md:py-24 bg-gradient-to-br from-deep-ocean via-calm-charcoal to-deep-ocean">
                 <div className="container">
                     <div className="max-w-3xl mx-auto text-center mb-12">
-                        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-cloud-white mb-4">Areas of Expertise</h2>
+                        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-cloud-white mb-4">Research Areas</h2>
                         <p className="text-gray-300">In-depth exploration of research focus and clinical practice</p>
                     </div>
 
-                    <div className="grid md:grid-cols-2 gap-8 max-w-6xl mx-auto">
+                    <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
                         <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
                                 <CardTitle className="flex items-center text-cloud-white">
                                     <BookOpen className="h-6 w-6 mr-2 text-soft-teal" />
-                                    Prevention of Mental Health Challenges
+                                    Mental Health Promotion
                                 </CardTitle>
                                 <CardDescription className="text-gray-300">Proactive approaches to support all students&apos; wellbeing</CardDescription>
                             </CardHeader>
@@ -136,36 +136,6 @@ export default function ResearchPracticePage() {
                         <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
                                 <CardTitle className="flex items-center text-cloud-white">
-                                    <GraduationCap className="h-6 w-6 mr-2 text-soft-teal" />
-                                    Research Mentorship
-                                </CardTitle>
-                                <CardDescription className="text-gray-300">Developing the next generation of school psychology researchers</CardDescription>
-                            </CardHeader>
-                            <CardContent>
-                                <ul className="space-y-3">
-                                    <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Supervision and mentorship of graduate students in research</span>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Undergraduate research collaboration and co-authorship opportunities</span>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Training in quantitative methodologies and statistical analysis</span>
-                                    </li>
-                                    <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Professional development in manuscript preparation and publication</span>
-                                    </li>
-                                </ul>
-                            </CardContent>
-                        </Card>
-
-                        <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
-                            <CardHeader>
-                                <CardTitle className="flex items-center text-cloud-white">
                                     <FileText className="h-6 w-6 mr-2 text-soft-teal" />
                                     Dissemination Science
                                 </CardTitle>
@@ -206,6 +176,147 @@ export default function ResearchPracticePage() {
                             </h2>
                             <p className="text-calm-charcoal/70 text-lg">Contributing to the field of school psychology through rigorous research</p>
                             <p className="text-sm text-calm-charcoal/60 mt-2">* Indicates undergraduate student mentee co-author</p>
+                        </div>
+
+                        {/* Grants */}
+                        <div className="mb-16">
+                            <div className="flex items-center gap-3 mb-8">
+                                <div className="h-px flex-1 bg-deep-ocean/20"></div>
+                                <h3 className="font-playfair text-2xl font-bold text-calm-charcoal">Grants</h3>
+                                <div className="h-px flex-1 bg-deep-ocean/20"></div>
+                            </div>
+                            <p className="text-center text-calm-charcoal/70 mb-8">Total Funded Amount: $8,700.80</p>
+
+                            <div className="space-y-5">
+                                <Card className="bg-white border-2 border-deep-ocean/20 hover:border-deep-ocean/40 hover:shadow-xl transition-all">
+                                    <CardContent className="p-6">
+                                        <div className="flex items-start justify-between gap-4 mb-3">
+                                            <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-deep-ocean/10 text-deep-ocean">
+                                                2026-2027
+                                            </span>
+                                            <span className="inline-flex items-center shrink-0 px-4 py-2 text-sm font-medium rounded-full border-2 border-soft-teal/60 text-soft-teal bg-white">
+                                                $3,475.80
+                                            </span>
+                                        </div>
+                                        <p className="text-calm-charcoal leading-relaxed">
+                                            <span className="font-semibold">Vengurlekar, I. N.</span>, & Kilgus, S. P. (Principal Investigator). An examination of a school-based single-session intervention: A school psychology perspective. <span className="italic">Funding Source: Society for the Study of School Psychology</span>.
+                                        </p>
+                                    </CardContent>
+                                </Card>
+
+                                <Card className="bg-white border-2 border-deep-ocean/20 hover:border-deep-ocean/40 hover:shadow-xl transition-all">
+                                    <CardContent className="p-6">
+                                        <div className="flex items-start justify-between gap-4 mb-3">
+                                            <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-deep-ocean/10 text-deep-ocean">
+                                                2024-2025
+                                            </span>
+                                            <span className="inline-flex items-center shrink-0 px-4 py-2 text-sm font-medium rounded-full border-2 border-soft-teal/60 text-soft-teal bg-white">
+                                                $3,000
+                                            </span>
+                                        </div>
+                                        <p className="text-calm-charcoal leading-relaxed">
+                                            *Ellalasingham, D., <span className="font-semibold">Vengurlekar, I. N.</span>, & McCarthy, C. (Co-Investigator). Does self-compassion moderate the association between music-specific stress and internalizing symptoms? <span className="italic">Funding Source: Psi Chi Research Grants</span>.
+                                        </p>
+                                    </CardContent>
+                                </Card>
+
+                                <Card className="bg-white border-2 border-deep-ocean/20 hover:border-deep-ocean/40 hover:shadow-xl transition-all">
+                                    <CardContent className="p-6">
+                                        <div className="flex items-start justify-between gap-4 mb-3">
+                                            <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-deep-ocean/10 text-deep-ocean">
+                                                2022-2023
+                                            </span>
+                                            <span className="inline-flex items-center shrink-0 px-4 py-2 text-sm font-medium rounded-full border-2 border-soft-teal/60 text-soft-teal bg-white">
+                                                $3,000
+                                            </span>
+                                        </div>
+                                        <p className="text-calm-charcoal leading-relaxed">
+                                            *Thudi, K. R., <span className="font-semibold">Vengurlekar, I. N.</span>, & Vargas, I. (Co-Investigator). Does mindfulness moderate the association between social media use and internalizing concerns? <span className="italic">Funding Source: Psi Chi Research Grants</span>.
+                                        </p>
+                                    </CardContent>
+                                </Card>
+
+                                <Card className="bg-white border-2 border-deep-ocean/20 hover:border-deep-ocean/40 hover:shadow-xl transition-all">
+                                    <CardContent className="p-6">
+                                        <div className="flex items-start justify-between gap-4 mb-3">
+                                            <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-deep-ocean/10 text-deep-ocean">
+                                                2021-2022
+                                            </span>
+                                            <span className="inline-flex items-center shrink-0 px-4 py-2 text-sm font-medium rounded-full border-2 border-soft-teal/60 text-soft-teal bg-white">
+                                                $2,700
+                                            </span>
+                                        </div>
+                                        <p className="text-calm-charcoal leading-relaxed">
+                                            <span className="font-semibold">Vengurlekar, I. N.</span>, Steggerda, J. C., & Bridges, A. J. (Principal Investigator). Perceived support, music-related stress, and internalizing symptoms in university-level music majors. <span className="italic">Funding Source: Psi Chi Research Grants</span>.
+                                        </p>
+                                    </CardContent>
+                                </Card>
+                            </div>
+                        </div>
+
+                        {/* Honors & Awards */}
+                        <div className="mb-16">
+                            <div className="flex items-center gap-3 mb-8">
+                                <div className="h-px flex-1 bg-deep-ocean/20"></div>
+                                <h3 className="font-playfair text-2xl font-bold text-calm-charcoal">Honors & Awards</h3>
+                                <div className="h-px flex-1 bg-deep-ocean/20"></div>
+                            </div>
+
+                            <Card className="bg-white border-2 border-deep-ocean/20 hover:border-deep-ocean/40 hover:shadow-xl transition-all">
+                                <CardContent className="p-8">
+                                    <div className="space-y-6">
+                                        <div className="flex gap-6">
+                                            <span className="inline-block px-3 py-1 h-fit text-xs font-semibold rounded-full bg-deep-ocean/10 text-deep-ocean shrink-0">
+                                                2022-2026
+                                            </span>
+                                            <div>
+                                                <p className="text-calm-charcoal leading-relaxed font-semibold mb-2">
+                                                    Project Scholars in Teaching, Applied Research, and Service (STARS)
+                                                </p>
+                                                <p className="text-calm-charcoal/80 text-sm leading-relaxed">
+                                                    $26,927 per year, tuition remission, annual professional conference travel stipend, annual in-person conference between UW-Madison and USF Faculty and Scholars, and a notebook computer.
+                                                </p>
+                                            </div>
+                                        </div>
+
+                                        <div className="h-px bg-deep-ocean/10"></div>
+
+                                        <div className="flex gap-6">
+                                            <span className="inline-block px-3 py-1 h-fit text-xs font-semibold rounded-full bg-deep-ocean/10 text-deep-ocean shrink-0">
+                                                2022
+                                            </span>
+                                            <ul className="space-y-2 text-calm-charcoal leading-relaxed">
+                                                <li>• Inaugural Cohort of the UARK CAPS Ambassadors</li>
+                                                <li>• Inaugural Cohort of the UARK DEI Student Ambassadors</li>
+                                                <li>• National Scholar (Office of Nationally Competitive Awards)</li>
+                                                <li>• Office of Undergraduate Research Cash Award ($500)</li>
+                                            </ul>
+                                        </div>
+
+                                        <div className="h-px bg-deep-ocean/10"></div>
+
+                                        <div className="flex gap-6">
+                                            <span className="inline-block px-3 py-1 h-fit text-xs font-semibold rounded-full bg-deep-ocean/10 text-deep-ocean shrink-0">
+                                                2021-2022
+                                            </span>
+                                            <p className="text-calm-charcoal leading-relaxed">
+                                                First Ranked Senior Scholar (Among those with the highest GPA)
+                                            </p>
+                                        </div>
+
+                                        <div className="h-px bg-deep-ocean/10"></div>
+
+                                        <div className="flex gap-6">
+                                            <span className="inline-block px-3 py-1 h-fit text-xs font-semibold rounded-full bg-deep-ocean/10 text-deep-ocean shrink-0">
+                                                2018-2022
+                                            </span>
+                                            <div className="text-calm-charcoal leading-relaxed">
+                                                Chancellor's List & Dean's List
+                                            </div>
+                                        </div>
+                                    </div>
+                                </CardContent>
+                            </Card>
                         </div>
 
                         {/* Peer-Reviewed Journal Articles */}
