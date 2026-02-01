@@ -41,12 +41,8 @@ export default function Footer() {
                 </span>
               </li>
               <li className="flex">
-                <Phone className="h-5 w-5 mr-2 shrink-0" />
-                <span>(555) 123-4567</span>
-              </li>
-              <li className="flex">
                 <Mail className="h-5 w-5 mr-2 shrink-0" />
-                <span>ishan.vengurlekar@example.edu</span>
+                <span>vengurlekar@wisc.edu</span>
               </li>
             </ul>
           </div>

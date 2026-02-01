@@ -37,21 +37,7 @@ export default function ContactPage() {
                                                 <Mail className="h-6 w-6 text-deep-ocean mr-4 mt-1" />
                                                 <div>
                                                     <h3 className="font-bold text-lg text-calm-charcoal mb-1">Email</h3>
-                                                    <p className="text-calm-charcoal/70">ishan.vengurlekar@example.edu</p>
-                                                    <p className="text-calm-charcoal/60 text-sm mt-1">Preferred method for initial contact</p>
-                                                </div>
-                                            </div>
-                                        </CardContent>
-                                    </Card>
-
-                                    <Card className="shadow-lg border border-deep-ocean/20 hover:border-deep-ocean/40 transition-all">
-                                        <CardContent className="p-6">
-                                            <div className="flex items-start">
-                                                <Phone className="h-6 w-6 text-deep-ocean mr-4 mt-1" />
-                                                <div>
-                                                    <h3 className="font-bold text-lg text-calm-charcoal mb-1">Phone</h3>
-                                                    <p className="text-calm-charcoal/70">(555) 123-4567</p>
-                                                    <p className="text-calm-charcoal/60 text-sm mt-1">Available during office hours</p>
+                                                    <p className="text-calm-charcoal/70">vengurlekar@wisc.edu</p>
                                                 </div>
                                             </div>
                                         </CardContent>
@@ -63,10 +49,9 @@ export default function ContactPage() {
                                                 <MapPin className="h-6 w-6 text-deep-ocean mr-4 mt-1" />
                                                 <div>
                                                     <h3 className="font-bold text-lg text-calm-charcoal mb-1">University Office</h3>
-                                                    <p className="text-calm-charcoal/70">Department of Psychology</p>
-                                                    <p className="text-calm-charcoal/70">University of Example</p>
-                                                    <p className="text-calm-charcoal/70">Room 305, Psychology Building</p>
-                                                    <p className="text-calm-charcoal/70">San Francisco, CA 94110</p>
+                                                    <p className="text-calm-charcoal/70">Department of Educational Psychology</p>
+                                                    <p className="text-calm-charcoal/70">1025 West Johnson St.</p>
+                                                    <p className="text-calm-charcoal/70">Madison, WI 53706-1796</p>
                                                 </div>
                                             </div>
                                         </CardContent>
@@ -74,7 +59,7 @@ export default function ContactPage() {
                                 </div>
                             </div>
 
-                            <div>
+                            {/* <div>
                                 <h3 className="text-xl font-bold text-calm-charcoal mb-4">Office Hours</h3>
                                 <div className="space-y-4">
                                     <div className="flex items-start">
@@ -93,7 +78,7 @@ export default function ContactPage() {
                                         </div>
                                     </div>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="bg-white p-8 rounded-xl shadow-lg border border-deep-ocean/20">
