@@ -11,7 +11,7 @@ export default function ResearchPracticePage() {
             <section className="bg-warm-sand py-16 md:py-24">
                 <div className="container">
                     <div className="max-w-3xl mx-auto text-center">
-                        <h1 className="font-playfair text-4xl md:text-5xl font-bold text-calm-charcoal mb-6">
+                        <h1 className="font-playfair text-4xl md:text-6xl font-bold text-calm-charcoal mb-6">
                             Research & Practice
                         </h1>
                         <p className="text-lg md:text-xl text-calm-charcoal/80">
@@ -25,8 +25,7 @@ export default function ResearchPracticePage() {
             <section className="py-16 md:py-24 bg-cloud-white">
                 <div className="container">
                     <div className="max-w-3xl mx-auto text-center mb-12">
-                        <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">Research Interests</h2>
-                        <p className="text-calm-charcoal/70">Current academic focus and ongoing research projects</p>
+                        <h2 className="font-playfair text-3xl md:text-5xl font-bold text-calm-charcoal mb-4">Research Interests</h2>
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-12 items-center">

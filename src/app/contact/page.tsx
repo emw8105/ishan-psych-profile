@@ -10,7 +10,7 @@ export default function ContactPage() {
             <section className="bg-warm-sand py-16 md:py-24">
                 <div className="container">
                     <div className="max-w-3xl mx-auto text-center">
-                        <h1 className="font-playfair text-4xl md:text-5xl font-bold text-calm-charcoal mb-6">Contact Ishan</h1>
+                        <h1 className="font-playfair text-4xl md:text-6xl font-bold text-calm-charcoal mb-6">Contact Ishan</h1>
                         <p className="text-lg md:text-xl text-calm-charcoal/80">
                             For professional inquiries, research opportunities, or collaboration
                         </p>

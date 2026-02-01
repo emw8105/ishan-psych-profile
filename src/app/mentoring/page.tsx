@@ -11,7 +11,7 @@ export default function MentoringPage() {
             <section className="bg-warm-sand py-16 md:py-24">
                 <div className="container">
                     <div className="max-w-3xl mx-auto text-center">
-                        <h1 className="font-playfair text-4xl md:text-5xl font-bold text-calm-charcoal mb-6">Mentoring</h1>
+                        <h1 className="font-playfair text-4xl md:text-6xl font-bold text-calm-charcoal mb-6">Mentoring</h1>
                         <p className="text-lg md:text-xl text-calm-charcoal/80">
                             Supporting the next generation of psychology professionals
                         </p>
@@ -44,12 +44,12 @@ export default function MentoringPage() {
                                 adolescents in schools.
                             </p>
                         </div>
-                        <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl ring-2 ring-deep-ocean/20">
+                        <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl ring-2 ring-deep-ocean/20">
                             <Image
-                                src="/placeholder.svg?height=800&width=600"
+                                src="/images/IMG_6306.jpg?height=800&width=600"
                                 alt="Ishan mentoring students"
                                 fill
-                                className="object-cover"
+                                className="object-cover object-[center_65%]"
                             />
                         </div>
                     </div>

@@ -10,7 +10,7 @@ export default function AboutPage() {
       <section className="bg-warm-sand py-16 md:py-24">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="font-playfair text-4xl md:text-5xl font-bold text-calm-charcoal mb-6">
+            <h1 className="font-playfair text-4xl md:text-6xl font-bold text-calm-charcoal mb-6">
               About Ishan Vengurlekar
             </h1>
             <p className="text-lg md:text-xl text-calm-charcoal/80">
