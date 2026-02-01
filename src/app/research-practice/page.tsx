@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, CheckCircle, BookOpen, Brain, FileText, GraduationCap, Users } from "lucide-react"
+import { ArrowRight, CheckCircle, BookOpen, Brain, FileText } from "lucide-react"
 import { Button } from "@/components/ui/Button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/Card"
 
@@ -310,7 +310,7 @@ export default function ResearchPracticePage() {
                                                 2018-2022
                                             </span>
                                             <div className="text-calm-charcoal leading-relaxed">
-                                                Chancellor's List & Dean's List
+                                                Chancellor&apos;s List & Dean&apos;s List
                                             </div>
                                         </div>
                                     </div>

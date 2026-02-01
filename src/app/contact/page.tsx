@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { Mail, MapPin, Phone, Clock, Calendar } from "lucide-react"
+import { Mail, MapPin } from "lucide-react"
 import { Button } from "@/components/ui/Button"
 import { Card, CardContent } from "@/components/ui/Card"
 
