@@ -39,7 +39,7 @@ export default function Home() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div className="order-2 md:order-1 relative h-[450px] rounded-2xl overflow-hidden shadow-xl ring-2 ring-gray-200 hover:ring-deep-ocean/40 transition-all">
               <Image
-                src="/images/906568B1-8689-44CF-AC23-C393B42F1C98.jpg?height=800&width=600"
+                src="/images/UW-Madison-Ishan.jpg?height=800&width=600"
                 alt="Ishan Vengurlekar"
                 fill
                 className="object-cover object-[center_55%]"

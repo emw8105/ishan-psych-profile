@@ -54,10 +54,10 @@ export default function ResearchPracticePage() {
                         </div>
                         <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl ring-2 ring-deep-ocean/20">
                             <Image
-                                src="/placeholder.svg?height=800&width=600"
+                                src="/images/IMG_1081.jpg?height=800&width=600"
                                 alt="Research visualization"
                                 fill
-                                className="object-cover"
+                                className="object-cover object-[center_35%]"
                             />
                         </div>
                     </div>
@@ -72,11 +72,11 @@ export default function ResearchPracticePage() {
                         <p className="text-gray-300">In-depth exploration of research focus and clinical practice</p>
                     </div>
 
-                    <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                    <div className="grid md:grid-cols-3 gap-8 max-w-8xl mx-auto">
                         <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
-                                <CardTitle className="flex items-center text-cloud-white">
-                                    <BookOpen className="h-6 w-6 mr-2 text-soft-teal" />
+                                <CardTitle className="flex items-center text-cloud-white text-2xl">
+                                    <BookOpen className="h-7 w-7 mr-2 text-soft-teal" />
                                     Mental Health Promotion
                                 </CardTitle>
                                 <CardDescription className="text-gray-300">Proactive approaches to support all students&apos; wellbeing</CardDescription>
@@ -105,8 +105,8 @@ export default function ResearchPracticePage() {
 
                         <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
-                                <CardTitle className="flex items-center text-cloud-white">
-                                    <Brain className="h-6 w-6 mr-2 text-soft-teal" />
+                                <CardTitle className="flex items-center text-cloud-white text-2xl">
+                                    <Brain className="h-7 w-7 mr-2 text-soft-teal" />
                                     Evidence-Based Interventions
                                 </CardTitle>
                                 <CardDescription className="text-gray-300">Research-supported therapeutic approaches for youth mental health</CardDescription>
@@ -135,8 +135,8 @@ export default function ResearchPracticePage() {
 
                         <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
-                                <CardTitle className="flex items-center text-cloud-white">
-                                    <FileText className="h-6 w-6 mr-2 text-soft-teal" />
+                                <CardTitle className="flex items-center text-cloud-white text-2xl">
+                                    <FileText className="h-7 w-7 mr-2 text-soft-teal" />
                                     Dissemination Science
                                 </CardTitle>
                                 <CardDescription className="text-gray-300">Translating research findings into practical applications</CardDescription>
