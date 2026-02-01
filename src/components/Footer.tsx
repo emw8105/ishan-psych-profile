@@ -33,11 +33,11 @@ export default function Footer() {
               <li className="flex">
                 <MapPin className="h-5 w-5 mr-2 shrink-0" />
                 <span>
-                  Department of Psychology
+                  Department of Educational Psychology
                   <br />
-                  University of Example
+                  1025 West Johnson St.
                   <br />
-                  San Francisco, CA 94110
+                  Madison, WI 53706-1796
                 </span>
               </li>
               <li className="flex">

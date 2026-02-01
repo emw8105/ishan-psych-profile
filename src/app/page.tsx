@@ -11,10 +11,10 @@ export default function Home() {
         <div className="container grid gap-12 md:grid-cols-2 md:gap-16 items-center">
           <div className="space-y-6">
             <h1 className="font-playfair text-4xl md:text-5xl lg:text-7xl font-bold text-calm-charcoal leading-tight">
-              Compassionate Psychological Care for Children
+              Evidence-Based Care for Students
             </h1>
             <p className="text-lg md:text-xl text-calm-charcoal/80 leading-relaxed">
-              Doctoral candidate in School Psychology specializing in research and interventions for children and adolescents.
+              Doctoral candidate in School Psychology specializing in research on mental health interventions for children and adolescents.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <Button variant="outline" size="lg" asChild className="border-deep-ocean/60 text-deep-ocean hover:bg-deep-ocean hover:text-white transition-all">
@@ -71,13 +71,13 @@ export default function Home() {
       <section className="py-20 md:py-24 bg-gradient-to-br from-deep-ocean via-calm-charcoal to-deep-ocean">
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-16">
-            <h2 className="font-playfair text-3xl md:text-4xl font-bold text-cloud-white mb-4">Areas of Focus</h2>
+            <h2 className="font-playfair text-3xl md:text-5xl font-bold text-cloud-white mb-4">Areas of Focus</h2>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 max-w-7xl mx-auto">
             <div className="bg-gradient-to-br from-soft-teal/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-soft-teal/40 backdrop-blur-sm hover:border-soft-teal/60 flex flex-col h-full group">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Prevention of Mental Health Challenges</h3>
+                <h3 className="text-2xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Prevention of Mental Health Challenges</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   School-based universal supports for all students
                 </p>
@@ -89,7 +89,7 @@ export default function Home() {
 
             <div className="bg-gradient-to-br from-soft-teal/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-soft-teal/40 backdrop-blur-sm hover:border-soft-teal/60 flex flex-col h-full group">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Evidence-Based Interventions</h3>
+                <h3 className="text-2xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Evidence-Based Interventions</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Advancing evidence-based practices through universal screening, measurement development, and intervention research
                 </p>
@@ -101,7 +101,7 @@ export default function Home() {
 
             <div className="bg-gradient-to-br from-soft-teal/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-soft-teal/40 backdrop-blur-sm hover:border-soft-teal/60 flex flex-col h-full group">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Research Mentorship</h3>
+                <h3 className="text-2xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Research Mentorship</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Collaborative partnerships with schools, families, and professional development for graduate students
                 </p>
@@ -113,7 +113,7 @@ export default function Home() {
 
             <div className="bg-gradient-to-br from-soft-teal/15 to-transparent p-8 rounded-xl shadow-lg hover:shadow-xl transition-all duration-300 border border-soft-teal/40 backdrop-blur-sm hover:border-soft-teal/60 flex flex-col h-full group">
               <div className="flex-grow">
-                <h3 className="text-xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Dissemination Science</h3>
+                <h3 className="text-2xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Dissemination Science</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
                   Bridging the gap between research and practice by actively distributing evidence
                 </p>
