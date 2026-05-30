@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, CheckCircle, BookOpen, Brain, FileText } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 import { Button } from "@/components/ui/Button"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/Card"
 
@@ -74,8 +74,7 @@ export default function ResearchPracticePage() {
                     <div className="grid md:grid-cols-3 gap-8 max-w-8xl mx-auto">
                         <Card id="prevention-programming" className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
-                                <CardTitle className="flex items-center text-cloud-white text-2xl">
-                                    <BookOpen className="h-7 w-7 mr-2 text-soft-teal" />
+                                <CardTitle className="flex items-center text-cloud-white text-2xl gap-3">
                                     Prevention Programming
                                 </CardTitle>
                                 <CardDescription className="text-gray-300">Building healthy school systems that promote student well-being</CardDescription>
@@ -83,19 +82,19 @@ export default function ResearchPracticePage() {
                             <CardContent>
                                 <ul className="space-y-3">
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span className="text-gray-300">Building healthy school climates</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span className="text-gray-300">Facilitating positive teacher-student and peer relationships</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span className="text-gray-300">Bolstering social-emotional learning strategies</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span className="text-gray-300">Promoting universal data-based decision-making</span>
                                     </li>
                                 </ul>
@@ -104,8 +103,7 @@ export default function ResearchPracticePage() {
 
                         <Card id="early-intervention" className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
-                                <CardTitle className="flex items-center text-cloud-white text-2xl">
-                                    <Brain className="h-7 w-7 mr-2 text-soft-teal" />
+                                <CardTitle className="flex items-center text-cloud-white text-2xl gap-3">
                                     Early Intervention
                                 </CardTitle>
                                 <CardDescription className="text-gray-300">Improving access to brief, effective school mental health supports</CardDescription>
@@ -113,19 +111,19 @@ export default function ResearchPracticePage() {
                             <CardContent>
                                 <ul className="space-y-3">
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span className="text-gray-300">Identifying students with heightened concerns via universal screening</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span className="text-gray-300">Refining Tier 2 internalizing symptom intervention packages</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span className="text-gray-300">Examining single-session interventions for internalizing concerns</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span className="text-gray-300">Adopting evidence-based progress monitoring tools</span>
                                     </li>
                                 </ul>
@@ -134,8 +132,7 @@ export default function ResearchPracticePage() {
 
                         <Card id="dissemination-science" className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
-                                <CardTitle className="flex items-center text-cloud-white text-2xl">
-                                    <FileText className="h-7 w-7 mr-2 text-soft-teal" />
+                                <CardTitle className="flex items-center text-cloud-white text-2xl gap-3">
                                     Dissemination Science
                                 </CardTitle>
                                 <CardDescription className="text-gray-300">Translating research findings into practical applications</CardDescription>
@@ -143,19 +140,19 @@ export default function ResearchPracticePage() {
                             <CardContent>
                                 <ul className="space-y-3">
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span className="text-gray-300">Conference presentations and professional development workshops</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span className="text-gray-300">Technical reports and practice briefs for school practitioners</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span className="text-gray-300">Implementation support for evidence-based practices in schools</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span className="text-gray-300">Consultation with educational systems on research integration</span>
                                     </li>
                                 </ul>

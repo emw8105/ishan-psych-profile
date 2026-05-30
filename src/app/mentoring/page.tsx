@@ -1,6 +1,6 @@
 import Image from "next/image"
 import Link from "next/link"
-import { ArrowRight, CheckCircle, Users, BookOpen, GraduationCap, MessageSquare } from "lucide-react"
+import { ArrowRight, Users, BookOpen, GraduationCap, MessageSquare } from "lucide-react"
 import { Button } from "@/components/ui/Button"
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/Card"
 
@@ -68,7 +68,6 @@ export default function MentoringPage() {
                         <Card className="bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all shadow-lg">
                             <CardHeader>
                                 <CardTitle className="flex items-center text-2xl text-cloud-white">
-                                    <BookOpen className="h-6 w-6 mr-2 text-soft-teal" />
                                     Research Mentorship
                                 </CardTitle>
                             </CardHeader>
@@ -78,19 +77,19 @@ export default function MentoringPage() {
                                 </p>
                                 <ul className="space-y-2 text-gray-300">
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Developing research questions in school mental health</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Quantitative research design and psychometric analysis</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Statistical analysis and data interpretation</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Academic writing, manuscript preparation, and publication</span>
                                     </li>
                                 </ul>
@@ -100,7 +99,6 @@ export default function MentoringPage() {
                         <Card className="bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all shadow-lg">
                             <CardHeader>
                                 <CardTitle className="flex items-center text-2xl text-cloud-white">
-                                    <Users className="h-6 w-6 mr-2 text-soft-teal" />
                                     Academic Development
                                 </CardTitle>
                             </CardHeader>
@@ -110,19 +108,19 @@ export default function MentoringPage() {
                                 </p>
                                 <ul className="space-y-2 text-gray-300">
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Grant writing and research funding applications</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Research project management and coordination</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Ethical considerations in school-based research</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Conference presentations and professional communication</span>
                                     </li>
                                 </ul>
@@ -132,7 +130,6 @@ export default function MentoringPage() {
                         <Card className="bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all shadow-lg">
                             <CardHeader>
                                 <CardTitle className="flex items-center text-2xl text-cloud-white">
-                                    <GraduationCap className="h-6 w-6 mr-2 text-soft-teal" />
                                     Career Development
                                 </CardTitle>
                             </CardHeader>
@@ -142,19 +139,19 @@ export default function MentoringPage() {
                                 </p>
                                 <ul className="space-y-2 text-gray-300">
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Graduate school applications and selection</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Internship and practicum placements</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>CV and personal statement development</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Professional networking and collaboration</span>
                                     </li>
                                 </ul>
@@ -164,7 +161,6 @@ export default function MentoringPage() {
                         <Card className="bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all shadow-lg">
                             <CardHeader>
                                 <CardTitle className="flex items-center text-2xl text-cloud-white">
-                                    <MessageSquare className="h-6 w-6 mr-2 text-soft-teal" />
                                     Workshops & Seminars
                                 </CardTitle>
                             </CardHeader>
@@ -174,19 +170,19 @@ export default function MentoringPage() {
                                 </p>
                                 <ul className="space-y-2 text-gray-300">
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Universal mental health screening in schools</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Single-session interventions for youth</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Scale development and psychometric validation</span>
                                     </li>
                                     <li className="flex items-start">
-                                        <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
+                                        <span className="mt-2 mr-2 h-2 w-2 rotate-45 shrink-0 bg-soft-teal/80"></span>
                                         <span>Evidence-based practices in school psychology</span>
                                     </li>
                                 </ul>
