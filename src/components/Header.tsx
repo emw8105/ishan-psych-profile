@@ -30,7 +30,7 @@ export default function Header() {
             About
           </Link>
           <Link href="/research-practice" className="text-base font-medium text-calm-charcoal transition-colors hover:text-deep-ocean">
-            Research & Practice
+            Research
           </Link>
           <Link href="/mentoring" className="text-base font-medium text-calm-charcoal transition-colors hover:text-deep-ocean">
             Mentoring
@@ -65,7 +65,7 @@ export default function Header() {
             className="font-medium text-calm-charcoal transition-colors hover:text-deep-ocean"
             onClick={toggleMenu}
           >
-            Research & Practice
+            Research
           </Link>
           <Link href="/mentoring" className="font-medium text-calm-charcoal transition-colors hover:text-deep-ocean" onClick={toggleMenu}>
             Mentoring

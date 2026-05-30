@@ -193,9 +193,8 @@ export default function ContactPage() {
                         <div className="bg-white p-6 rounded-xl shadow-lg border border-deep-ocean/20 hover:border-deep-ocean/40 transition-all">
                             <h3 className="text-xl font-bold text-calm-charcoal mb-2">What types of research collaboration are you interested in?</h3>
                             <p className="text-calm-charcoal/80">
-                                Ishan is particularly interested in collaborations related to childhood trauma, school-based
-                                interventions, and resilience-building in children and adolescents. He welcomes both quantitative and
-                                qualitative research approaches.
+                                Ishan is particularly interested in collaborations related to mental health among a variety of populations.
+                                He welcomes both quantitative and qualitative research approaches.
                             </p>
                         </div>
 
@@ -203,7 +202,7 @@ export default function ContactPage() {
                             <h3 className="text-xl font-bold text-calm-charcoal mb-2">Are you currently accepting new mentees?</h3>
                             <p className="text-calm-charcoal/80">
                                 Yes, Ishan is currently accepting a limited number of mentees, particularly those interested in child
-                                psychology, trauma-informed care, and school psychology. Please use the contact form to express your
+                                or school psychology. Please use the contact form to express your
                                 interest.
                             </p>
                         </div>
@@ -212,7 +211,7 @@ export default function ContactPage() {
                             <h3 className="text-xl font-bold text-calm-charcoal mb-2">Do you offer speaking engagements or workshops?</h3>
                             <p className="text-calm-charcoal/80">
                                 Yes, Ishan is available for speaking engagements and workshops on topics related to child psychology,
-                                trauma-informed care, and school-based mental health interventions. Please provide details about your
+                                school psychology, and school-based mental health prevention and interventions. Please provide details about your
                                 event in your inquiry.
                             </p>
                         </div>

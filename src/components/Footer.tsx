@@ -62,7 +62,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/research-practice" className="text-gray-300 hover:text-white transition-colors">
-                  Research & Practice
+                  Research
                 </Link>
               </li>
               <li>
@@ -82,23 +82,23 @@ export default function Footer() {
             <h3 className="font-bold text-lg mb-4">Research Areas</h3>
             <ul className="space-y-2">
               <li>
-                <Link href="/research-practice" className="text-gray-300 hover:text-white transition-colors">
-                  Child Psychology
+                <Link href="/research-practice#prevention-programming" className="text-gray-300 hover:text-white transition-colors">
+                  Prevention Programming
                 </Link>
               </li>
               <li>
-                <Link href="/research-practice" className="text-gray-300 hover:text-white transition-colors">
-                  School Psychology
+                <Link href="/research-practice#social-connections" className="text-gray-300 hover:text-white transition-colors">
+                  Social Connections
                 </Link>
               </li>
               <li>
-                <Link href="/research-practice" className="text-gray-300 hover:text-white transition-colors">
-                  Trauma & Resilience
+                <Link href="/research-practice#racism-discrimination" className="text-gray-300 hover:text-white transition-colors">
+                  Racism/Discrimination
                 </Link>
               </li>
               <li>
-                <Link href="/research-practice" className="text-gray-300 hover:text-white transition-colors">
-                  Family-Centered Approaches
+                <Link href="/research-practice#early-intervention" className="text-gray-300 hover:text-white transition-colors">
+                  Early Intervention
                 </Link>
               </li>
             </ul>

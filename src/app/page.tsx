@@ -14,7 +14,7 @@ export default function Home() {
               Evidence-Based Care for Students
             </h1>
             <p className="text-lg md:text-xl text-calm-charcoal/80 leading-relaxed">
-              Doctoral candidate in School Psychology specializing in research on mental health interventions for children and adolescents.
+              Doctoral candidate in School Psychology, specializing in research on school-based mental health prevention and intervention for children and adolescents.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 pt-2">
               <Button variant="outline" size="lg" asChild className="border-deep-ocean/60 text-deep-ocean hover:bg-deep-ocean hover:text-white transition-all">
@@ -50,12 +50,10 @@ export default function Home() {
                 Meet Ishan Vengurlekar
               </h2>
               <p className="text-lg text-calm-charcoal/80 leading-relaxed">
-                I am a doctoral candidate in School Psychology with a passion for understanding and supporting
-                children&apos;s mental health and development. My approach combines rigorous academic research with
-                practical applications in educational settings.
+                I am a School Psychology doctoral candidate interested in finding ways schools can better promote the mental health of ethnic-racial minority students. I am also interested in revamping school-based intervention services to be more cost-efficient, feasible, and effective. Soon, I will begin my internship at the Munroe Meyer Institute - University of Nebraska Medical Center, where I will be specializing in the provision of and scholarship on school mental health.
               </p>
               <p className="text-lg text-calm-charcoal/80 leading-relaxed">
-                Currently completing my doctoral studies, I am actively seeking opportunities to contribute to the field through research collaboration, internships focused on school-based interventions, and working with children facing emotional, behavioral, and developmental challenges.
+                My work centers on prevention programming, evidence-based interventions, research mentorship, and dissemination science to ensure school mental health services are accessible and effective.
               </p>
               <Button variant="outline" size="lg" asChild className="mt-4 border-deep-ocean/60 text-deep-ocean hover:bg-deep-ocean hover:text-white transition-all">
                 <Link href="/about">
@@ -79,10 +77,10 @@ export default function Home() {
               <div className="flex-grow">
                 <h3 className="text-2xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Prevention of Mental Health Challenges</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  School-based universal supports for all students
+                  Understanding how school-based prevention strategies can reduce mental health challenges before they escalate.
                 </p>
               </div>
-              <Link href="/research-practice#detailed-expertise" className="text-soft-teal hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
+              <Link href="/research-practice#prevention-programming" className="text-soft-teal hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
@@ -91,10 +89,10 @@ export default function Home() {
               <div className="flex-grow">
                 <h3 className="text-2xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Evidence-Based Interventions</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  Advancing evidence-based practices through universal screening, measurement development, and intervention research
+                  Advancing evidence-based practices through innovative early intervention research on single-session interventions.
                 </p>
               </div>
-              <Link href="/research-practice#detailed-expertise" className="text-soft-teal hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
+              <Link href="/research-practice#early-intervention" className="text-soft-teal hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
@@ -103,10 +101,10 @@ export default function Home() {
               <div className="flex-grow">
                 <h3 className="text-2xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Research Mentorship</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  Collaborative partnerships with schools, families, and professional development for graduate students
+                  Collaborative partnerships with students interested in pursuing school mental health and/or doctoral psychology programs.
                 </p>
               </div>
-              <Link href="/research-practice#detailed-expertise" className="text-soft-teal hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
+              <Link href="/mentoring" className="text-soft-teal hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>
@@ -115,10 +113,10 @@ export default function Home() {
               <div className="flex-grow">
                 <h3 className="text-2xl font-bold mb-3 text-cloud-white group-hover:text-soft-teal transition-colors">Dissemination Science</h3>
                 <p className="text-gray-300 mb-6 leading-relaxed">
-                  Bridging the gap between research and practice by actively distributing evidence
+                  Bridging the gap between research and practice by actively distributing evidence.
                 </p>
               </div>
-              <Link href="/research-practice#detailed-expertise" className="text-soft-teal hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
+              <Link href="/research-practice#dissemination-science" className="text-soft-teal hover:text-cloud-white font-medium inline-flex items-center transition-colors mt-auto">
                 Learn more <ArrowRight className="ml-1 h-4 w-4" />
               </Link>
             </div>

@@ -12,10 +12,10 @@ export default function ResearchPracticePage() {
                 <div className="container">
                     <div className="max-w-3xl mx-auto text-center">
                         <h1 className="font-playfair text-4xl md:text-6xl font-bold text-calm-charcoal mb-6">
-                            Research & Practice
+                            Research
                         </h1>
                         <p className="text-lg md:text-xl text-calm-charcoal/80">
-                            Exploring the intersection of academic research and school-based applications in child psychology
+                            Understanding how schools can refine their prevention programming and early intervention strategies
                         </p>
                     </div>
                 </div>
@@ -32,16 +32,7 @@ export default function ResearchPracticePage() {
                         <div className="space-y-6">
                             <h3 className="font-playfair text-2xl font-bold text-calm-charcoal">Current Research Focus</h3>
                             <p className="text-lg text-calm-charcoal/80">
-                                My research focuses on advancing school-based mental health practices through rigorous
-                                measurement development, universal screening, and evidence-based interventions. My work examines
-                                the effectiveness of single-session interventions for youth experiencing internalizing concerns,
-                                as well as the development and validation of brief mental health screening tools for educational settings.
-                            </p>
-                            <p className="text-lg text-calm-charcoal/80">
-                                Through quantitative methodologies and psychometric analysis, I investigate how schools can efficiently
-                                identify and support students&apos; mental health needs. My research emphasizes practical, scalable
-                                approaches that can be implemented in diverse school contexts, with a particular focus on improving
-                                early identification and intervention for students experiencing anxiety and depression.
+                                Broadly, Ishan&apos;s research interests center on school-based mental health prevention programming and early intervention for ethnic-racial minority students. Regarding the former, he is interested in examining how school-based prevention programming strategies (e.g., school climate, non-parental adult support, social-emotional learning) can prevent or ameliorate mental health challenges among ethnic-racial minority youth. Through this research, he hopes to inform school-based strategies that mitigate the harmful effects of both the loneliness epidemic and heightened racial discrimination. Regarding the latter research aim, he is interested in leveraging and optimizing brief mental health interventions in schools to a) reduce the burden on school staff and b) ensure every student with heightened concerns receives treatment. He ultimately hopes to revamp early intervention strategies to be more accessible, cost-efficient, feasible, and effective.
                             </p>
                             <div className="pt-4">
                                 <Button variant="outline" size="lg" asChild className="border-deep-ocean/60 text-deep-ocean hover:bg-deep-ocean hover:text-white transition-all">
@@ -68,71 +59,74 @@ export default function ResearchPracticePage() {
                 <div className="container">
                     <div className="max-w-3xl mx-auto text-center mb-12">
                         <h2 className="font-playfair text-3xl md:text-4xl font-bold text-cloud-white mb-4">Research Areas</h2>
-                        <p className="text-gray-300">In-depth exploration of research focus and clinical practice</p>
+                        <p className="text-gray-300">Core areas guiding prevention, intervention, and dissemination work</p>
                     </div>
 
+                    <div id="social-connections" className="sr-only" aria-hidden="true"></div>
+                    <div id="racism-discrimination" className="sr-only" aria-hidden="true"></div>
+
                     <div className="grid md:grid-cols-3 gap-8 max-w-8xl mx-auto">
-                        <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
+                        <Card id="prevention-programming" className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
                                 <CardTitle className="flex items-center text-cloud-white text-2xl">
                                     <BookOpen className="h-7 w-7 mr-2 text-soft-teal" />
-                                    Mental Health Promotion
+                                    Prevention Programming
                                 </CardTitle>
-                                <CardDescription className="text-gray-300">Proactive approaches to support all students&apos; wellbeing</CardDescription>
+                                <CardDescription className="text-gray-300">Building healthy school systems that promote student well-being</CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <ul className="space-y-3">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Universal mental health screening programs for early identification</span>
+                                        <span className="text-gray-300">Building healthy school climates</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">School-wide social-emotional learning initiatives</span>
+                                        <span className="text-gray-300">Facilitating positive teacher-student and peer relationships</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Multi-tiered systems of support (MTSS) for comprehensive care</span>
+                                        <span className="text-gray-300">Bolstering social-emotional learning strategies</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Trauma-informed practices and resilience-building strategies</span>
+                                        <span className="text-gray-300">Promoting universal data-based decision-making</span>
                                     </li>
                                 </ul>
                             </CardContent>
                         </Card>
 
-                        <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
+                        <Card id="early-intervention" className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
                                 <CardTitle className="flex items-center text-cloud-white text-2xl">
                                     <Brain className="h-7 w-7 mr-2 text-soft-teal" />
-                                    Evidence-Based Interventions
+                                    Early Intervention
                                 </CardTitle>
-                                <CardDescription className="text-gray-300">Research-supported therapeutic approaches for youth mental health</CardDescription>
+                                <CardDescription className="text-gray-300">Improving access to brief, effective school mental health supports</CardDescription>
                             </CardHeader>
                             <CardContent>
                                 <ul className="space-y-3">
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Single-session interventions for internalizing concerns</span>
+                                        <span className="text-gray-300">Identifying students with heightened concerns via universal screening</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Cognitive-behavioral therapy for anxiety and depression</span>
+                                        <span className="text-gray-300">Refining Tier 2 internalizing symptom intervention packages</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Measurement development and psychometric validation</span>
+                                        <span className="text-gray-300">Examining single-session interventions for internalizing concerns</span>
                                     </li>
                                     <li className="flex items-start">
                                         <CheckCircle className="h-5 w-5 text-soft-teal mr-2 mt-0.5 shrink-0" />
-                                        <span className="text-gray-300">Progress monitoring and data-based decision making</span>
+                                        <span className="text-gray-300">Adopting evidence-based progress monitoring tools</span>
                                     </li>
                                 </ul>
                             </CardContent>
                         </Card>
 
-                        <Card className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
+                        <Card id="dissemination-science" className="border-none shadow-lg bg-white/10 backdrop-blur-sm border border-soft-teal/20 hover:border-soft-teal/40 transition-all">
                             <CardHeader>
                                 <CardTitle className="flex items-center text-cloud-white text-2xl">
                                     <FileText className="h-7 w-7 mr-2 text-soft-teal" />
@@ -336,7 +330,25 @@ export default function ResearchPracticePage() {
                                             </span>
                                         </div>
                                         <p className="text-calm-charcoal leading-relaxed mb-2">
-                                            <span className="font-semibold">Vengurlekar, I. N.</span> (In Press). The Resilience Education Program: A graduate student case delivery and reflection. <span className="italic">The School Psychologist</span>.
+                                            *Ellalasingham, D., <span className="font-semibold">Vengurlekar, I. N.</span>, & McCarthy, C. (In Press). Does self-compassion moderate the association between music-specific stress and internalizing symptoms? <span className="italic">Psychology of Music</span>.
+                                        </p>
+                                    </CardContent>
+                                </Card>
+
+                                <Card className="bg-white border-2 border-deep-ocean/20 hover:border-deep-ocean/40 hover:shadow-xl transition-all">
+                                    <CardContent className="p-6">
+                                        <div className="flex items-start justify-between gap-4 mb-3">
+                                            <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-deep-ocean/10 text-deep-ocean">
+                                                2026
+                                            </span>
+                                            <Button size="sm" variant="outline" asChild className="shrink-0 border-deep-ocean/60 text-deep-ocean hover:bg-deep-ocean hover:text-white">
+                                                <a href="https://doi.org/10.1080/15377903.2026.2665097" target="_blank" rel="noopener noreferrer">
+                                                    View Publication
+                                                </a>
+                                            </Button>
+                                        </div>
+                                        <p className="text-calm-charcoal leading-relaxed">
+                                            <span className="font-semibold">Vengurlekar, I. N.</span>, & Kilgus, S. P. (2026). School-based single-session interventions: A scalable strategy to address the mental health crisis. <span className="italic">Journal of Applied School Psychology</span>.
                                         </p>
                                     </CardContent>
                                 </Card>
@@ -558,11 +570,11 @@ export default function ResearchPracticePage() {
                                     <CardContent className="p-6">
                                         <div className="flex items-start justify-between gap-4 mb-3">
                                             <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-soft-teal/20 text-soft-teal border border-soft-teal/30">
-                                                In Press
+                                                2026
                                             </span>
                                         </div>
                                         <p className="text-calm-charcoal leading-relaxed">
-                                            Kilgus, S. P., Dart, E. H., <span className="font-semibold">Vengurlekar, I. N.</span>, & Kangavary, A. (In Press). Progress monitoring within a culturally responsive evaluation framework. In J. Twyford, K. Eklund, E. Dowdy, R. Kamphaus, & C. R. Reynolds (Eds.), <span className="italic">Culturally informed approaches to behavioral and educational assessment</span>. Guilford Publishing.
+                                            Kilgus, S. P., Dart, E. H., <span className="font-semibold">Vengurlekar, I. N.</span>, & Kangavary, A. (2026). Progress monitoring within a culturally responsive evaluation framework. In J. Twyford, K. Eklund, E. Dowdy, R. Kamphaus, & C. R. Reynolds (Eds.), <span className="italic">Culturally informed approaches to behavioral and educational assessment</span>. Guilford Publishing.
                                         </p>
                                     </CardContent>
                                 </Card>
@@ -599,85 +611,7 @@ export default function ResearchPracticePage() {
                                             </span>
                                         </div>
                                         <p className="text-calm-charcoal leading-relaxed">
-                                            Eklund, K., O&apos;Neil, S., Hendrix, C., Barnett, K. C., & <span className="font-semibold">Vengurlekar, I. N.</span> (Revise & Resubmit). &ldquo;I just thought it would help me&rdquo;: An exploration of youths&apos; decision to participate in school mental health services.
-                                        </p>
-                                    </CardContent>
-                                </Card>
-
-                                <Card className="bg-white border-2 border-deep-ocean/20 hover:border-deep-ocean/40 hover:shadow-xl transition-all">
-                                    <CardContent className="p-6">
-                                        <div className="flex items-start justify-between gap-4 mb-3">
-                                            <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-blue-100 text-blue-700 border border-blue-200">
-                                                Under Review
-                                            </span>
-                                        </div>
-                                        <p className="text-calm-charcoal leading-relaxed">
-                                            <span className="font-semibold">Vengurlekar, I. N.</span>, & Kilgus, S. P. (Under Review). School-based single-session interventions: A scalable strategy to address the mental health crisis. <span className="italic">Journal of Applied School Psychology</span>.
-                                        </p>
-                                    </CardContent>
-                                </Card>
-
-                                <Card className="bg-white border-2 border-deep-ocean/20 hover:border-deep-ocean/40 hover:shadow-xl transition-all">
-                                    <CardContent className="p-6">
-                                        <div className="flex items-start justify-between gap-4 mb-3">
-                                            <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-blue-100 text-blue-700 border border-blue-200">
-                                                Under Review
-                                            </span>
-                                        </div>
-                                        <p className="text-calm-charcoal leading-relaxed">
-                                            *Ellalasingham, D., <span className="font-semibold">Vengurlekar, I. N.</span>, & McCarthy, C. (Under Review). Does self-compassion moderate the association between music-specific stress and internalizing symptoms? <span className="italic">Psychology of Music</span>.
-                                        </p>
-                                    </CardContent>
-                                </Card>
-
-                                <Card className="bg-white border-2 border-deep-ocean/20 hover:border-deep-ocean/40 hover:shadow-xl transition-all">
-                                    <CardContent className="p-6">
-                                        <div className="flex items-start justify-between gap-4 mb-3">
-                                            <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-amber-100 text-amber-700 border border-amber-200">
-                                                In Progress
-                                            </span>
-                                        </div>
-                                        <p className="text-calm-charcoal leading-relaxed">
-                                            <span className="font-semibold">Vengurlekar, I. N.</span>, Ellalasingham, D., & Kilgus, S. (In Progress). How do music students want to be supported? A qualitative analysis of supports, stressors, and the music environment.
-                                        </p>
-                                    </CardContent>
-                                </Card>
-
-                                <Card className="bg-white border-2 border-deep-ocean/20 hover:border-deep-ocean/40 hover:shadow-xl transition-all">
-                                    <CardContent className="p-6">
-                                        <div className="flex items-start justify-between gap-4 mb-3">
-                                            <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-amber-100 text-amber-700 border border-amber-200">
-                                                In Progress
-                                            </span>
-                                        </div>
-                                        <p className="text-calm-charcoal leading-relaxed">
-                                            Oddleifson, C., <span className="font-semibold">Vengurlekar, I. N.</span>, Edney, C., Kilgus, S. P., Eklund, K., & von der Embse, N. (In Progress). Student mental health before, during, and after COVID: A five-year trend.
-                                        </p>
-                                    </CardContent>
-                                </Card>
-
-                                <Card className="bg-white border-2 border-deep-ocean/20 hover:border-deep-ocean/40 hover:shadow-xl transition-all">
-                                    <CardContent className="p-6">
-                                        <div className="flex items-start justify-between gap-4 mb-3">
-                                            <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-amber-100 text-amber-700 border border-amber-200">
-                                                In Progress
-                                            </span>
-                                        </div>
-                                        <p className="text-calm-charcoal leading-relaxed">
-                                            <span className="font-semibold">Vengurlekar, I. N.</span>, & *Ellalasingham, D. (In Progress). One note at a time: Single-session interventions as a novel strategy to treat music student mental health.
-                                        </p>
-                                    </CardContent>
-                                </Card>
-
-                                <Card className="bg-white border-2 border-deep-ocean/20 hover:border-deep-ocean/40 hover:shadow-xl transition-all">
-                                    <CardContent className="p-6">
-                                        <div className="flex items-start justify-between gap-4 mb-3">
-                                            <span className="inline-block px-3 py-1 text-xs font-semibold rounded-full bg-amber-100 text-amber-700 border border-amber-200">
-                                                In Progress
-                                            </span>
-                                        </div>
-                                        <p className="text-calm-charcoal leading-relaxed">
-                                            Kilgus, S. P., Eklund, K., Hendrix, C., <span className="font-semibold">Vengurlekar, I. N.</span>, & Van Norman, E. (In Progress). Psychometric defensibility of CICO daily progress report data.
+                                            Oddleifson, C., <span className="font-semibold">Vengurlekar, I. N.</span>, Edney, C., Kilgus, S. P., Eklund, K., & von der Embse, N. (Revise & Resubmit). Student mental health before, during, and after COVID: A five-year trend.
                                         </p>
                                     </CardContent>
                                 </Card>
@@ -711,9 +645,9 @@ export default function ResearchPracticePage() {
                             <div className="max-w-3xl mx-auto">
                                 <h4 className="font-playfair text-2xl font-bold text-calm-charcoal mb-4">Research Impact</h4>
                                 <p className="text-calm-charcoal/80 mb-6 leading-relaxed">
-                                    With 12 peer-reviewed journal articles, 2 book chapters, and 7 manuscripts currently under review or in preparation,
-                                    my research contributes to advancing school-based mental health practices. I have also received over $8,700 in
-                                    research grants and presented at 17 professional conferences.
+                                    Ishan&apos;s scholarship contributes to advancing school-based mental health practices through prevention programming,
+                                    early intervention, and dissemination science. His work emphasizes rigorous, actionable evidence that supports
+                                    schools in delivering effective and equitable services.
                                 </p>
                                 <Button size="lg" asChild className="bg-deep-ocean hover:bg-deep-ocean/90 text-white shadow-lg hover:shadow-xl transition-all">
                                     <Link href="/contact">

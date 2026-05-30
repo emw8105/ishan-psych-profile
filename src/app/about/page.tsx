@@ -35,13 +35,13 @@ export default function AboutPage() {
             <div className="space-y-6">
               <h2 className="font-playfair text-3xl font-bold text-calm-charcoal">Biography</h2>
               <p className="text-lg text-calm-charcoal/80">
-                I am a doctoral candidate in School Psychology at the University of Wisconsin-Madison, specializing in research on child and adolescent mental health. With a strong academic foundation in evidence-based research approaches, I am dedicated to understanding and addressing the unique psychological needs of young people in educational settings.
+                Ishan is a doctoral candidate in School Psychology at the University of Wisconsin-Madison, specializing in research on child and adolescent mental health. At the University of Wisconsin-Madison, he has been fortunate to participate in a variety of research and practice opportunities that span schools, districts, juvenile detention centers, and clinics. These diverse placements have afforded him a strong focus on evidence-based approaches to understanding and addressing the unique psychological needs of youth across various settings.
               </p>
               <p className="text-lg text-calm-charcoal/80">
-                My research focuses on school-based mental health interventions, single-session interventions, and supporting students experiencing internalizing concerns. Through rigorous quantitative and qualitative methodologies, I investigate effective strategies to support student well-being in schools.
+                His research focuses on school-based prevention programming and early intervention efforts for ethnic-racial minority students. He employs various methodologies and analytical techniques to understand how schools can refine their services to better serve students.
               </p>
               <p className="text-lg text-calm-charcoal/80">
-                Currently completing my doctoral studies under the mentorship of Dr. Stephen Kilgus, I am actively conducting research and gaining practical experience through advanced practica in the Madison Metropolitan School District and surrounding areas, with a focus on advancing the field through evidence-based practice and research.
+                He is completing his doctoral studies at the University of Wisconsin-Madison, under the mentorship of Dr. Stephen Kilgus. Currently, he is finishing his dual practica at the Madison Metropolitan School District and Glacier Creek Middle School, where he is strengthening his skills in systems-level collaboration and consultation and direct service provision. He will soon begin his internship at the Munroe Meyer Institute - University of Nebraska Medical Center, where he will be specializing in the delivery of and scholarship on school mental health.
               </p>
             </div>
           </div>
@@ -573,14 +573,14 @@ export default function AboutPage() {
 
             <div className="bg-white p-6 rounded-xl shadow-lg text-center border border-deep-ocean/20 hover:border-deep-ocean/40 transition-all">
               <Award className="h-12 w-12 mx-auto mb-4 text-deep-ocean" />
-              <h3 className="text-xl font-bold mb-2 text-calm-charcoal">Society for Research in Child Development</h3>
-              <p className="text-calm-charcoal/70">Associate Member</p>
+              <h3 className="text-xl font-bold mb-2 text-calm-charcoal">National Association of School Psychologists</h3>
+              <p className="text-calm-charcoal/70">Student Member</p>
             </div>
 
             <div className="bg-white p-6 rounded-xl shadow-lg text-center border border-deep-ocean/20 hover:border-deep-ocean/40 transition-all">
               <Award className="h-12 w-12 mx-auto mb-4 text-deep-ocean" />
-              <h3 className="text-xl font-bold mb-2 text-calm-charcoal">National Association of School Psychologists</h3>
-              <p className="text-calm-charcoal/70">Student Affiliate</p>
+              <h3 className="text-xl font-bold mb-2 text-calm-charcoal">Psi Chi</h3>
+              <p className="text-calm-charcoal/70">Student Member</p>
             </div>
           </div>
         </div>
@@ -591,18 +591,16 @@ export default function AboutPage() {
         <div className="container">
           <div className="max-w-3xl mx-auto text-center mb-12">
             <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">Beyond Psychology</h2>
-            <p className="text-calm-charcoal/70">Personal interests and activities</p>
+            <p className="text-calm-charcoal/70">Personal Interests and Activities</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <p className="text-lg text-calm-charcoal/80">
-                temp temp temp
-                I like hiking
+                Outside his professional work, Ishan is passionate about several things, including music, pickleball, and TV. Specifically, he is a band geek and enjoys playing his trumpet and listening to a new album every day. He also loves playing pickleball with friends and family. Lastly, he enjoys watching various TV shows and is currently watching Widow&apos;s Bay on Apple TV.
               </p>
               <p className="text-lg text-calm-charcoal/80">
-                I am also passionate about making psychology more accessible to the general public and frequently
-                participate in community education events about child development and mental health.
+                These interests help him stay creative, connected, and grounded, and they bring a sense of joy and balance to his work in psychology.
               </p>
               <div className="pt-4">
                 <Button size="lg" asChild className="bg-deep-ocean hover:bg-deep-ocean/90 text-white shadow-lg hover:shadow-xl transition-all">

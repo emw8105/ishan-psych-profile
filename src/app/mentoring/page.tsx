@@ -28,20 +28,20 @@ export default function MentoringPage() {
                                 Mentoring Philosophy
                             </h2>
                             <p className="text-lg text-calm-charcoal/80">
-                                I believe that mentoring is a collaborative journey where both mentor and mentee grow through
-                                shared learning experiences. My approach emphasizes empowering students to develop their own
+                                Ishan believes that mentoring is a collaborative journey where both mentor and mentee grow through
+                                shared learning experiences. His approach emphasizes empowering students to develop their own
                                 research interests while providing structured guidance on methodological rigor and scientific thinking.
                             </p>
                             <p className="text-lg text-calm-charcoal/80">
-                                As a mentor, I create a supportive environment where students can explore research questions,
+                                As a mentor, Ishan creates a supportive environment where students can explore research questions,
                                 develop technical skills in measurement and analysis, and navigate the challenges of academic work.
-                                I am particularly committed to mentoring undergraduate researchers and helping them discover their
-                                potential in the field of school psychology.
+                                He is particularly committed to mentoring undergraduate researchers and helping them discover their
+                                potential in the field of psychology.
                             </p>
                             <p className="text-lg text-calm-charcoal/80">
-                                My goal is not just to share knowledge, but to foster critical thinking, ethical research practices,
-                                and a lifelong commitment to evidence-based approaches that can improve outcomes for children and
-                                adolescents in schools.
+                                His goal is not just to share knowledge, but to foster critical thinking, ethical research practices,
+                                and a lifelong commitment to evidence-based approaches that can improve outcomes for a variety of
+                                populations.
                             </p>
                         </div>
                         <div className="relative h-[500px] rounded-2xl overflow-hidden shadow-xl ring-2 ring-deep-ocean/20">
@@ -203,7 +203,7 @@ export default function MentoringPage() {
                         <h2 className="font-playfair text-3xl md:text-4xl font-bold text-calm-charcoal mb-4">
                             Mentee Testimonials
                         </h2>
-                        <p className="text-calm-charcoal/70">What students and colleagues say about my mentorship</p>
+                        <p className="text-calm-charcoal/70">What students and colleagues say about Ishan&apos;s mentorship</p>
                     </div>
 
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -267,7 +267,7 @@ export default function MentoringPage() {
                             Interested in Mentorship?
                         </h2>
                         <p className="text-lg text-calm-charcoal/80 mb-8">
-                            I am currently accepting a limited number of mentees for research collaboration and career guidance.
+                            Ishan is currently accepting a limited number of mentees for research collaboration and career guidance.
                         </p>
                         <Button
                             size="lg"
