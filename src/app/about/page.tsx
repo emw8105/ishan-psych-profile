@@ -32,15 +32,15 @@ export default function AboutPage() {
                 className="object-cover object-[center_17%]"
               />
             </div>
-            <div className="space-y-6">
+            <div className="space-y-6 max-w-[68ch]">
               <h2 className="font-playfair text-3xl font-bold text-calm-charcoal">Biography</h2>
-              <p className="text-lg text-calm-charcoal/80">
+              <p className="text-base md:text-lg text-calm-charcoal/80 leading-8">
                 Ishan is a doctoral candidate in School Psychology at the University of Wisconsin-Madison, specializing in research on child and adolescent mental health. At the University of Wisconsin-Madison, he has been fortunate to participate in a variety of research and practice opportunities that span schools, districts, juvenile detention centers, and clinics. These diverse placements have afforded him a strong focus on evidence-based approaches to understanding and addressing the unique psychological needs of youth across various settings.
               </p>
-              <p className="text-lg text-calm-charcoal/80">
+              <p className="text-base md:text-lg text-calm-charcoal/80 leading-8">
                 His research focuses on school-based prevention programming and early intervention efforts for ethnic-racial minority students. He employs various methodologies and analytical techniques to understand how schools can refine their services to better serve students.
               </p>
-              <p className="text-lg text-calm-charcoal/80">
+              <p className="text-base md:text-lg text-calm-charcoal/80 leading-8">
                 He is completing his doctoral studies at the University of Wisconsin-Madison, under the mentorship of Dr. Stephen Kilgus. Currently, he is finishing his dual practica at the Madison Metropolitan School District and Glacier Creek Middle School, where he is strengthening his skills in systems-level collaboration and consultation and direct service provision. He will soon begin his internship at the Munroe Meyer Institute - University of Nebraska Medical Center, where he will be specializing in the delivery of and scholarship on school mental health.
               </p>
             </div>

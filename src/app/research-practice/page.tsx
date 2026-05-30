@@ -29,10 +29,16 @@ export default function ResearchPracticePage() {
                     </div>
 
                     <div className="grid md:grid-cols-2 gap-12 items-center">
-                        <div className="space-y-6">
-                            <h3 className="font-playfair text-2xl font-bold text-calm-charcoal">Current Research Focus</h3>
-                            <p className="text-lg text-calm-charcoal/80">
-                                Broadly, Ishan&apos;s research interests center on school-based mental health prevention programming and early intervention for ethnic-racial minority students. Regarding the former, he is interested in examining how school-based prevention programming strategies (e.g., school climate, non-parental adult support, social-emotional learning) can prevent or ameliorate mental health challenges among ethnic-racial minority youth. Through this research, he hopes to inform school-based strategies that mitigate the harmful effects of both the loneliness epidemic and heightened racial discrimination. Regarding the latter research aim, he is interested in leveraging and optimizing brief mental health interventions in schools to a) reduce the burden on school staff and b) ensure every student with heightened concerns receives treatment. He ultimately hopes to revamp early intervention strategies to be more accessible, cost-efficient, feasible, and effective.
+                        <div className="space-y-6 max-w-[68ch]">
+                            <h3 className="font-playfair text-2xl md:text-3xl font-bold text-calm-charcoal">Current Research Focus</h3>
+                            <p className="text-base md:text-lg text-calm-charcoal/80 leading-8">
+                                Broadly, Ishan&apos;s research interests center on school-based mental health prevention programming and early intervention for ethnic-racial minority students.
+                            </p>
+                            <p className="text-base md:text-lg text-calm-charcoal/80 leading-8">
+                                In prevention programming, he examines how strategies such as school climate, non-parental adult support, and social-emotional learning can prevent or ameliorate mental health challenges among ethnic-racial minority youth. This work is designed to inform school-based strategies that mitigate the harmful effects of both the loneliness epidemic and heightened racial discrimination.
+                            </p>
+                            <p className="text-base md:text-lg text-calm-charcoal/80 leading-8">
+                                In early intervention, he focuses on leveraging and optimizing brief mental health interventions in schools to reduce burden on school staff and ensure that every student with heightened concerns receives treatment.
                             </p>
                             <div className="pt-4">
                                 <Button variant="outline" size="lg" asChild className="border-deep-ocean/60 text-deep-ocean hover:bg-deep-ocean hover:text-white transition-all">
