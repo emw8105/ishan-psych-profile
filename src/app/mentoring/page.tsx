@@ -202,21 +202,19 @@ export default function MentoringPage() {
                         <p className="text-calm-charcoal/70">What students and colleagues say about Ishan&apos;s mentorship</p>
                     </div>
 
-                    <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                    <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
                         <div className="bg-white rounded-xl p-6 shadow-lg border border-deep-ocean/20 hover:border-deep-ocean/40 transition-all">
                             <div className="flex items-center mb-4">
                                 <div className="w-12 h-12 bg-deep-ocean/20 rounded-full flex items-center justify-center mr-4">
                                     <Users className="h-6 w-6 text-deep-ocean" />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-calm-charcoal">Emily K.</h3>
-                                    <p className="text-calm-charcoal/60 text-sm">Undergraduate Research Assistant</p>
+                                    <h3 className="font-bold text-calm-charcoal">Koushik Thudi</h3>
+                                    <p className="text-calm-charcoal/60 text-sm">Research Collaborator</p>
                                 </div>
                             </div>
                             <p className="text-calm-charcoal/80 italic">
-                                &quot;Ishan&apos;s mentorship in the lab helped me develop strong quantitative research skills and
-                                confidence in conducting school psychology research. His patient guidance made complex statistical
-                                concepts accessible and engaging.&quot;
+                                &quot;Ishan&apos;s ability to comprehend research at a deep level was invaluable in helping me achieve multiple research awards. His insightfulness and willingness to learn new topics made writing research papers on various topics fun and engaging.&quot;
                             </p>
                         </div>
 
@@ -226,29 +224,12 @@ export default function MentoringPage() {
                                     <Users className="h-6 w-6 text-deep-ocean" />
                                 </div>
                                 <div>
-                                    <h3 className="font-bold text-calm-charcoal">Marcus T.</h3>
-                                    <p className="text-calm-charcoal/60 text-sm">Graduate Student</p>
+                                    <h3 className="font-bold text-calm-charcoal">Dasha Ellalasingham</h3>
+                                    <p className="text-calm-charcoal/60 text-sm">Graduate School Mentee</p>
                                 </div>
                             </div>
                             <p className="text-calm-charcoal/80 italic">
-                                &quot;Working with Ishan on federally-funded research projects taught me invaluable lessons about
-                                project management, collaboration, and the rigor needed for impactful school psychology research.&quot;
-                            </p>
-                        </div>
-
-                        <div className="bg-white rounded-xl p-6 shadow-lg border border-deep-ocean/20 hover:border-deep-ocean/40 transition-all">
-                            <div className="flex items-center mb-4">
-                                <div className="w-12 h-12 bg-deep-ocean/20 rounded-full flex items-center justify-center mr-4">
-                                    <Users className="h-6 w-6 text-deep-ocean" />
-                                </div>
-                                <div>
-                                    <h3 className="font-bold text-calm-charcoal">Priya S.</h3>
-                                    <p className="text-calm-charcoal/60 text-sm">School Psychology Student</p>
-                                </div>
-                            </div>
-                            <p className="text-calm-charcoal/80 italic">
-                                &quot;Ishan&apos;s feedback on my grant proposal was instrumental in helping me secure funding.
-                                His attention to detail and understanding of school-based research really strengthened my work.&quot;
+                                &quot;Ishan has served as my mentor since before I started my undergraduate studies and well into my graduate school career. I attribute most of my professional success to his guidance. He has generously facilitated numerous research opportunities for me to partake in, guided me through the arduous graduate school application process, and continues to serve as a role model and mentor who takes a genuine interest in my success and my individual journey.&quot;
                             </p>
                         </div>
                     </div>
