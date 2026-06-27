@@ -50,7 +50,7 @@ export default function ResearchPracticePage() {
                         </div>
                         <div className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl ring-2 ring-deep-ocean/20">
                             <Image
-                                src="/images/UW-Madison-Ishan.jpg?height=800&width=600"
+                                src="/images/ishan_slp_group.jpg?height=800&width=600"
                                 alt="Research visualization"
                                 fill
                                 className="object-cover object-[center_60%]"
